@@ -61,7 +61,7 @@ Essa abordagem permite uma visualização estruturada do backlog, facilitando a 
 | T08   | E23  | Aceitar Entregas | Entregador | Aceitar pedidos de entrega | Realizar entregas |
 | T08   | E24  | Localização | Entregador | Localizar loja e clientes | Realizar entregas com eficiência |
 
-**Autores**: [Kauan Eiras](https://github.com/kauaneiras) e [Raquel Andrade](https://github.com/raquel-andrade)
+**Autores**: [Kauan Eiras](https://github.com/kauaneiras) e [Raquel Andrade](https://github.com/raquel-andrade).
 </center>
 
 <center>
@@ -70,27 +70,48 @@ Essa abordagem permite uma visualização estruturada do backlog, facilitando a 
 
 | Tema	| Épico  | ID	| Título | Como um | Eu quero | Para que eu possa | Prioridade |
 | ----- | ------ | ---- | ------ | ------- | -------- | ----------------- | ---------- |
-| T01   | E01    | 01   | CRUD da conta | Usuário | Criar, visualizar, editar e deletar minha conta  | Acessar as funcionalidades do sistema e ter controle sobre a conta | Alta |
-| T01   | E02    | 02   | Login | Usuário | Fazer login no aplicativo com email e senha  | Ter acesso ao aplicativo | Alta |
-| T01   | E02    | 03   | Sair da conta | Usuário | Sair da minha conta no aplicativo | Minhas informações fiquem protegidas | Alta |
-| T01   | E03    | 04   | Recuperar senha | Usuário | Recuperar minha senha caso eu a esqueça ou queira trocá-la | Acessar minha conta sem problemas | Alta |
-| T01   | E04    | 05   | Editar informações do perfil | Usuário | Editar e atualizar meus dados do perfil como foto do perfil e informações pessoais | Manter os dados sempre atualizados | Alta |
-| T01   | E04    | 06   | Cadastrar endereço | Usuário | Cadastrar ao menos um endereço no meu perfil  | Utilizar minhas informações de localização para as entregas | Alta |
-| T02   | E05    | 07   | Visualizar produtos | Usuário | Ver os cardápios e os produtos disponíveis e os seus detalhes  | Decidir minhas preferências | Alta |
-| T02   | E05    | 08   | Visualizar recomendações | Usuário | Visualizar as recomendações de produtos e lojas  | Descobrir novas opções | Baixa |
-| T02   | E06    | 09   | Buscar lojas e/ou produtos | Usuário | Buscar produtos e lojas pelo nome ou geolocalização | Encontrar opções que atende minhas preferências e necessidades | Alta |
-| T02   | E06    | 10   | Utilizar filtros de busca | Usuário | Utilizar os filtros de pesquisa, como por exemplo, lojas perto de mim  | Encontrar mais rapidamente o que estou buscando | Média |
-| T02   | E07    | 11   | Visualizar e adicionar itens aos favoritos | Usuário | Ver e adicionar produtos e lojas aos meus favoritos | Acessá-los mais rapidamente no futuro | Média |
-| T03   | E08    | 12   | Adicionar e remover itens do carrinho | Usuário | Adicionar ou remover produtos do carrinho | Organizar meu pedido | Alta |
-| T03   | E08    | 13   | Visualizar carrinho | Usuário | Visualizar o carrinho com os produtos | Realizar o pedido | Alta |
+| T01   | E01    | US01   | CRUD da conta | Usuário | Criar, visualizar, editar e deletar minha conta  | Acessar as funcionalidades do sistema e ter controle sobre a conta | Alta |
+| T01   | E02    | US02   | Login | Usuário | Fazer login no aplicativo com email e senha  | Ter acesso ao aplicativo | Alta |
+| T01   | E02    | US03   | Sair da conta | Usuário | Sair da minha conta no aplicativo | Minhas informações fiquem protegidas | Alta |
+| T01   | E03    | US04   | Recuperar senha | Usuário | Recuperar minha senha caso eu a esqueça ou queira trocá-la | Acessar minha conta sem problemas | Alta |
+| T01   | E04    | US05   | Editar informações do perfil | Usuário | Editar e atualizar meus dados do perfil como foto do perfil e informações pessoais | Manter os dados sempre atualizados | Alta |
+| T01   | E04    | US06   | Cadastrar endereço | Usuário | Cadastrar ao menos um endereço no meu perfil  | Utilizar minhas informações de localização para as entregas | Alta |
+| T02   | E05    | US07   | Visualizar produtos | Usuário | Ver os cardápios e os produtos disponíveis e os seus detalhes  | Decidir minhas preferências | Alta |
+| T02   | E05    | US08   | Visualizar recomendações | Usuário | Visualizar as recomendações de produtos e lojas  | Descobrir novas opções | Baixa |
+| T02   | E06    | US09   | Buscar lojas e/ou produtos | Usuário | Buscar produtos e lojas pelo nome ou geolocalização | Encontrar opções que atende minhas preferências e necessidades | Alta |
+| T02   | E06    | US10   | Utilizar filtros de busca | Usuário | Utilizar os filtros de pesquisa, como por exemplo, lojas perto de mim  | Encontrar mais rapidamente o que estou buscando | Média |
+| T02   | E07    | US11   | Visualizar e adicionar itens aos favoritos | Usuário | Ver e adicionar produtos e lojas aos meus favoritos | Acessá-los mais rapidamente no futuro | Média |
+| T03   | E08    | US12   | Adicionar e remover itens do carrinho | Usuário | Adicionar ou remover produtos do carrinho | Organizar meu pedido | Alta |
+| T03   | E08    | US13   | Visualizar carrinho | Usuário | Visualizar o carrinho com os produtos | Realizar o pedido | Alta |
+| T03  | E09   | US14  | Personalizar itens do pedido        | Usuário  | Personalizar os produtos no meu carrinho, como escolher tamanho e extras    | Receber o produto exatamente como desejo            | Alta       |
+| T03  | E09   | US15  | Adicionar observações ao pedido     | Usuário  | Incluir comentários ou instruções especiais ao meu pedido                   | Garantir que minhas necessidades específicas sejam atendidas | Média      |
+| T03  | E10   | US16  | Selecionar endereço de entrega      | Usuário  | Escolher o endereço onde desejo receber o pedido                            | Receber meu pedido no local correto                 | Alta       |
+| T03  | E10   | US17  | Escolher forma de pagamento na confirmação | Usuário  | Selecionar o método de pagamento ao confirmar o pedido                       | Finalizar minha compra         | Alta       |
+| T03  | E10   | US18  | Revisar e confirmar o pedido        | Usuário  | Verificar todos os detalhes antes de confirmar a compra                     | Garantir que tudo está correto antes de finalizar   | Alta       |
+| T03  | E11   | US19  | Visualizar histórico de pedidos     | Usuário  | Acessar a lista de todos os meus pedidos anteriores                         | Consultar pedidos passados ou repetir pedidos       | Média      |
+| T03  | E11   | US20  | Repetir um pedido anterior          | Usuário  | Refazer um pedido já realizado com facilidade                               | Economizar tempo ao pedir algo que já gostei        | Média      |
+| T03  | E12   | US21  | Acompanhar status do pedido         | Usuário  | Ver em tempo real o andamento do meu pedido                                 | Saber quando o pedido será entregue                 | Alta       |
+| T04  | E13   | US22  | Selecionar forma de pagamento       | Usuário  | Escolher entre cartão, dinheiro ou outros métodos disponíveis               | Efetuar o pagamento de forma conveniente            | Alta       |
+| T04  | E14   | US23  | Salvar dados de pagamento           | Usuário  | Armazenar meus dados bancários no aplicativo                                | Agilizar futuros pagamentos sem reentrada de dados  | Média      |
+| T04  | E15   | US24  | Segurança nos pagamentos            | Usuário  | Ter garantia de que meus dados financeiros estão protegidos                 | Confiar no aplicativo para realizar transações      | Alta       |
+
+
+**Autores**: [Kauan Eiras](https://github.com/kauaneiras), [Raquel Andrade](https://github.com/raquel-andrade).
 
 </center>
 
 ## Referências
+
+1. **LuizTools**. Product Backlog - Introdução. YouTube, 21 de março de 2020. Disponível em: https://www.youtube.com/watch?v=z4ubaBwjCsU. Acesso em 17 de Novembro de 2024.
+
+2. **SCHWABER, Ken**; SUTHERLAND, Jeff. The Scrum Guide. The Definitive Guide to Scrum: The Rules of the Game. 2020. Disponível em: https://scrumguides.org/scrum-guide.html. Acesso em: 17 de Novembro de 2024.
+
+3. **PICHLER, Roman**. Agile Product Management with Scrum: Creating Products that Customers Love. 1. ed. Addison-Wesley Professional, 2017.
 
 ## Histórico de Versões
 
 | Versão | Data      | Descrição    | Autor     | Revisor | Data de revisão |
 |--------|-----------|--------------|-----------|---------|-------------|
 | 1.0 | 17/11/2024 | Criação dos Temas e Épicos | [Kauan Eiras](https://github.com/kauaneiras), [Raquel Andrade](https://github.com/raquel-andrade) | ------- | ------- |
-| 1.1 | 17/11/2024 | Adiciona as Histórias de usuário | [Raquel Andrade](https://github.com/raquel-andrade) | ------- | ------- |
+| 1.1 | 17/11/2024 | Adiciona as Histórias de usuário US01 até US13 | [Raquel Andrade](https://github.com/raquel-andrade) | ------- | ------- |
+| 1.2 | 18/11/2024 | Adiciona as Histórias de usuário US14 até US24| [Kauan Eiras](https://github.com/kauaneiras) | ------- | ------- |
