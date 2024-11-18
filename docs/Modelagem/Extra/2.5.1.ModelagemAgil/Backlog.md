@@ -24,7 +24,7 @@ Essa abordagem permite uma visualização estruturada do backlog, facilitando a 
 | T04 | Pagamento | Abrange funcionalidades relacionadas às formas de pagamento, como selecionar métodos, salvar dados bancários e garantir a segurança dos dados financeiros. |
 | T05 | Entrega | Foca no processo de entrega dos pedidos, incluindo rastreamento em tempo real, opção de retirada no local, e escolha entre entregadores próprios ou parceiros para a entrega. |
 | T06 | Avaliação | Envolve funcionalidades para que usuários e lojas possam avaliar entregas e produtos, fornecendo feedback para melhorar o serviço e a experiência geral. |
-| T07 | Gerenciamento da Loja | Contempla as necessidades das lojas, permitindo o gerenciamento de cardápios, atualização de itens, recepção de pedidos e escolha de entregadores. |
+| T07 | Gerenciamento da Loja | Contempla as necessidades das lojas, permitindo o gerenciamento de cardápios, atualização de itens e recepção de pedidos. |
 | T08 | Entregador | Abrange funcionalidades específicas para os entregadores, incluindo a aceitação de pedidos, localização de restaurantes e clientes |
 
 **Autores**: [Kauan Eiras](https://github.com/kauaneiras) e [Raquel Andrade](https://github.com/raquel-andrade).
@@ -34,7 +34,7 @@ Essa abordagem permite uma visualização estruturada do backlog, facilitando a 
 
 ## Épicos
 
-| Tema	| ID	| Título	| Como um | Eu quero | Para que eu possa |
+| Tema	| ID	| Título	| Como um(a) | Eu quero | Para que eu possa |
 | ---- | ---- | ------- | ------- | -------- | ----------------- |
 | T01	| E01	| Registro	| Usuário | Registrar o meu perfil | Acessar o aplicativo com minha conta única |
 | T01	| E02	| Acesso	| Usuário | Acessar minha conta utilizando meu email e senha | Ter acesso às funcionalidades do aplicativo |
@@ -53,22 +53,24 @@ Essa abordagem permite uma visualização estruturada do backlog, facilitando a 
 | T04   | E15  | Segurança | Usuário | Guardar meus dados bancários com segurança | Garantir que não serão utilizados indevidamente |
 | T05   | E16  | Rastreio  | Usuário | Ver o pedido no mapa | Acompanhar onde está minha entrega |
 | T05   | E17  | Retirada | Usuário | Poder retirar meu pedido na loja | Contratar o serviço sem a entrega |
-| T05   | E18  | Escolher o Entregador | Loja | Decidir se a entrega será por um entregador próprio ou por parceiros | Escolher a melhor opção para a entrega |
-| T06   | E19  | Avaliar Serviços | Usuário | Avaliar o serviço do entregador e o produto entregue | Fornecer feedback ao aplicativo |
-| T06   | E20  | Avaliar Entrega | Loja | Avaliar a entrega | Dar feedback ao entregador |
-| T07   | E21  | Cardápio | Loja | Cadastrar e atualizar itens do cardápio | Gerenciar os produtos disponíveis |
-| T07   | E22  | Receber Pedidos | Loja | Receber detalhes dos pedidos dos usuários | Preparar e entregar |
-| T08   | E23  | Aceitar Entregas | Entregador | Aceitar pedidos de entrega | Realizar entregas |
-| T08   | E24  | Localização | Entregador | Localizar loja e clientes | Realizar entregas com eficiência |
+| T05   | E18  | Confirmar entrega | Usuário | Receber meu pedido mediante confirmação de código do pedido que apenas eu possuo | Ter segurança que meu pedido será entregue corretamente |
+| T05   | E19  | Escolher o Entregador | Loja | Decidir se a entrega será por um entregador próprio ou por parceiros | Escolher a melhor opção para a entrega |
+| T06   | E20  | Avaliar Serviços | Usuário | Avaliar o serviço do entregador e o produto entregue | Fornecer feedback ao aplicativo |
+| T06   | E21  | Avaliar Entrega | Loja | Avaliar a entrega | Dar feedback ao entregador |
+| T07   | E22  | Cardápio | Loja | Cadastrar e atualizar itens do cardápio | Gerenciar os produtos disponíveis |
+| T07   | E23  | Aparência | Loja | Personalizar aparência da loja | Manter a identidade visual da minha loja |
+| T07   | E24  | Receber Pedidos | Loja | Receber detalhes dos pedidos dos usuários | Preparar e entregar |
+| T08   | E25  | Aceitar Entregas | Entregador | Aceitar pedidos de entrega | Realizar entregas |
+| T08   | E26  | Localização | Entregador | Localizar loja e clientes | Realizar entregas com eficiência |
 
-**Autores**: [Kauan Eiras](https://github.com/kauaneiras) e [Raquel Andrade](https://github.com/raquel-andrade).
+**Autores**: [Kauan Eiras](https://github.com/kauaneiras), [Raquel Andrade](https://github.com/raquel-andrade) e [Leonardo Aguiar](https://github.com/Leonardo0o0).
 </center>
 
 <center>
 
 ## Histórias de usuário
 
-| Tema	| Épico  | ID	| Título | Como um | Eu quero | Para que eu possa | Prioridade |
+| Tema	| Épico  | ID	| Título | Como um(a) | Eu quero | Para que eu possa | Prioridade |
 | ----- | ------ | ---- | ------ | ------- | -------- | ----------------- | ---------- |
 | T01   | E01    | US01   | CRUD da conta | Usuário | Criar, visualizar, editar e deletar minha conta  | Acessar as funcionalidades do sistema e ter controle sobre a conta | Alta |
 | T01   | E02    | US02   | Login | Usuário | Fazer login no aplicativo com email e senha  | Ter acesso ao aplicativo | Alta |
@@ -94,9 +96,21 @@ Essa abordagem permite uma visualização estruturada do backlog, facilitando a 
 | T04  | E13   | US22  | Selecionar forma de pagamento       | Usuário  | Escolher entre cartão, dinheiro ou outros métodos disponíveis               | Efetuar o pagamento de forma conveniente            | Alta       |
 | T04  | E14   | US23  | Salvar dados de pagamento           | Usuário  | Armazenar meus dados bancários no aplicativo                                | Agilizar futuros pagamentos sem reentrada de dados  | Média      |
 | T04  | E15   | US24  | Segurança nos pagamentos            | Usuário  | Ter garantia de que meus dados financeiros estão protegidos                 | Confiar no aplicativo para realizar transações      | Alta       |
+| T05  | E16   | US25  | Rastreio do pedido            | Usuário  | Ter noção de se meu pedido já saiu da loja e em que parte do caminho ele se encontra                 | Me preparar para receber o pedido      | Média       |
+| T05  | E17   | US26  | Retirada do pedido            | Usuário  | Ter a opção de eu mesmo retirar o pedido na loja                 | Não depender apenas do entregador      | Alta       |
+| T05  | E18   | US27  | Confirmar entrega do pedido  | Usuário  | Que o aplicativo exija um código que apenas eu possua para que o entregador possa liberar o pedido  | Não me preocupar se meu pedido será entregue para outra pessoa | Alta       |
+| T05  | E19   | US28  | Escolher o tipo de entregador  | Loja  | Que o aplicativo permita a escolha entre entregador próprio ou entregador do aplicativo para as entregas dos pedidos que minha loja receber  | Não dependa do entregador do aplicativo | Alta       |
+| T06  | E20   | US29  | Avaliar entregador            | Usuário  | Poder avaliar a entrega feita | Ajudar a mostrar, no aplicativo, se o entregador trabalhou bem | Alta       |
+| T06  | E20   | US30  | Avaliar pedido            | Usuário  | Poder avaliar o pedido entregue | Ajudar a mostrar, no aplicativo, se a loja entrega um bom lanche | Alta       |
+| T06  | E21   | US31  | Avaliar entrega            | Loja  | Poder avaliar se o pedido foi bem entregue | Dar feedback para o entregador sobre a entrega que foi feita | Alta       |
+| T07  | E22   | US32  | Personalizar cardápio            | Loja  | Poder fazer mudanças nos itens da loja e em sua ordem | Manter o cardápio atualizado e dar destaque para certos itens |
+| T07  | E23   | US33  | Personalizar aparência            | Loja  | Poder personalizar a aparência da minha loja | Manter a identidade visual da minha loja atualizada |
+| T07  | E24   | US34  | Receber notificações de pedidos            | Loja  | Receber a notificação com os detalhes de um pedido quando ele for feito | Preparar o pedido para entrega assim que possível |
+| T08  | E25   | US35  | Aceitar entregas de pedidos            | Entregador  | Receber a notificação com os detalhes de uma entrega e poder escolher aceita-la ou nao | Escolher as melhores entregas no momento |
+| T08  | E26   | US36  | Localizar lojas            | Entregador  | Procurar por lojas próximas que estejam precisando de entregadores | Escolher a loja da qual vou receber pedidos de entrega |
+| T08  | E26   | US37  | Localizar Pedidos            | Entregador  | Ver o destino dos pedidos que são feitos na loja que eu escolhi | Decidir se vale a pena fazer entregas para a loja escolhida |
 
-
-**Autores**: [Kauan Eiras](https://github.com/kauaneiras), [Raquel Andrade](https://github.com/raquel-andrade).
+**Autores**: [Kauan Eiras](https://github.com/kauaneiras), [Raquel Andrade](https://github.com/raquel-andrade) e [Leonardo Aguiar](https://github.com/Leonardo0o0).
 
 </center>
 
@@ -115,3 +129,4 @@ Essa abordagem permite uma visualização estruturada do backlog, facilitando a 
 | 1.0 | 17/11/2024 | Criação dos Temas e Épicos | [Kauan Eiras](https://github.com/kauaneiras), [Raquel Andrade](https://github.com/raquel-andrade) | ------- | ------- |
 | 1.1 | 17/11/2024 | Adiciona as Histórias de usuário US01 até US13 | [Raquel Andrade](https://github.com/raquel-andrade) | ------- | ------- |
 | 1.2 | 18/11/2024 | Adiciona as Histórias de usuário US14 até US24| [Kauan Eiras](https://github.com/kauaneiras) | ------- | ------- |
+| 1.3 | 18/11/2024 | Adiciona as Histórias de usuário US25 até US37, Adiciona dois epicos "Confirmar entrega" e "Aparência" | [Leonardo Aguiar](https://github.com/Leonardo0o0) | ------- | ------- |
