@@ -29,14 +29,45 @@ Foi pré-definido um conjunto de perguntas norteadoras para as entrevistas, as m
 
 <!-- adicionar os tópicos principais e perguntas norteadoras -->
 
-#### Tópico 1
+#### Perguntas de cunho geral
 
-> 1. pergunta 1
-> 2. pergunta 2
+> 1. Quais aplicativo de delivery você costuma usar? O que mais gosta neles?
+> 2. O que você considera essencial em um aplicativo de delivery?
+> 3. Já teve alguma experiência ruim ao usar um aplicativo de delivery? Pode contar o que aconteceu?
+> 4. O que você sente falta nos seus aplicativos de delivery favoritos?
+> 4. Quais tipos de suporte você gostaria de ter em um aplicativo de delivery?
+> 5. Você acha que há necessidade de suporte a diferentes idiomas no aplicativo?
 
-#### Tópico 2
+#### Perguntas para clientes
 
-> 3. pergunta 3
+> 1. Você prefere pesquisar por restaurantes ou por pratos específicos? Por quê?
+> 2. Como você se sente sobre o processo de personalizar pedidos (ex.: retirar ingredientes)? É fácil?
+> 3. Quais tipos de notificações você considera úteis durante um pedido?
+> 4. Você gostaria de poder agendar pedidos para horários futuros?
+> 5. Quais formas de pagamento você prefere? Alguma delas já deu problema para você?
+> 6. Como seria o recurso ideal para rastrear seu pedido?
+> 7. Um programa de fidelidade (ex.: pontos, cupons) é algo que influenciaria seu uso do aplicativo?
+> 8. Promoções ou descontos afetam suas escolhas? De que forma?
+
+#### Perguntas para donos de restaurantes
+
+> 1. Quais dificuldades você encontra ao cadastrar pratos e gerenciar pedidos no sistema?
+> 2. Como você organiza a comunicação entre o restaurante e o entregador?
+> 3. O que seria útil para facilitar a edição do cardápio ou o controle de disponibilidade de itens?
+> 4. Quais problemas você encontra no gerenciamento de pedidos em horários de pico?
+> 5. As taxas cobradas pelos aplicativos são justas? Por quê?
+> 6. Como os aplicativos poderiam ajudar a promover o seu restaurante?
+> 7. Quais tipos de relatórios (ex.: vendas, avaliações) você gostaria de receber para acompanhar o desempenho do restaurante?
+
+#### Perguntas para entregadores
+
+> 1. Quais são os maiores desafios que você enfrenta durante uma entrega?
+> 2. Como você prefere receber informações sobre um pedido (ex.: texto, mapas, instruções claras)?
+> 3. Qual seria a funcionalidade ideal para ajudar na sua rotina de entregas?
+> 4. O rastreamento em tempo real ajuda ou atrapalha no seu trabalho? Por quê?
+> 5. Como você gostaria de ser notificado sobre novos pedidos (ex.: som, vibração)?
+> 6. Como você avalia os sistemas de pagamento dos aplicativos que já usou? Alguma melhoria que gostaria de ver?
+> 7. Você recebe suporte suficiente dos aplicativos em caso de problemas com clientes ou restaurantes?
 
 ## Entrevistas
 
