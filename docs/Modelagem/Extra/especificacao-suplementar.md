@@ -1,0 +1,99 @@
+# Especificação Suplementar
+
+## Introdução
+
+A Especificação Suplementar é um documento em linguagem natural que detalha os requisitos de um sistema que não foram capturados nos casos de uso. Complementar à modelagem de casos de uso, este documento é essencial no processo de desenvolvimento de software, pois abrange requisitos não funcionais e outros aspectos críticos que não são facilmente definidos por meio de casos de uso (MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES, 2024). O objetivo principal desta especificação é assegurar que todos os requisitos sejam contemplados, fornecendo uma visão completa e detalhada que, juntamente com os casos de uso, define todos os requisitos do sistema. Este documento é vital para garantir a qualidade do software e a satisfação dos usuários.
+
+## Metodologia
+
+Para a elaboração da Especificação Suplementar, foi adotado o modelo FURPS+, que engloba Funcionalidade, Usabilidade, Confiabilidade, Desempenho e Suportabilidade, além de outros aspectos adicionais (PRESSMAN, 2014). O documento foi estruturado de modo que cada seção corresponde a um componente do FURPS+, garantindo uma cobertura abrangente dos requisitos não funcionais e das restrições de design do sistema.
+
+## Funcionalidade
+
+Os requisitos funcionais estão especificados em outros artefados como cenários e casos de uso.
+
+## Usabilidade
+
+A usabilidade refere-se à facilidade com que os usuários podem interagir com um sistema ou aplicativo para realizar suas tarefas de forma eficaz, eficiente e satisfatória. Segundo Nielsen (1994), usabilidade é uma medida da qualidade da experiência do usuário ao interagir com a interface, e ele propõe 10 heurísticas que, quando aplicadas, melhoram significativamente a usabilidade de um sistema (NIELSEN, 1994). A usabilidade é fundamental para garantir que clientes, entregadores e lojas possam utilizar o aplicativo de maneira intuitiva e agradável.
+
+### Requisitos de Usabilidade
+
+A tabela a seguir apresenta os requisitos de usabilidade identificados para o aplicativo, baseados nos [requisitos elicitados](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline):
+
+| ID | Descrição |
+|----|-----------|
+| US01 | O aplicativo deve possuir uma interface intuitiva e fácil de navegar, permitindo que os usuários acessem as principais funcionalidades com poucos toques. |
+| US02 | O design da interface deve seguir as diretrizes de design do Android e iOS para garantir consistência e familiaridade com os padrões das plataformas ([R44](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R44,Android%20e%20iOS)). |
+| US03 | A interface deve ser responsiva e se adaptar automaticamente a diferentes tamanhos e orientações de tela, mantendo a usabilidade em dispositivos variados ([R46](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R46,tela%20de%20dispositivo)). |
+| US04 | O aplicativo deve estar em conformidade com as diretrizes de acessibilidade WCAG 2.1, facilitando o uso por pessoas com deficiências visuais, auditivas ou motoras ([R45](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R45,2.1%20para%20acessibilidade)). |
+| US05 | O sistema deve fornecer feedback imediato ao usuário após cada ação, como confirmações de pedidos, atualizações de status e notificações relevantes. |
+| US06 | O aplicativo deve permitir que os usuários personalizem configurações básicas, como preferências de notificações |
+| US07 | Ícones, botões e rótulos devem ser claros e representativos das ações que executam, seguindo princípios de design centrado no usuário. |
+| US08 | Mensagens de erro devem ser claras, indicando o problema ocorrido e sugerindo ações para corrigi-lo, minimizando a frustração do usuário. |
+| US09 | O sistema deve permitir a busca rápida e eficiente de produtos e lojas, com suporte a filtros e sugestões automáticas ([R09](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R09,de%20buscar%20produtos), [R10](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R10,de%20buscar%20lojas)).                                      |
+| US10 | O aplicativo deve oferecer suporte via chat para auxiliar os usuários em caso de dúvidas ou problemas, melhorando a experiência geral ([R36](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R36,suporte%20via%20chat)). |
+| US11 | O processo de cadastro e login deve ser simples e direto, com orientações claras em cada etapa para facilitar o acesso dos usuários ao sistema ([R01](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R01,cadastro%20de%20clientes), [R04](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R04,login%20no%20sistema)). |
+| US12 | As ações críticas, como finalização de compra ou exclusão de dados, devem solicitar confirmação do usuário para evitar erros irreversíveis. |
+| US13 | O histórico de pedidos deve ser facilmente acessível e apresentar informações claras, permitindo que os usuários repitam pedidos anteriores com facilidade ([R20](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R20,hist%C3%B3rico%20de%20pedidos), [R21](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R21,atrav%C3%A9s%20do%20hist%C3%B3rico)).  |
+| US14 | O acompanhamento de entregas deve ser apresentado de forma visual e intuitiva, como em um mapa atualizado em tempo real ([R15](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R15,atrav%C3%A9s%20do%20aplicativo), [R39](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R39,em%20tempo%20real)). |
+| US15 | O aplicativo deve utilizar uma linguagem clara e concisa, evitando jargões técnicos e facilitando a compreensão por parte de todos os usuários. |
+
+**Autores**: [Kauan Eiras](https://github.com/kauaneiras)
+
+## Confiabilidade
+
+## Confiabilidade
+
+A confiabilidade refere-se à capacidade do sistema de operar de forma consistente e segura, protegendo os dados dos usuários e garantindo disponibilidade e integridade nas operações. Inclui aspectos como segurança, disponibilidade, recuperação de falhas e conformidade legal. De acordo com Pressman (2014), a confiabilidade é essencial para assegurar a satisfação do usuário e a credibilidade do sistema.
+
+A confiabilidade é crucial para que clientes, lojas e entregadores possam utilizar o aplicativo com confiança, sabendo que suas informações estão protegidas e que o serviço estará disponível sempre que necessário.
+
+### Requisitos de Confiabilidade
+
+A tabela abaixo apresenta os requisitos de confiabilidade identificados para o aplicativo, baseados nos requisitos elicitados:
+
+| ID   | Descrição |
+|------|-----------|
+| CR01 | O sistema deve proteger os dados bancários dos usuários utilizando criptografia e seguindo padrões de segurança da indústria de pagamentos ([R37](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R37,banc%C3%A1rios%20do%20usu%C3%A1rio)). |
+| CR02 | Os dados pessoais dos usuários devem ser armazenados de forma segura, prevenindo acesso não autorizado ou vazamento de informações ([R38](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R38,pessoais%20do%20usu%C3%A1rio)). |
+| CR03 | A implementação do sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD), assegurando a privacidade e os direitos dos usuários ([R40](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=A%20implementa%C3%A7%C3%A3o%20do%20sistema%20deve%20seguir%20as%20diretrizes%20da%20LGPD)). |
+| CR04 | O aplicativo deve manter uma disponibilidade mínima de 99% do tempo, garantindo que os usuários possam acessar os serviços a qualquer momento ([R42](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R42,99%25%20do%20tempo)). |
+| CR05 | O sistema deve realizar backups regulares dos dados críticos para permitir a recuperação em caso de falhas ou perda de informações. |
+| CR06 | Deve haver mecanismos de autenticação seguros para proteger as contas dos usuários. |
+| CR07 | O sistema deve ser capaz de recuperar-se de falhas inesperadas sem perda de dados ou corrupção de informações. |
+| CR08 | As transações financeiras devem ser processadas com garantia de integridade e confiabilidade, evitando transações duplicadas ou inconsistentes ([R43](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R43,at%C3%A9%2010%20segundos)). |
+| CR09 | O aplicativo deve ser testado e protegido contra ameaças e vulnerabilidades comuns, como injeção de código, cross-site scripting (XSS) e ataques de força bruta. |
+| CR10 | Mensagens de erro devem ser informativas, mas não revelar detalhes que possam comprometer a segurança do sistema. |
+| CR11 | O aplicativo deve implementar controles de acesso adequados, garantindo que apenas usuários autorizados possam realizar determinadas ações ou acessar certas informações. |
+| CR12 | Em caso de manutenção ou indisponibilidade programada, o sistema deve notificar os usuários com antecedência para minimizar impactos. |
+| CR13 | O sistema deve validar todas as entradas de dados dos usuários para prevenir a inserção de informações maliciosas ou inválidas. |
+
+**Autores**: [Kauan Eiras](https://github.com/kauaneiras)
+
+## Desempenho
+
+## Suportabilidade
+
+## Restrições de Design
+
+## Requisitos de Implementação
+
+## Requisitos de Interface
+
+## Requisitos Físicos
+
+
+## Referências
+
+1. **MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES**. *Especificação de Caso de Uso*. Disponível em: [https://pdp.mctic.gov.br/MCTI-PDP/guidances/examples/Especificacao%20Caso%20Uso_81686821.html?nodeId=afc37190](https://pdp.mctic.gov.br/MCTI-PDP/guidances/examples/Especificacao%20Caso%20Uso_81686821.html?nodeId=afc37190). Acesso em: 18 de novembro de 2024.
+
+2. **PRESSMAN, Roger S.** *Engenharia de Software: uma abordagem profissional*. 7ª ed. New York: McGraw-Hill, 2014.
+
+3. **NIELSEN, Jakob**. *10 Usability Heuristics for User Interface Design*. Nielsen Norman Group, 1994. Disponível em: [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/). Acesso em: 18 de novembro de 2024.
+
+## Histórico de Versões
+
+| Versão | Data da alteração | Comentário | Autor(es) | Revisor(es) | Data de revisão | 
+|--------|-------------------|------------|-----------|-------------|----------------|
+| 1.0    | 18/11/2024        | Criação do documento   | [Kauan Eiras](https://github.com/kauaneiras) |             |              |
+| 1.1    | 18/11/2024        | Adição da Usabilidade e Confiabilidade | [Kauan Eiras](https://github.com/kauaneiras) |             |              |
