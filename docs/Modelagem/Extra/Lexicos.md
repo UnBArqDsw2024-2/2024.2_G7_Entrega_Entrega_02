@@ -17,13 +17,17 @@ Este artefato tem como objetivo identificar os léxicos relacionados ao aplicati
 
 ## **Léxicos de Verbo**
 
+<!-- talvez Confirmar pudesse ser a confirmação de pagamento ao invés de recebimento (de acordo com protótipo) -->
+
 | Termo     | Tipo  | Noção                                                                          | Impacto                                                                        | Autor                                           |
 | --------- | ----- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------- |
 | Aceitar   | Verbo | Ação do entregador de confirmar a realização de uma entrega.                   | Atualiza o status do pedido e inicia o rastreamento da entrega.                | [Kauan Eiras](https://github.com/kauaneiras)    |
+| Acessar   | Verbo | Ação de entrar no aplicativo ou em uma funcionalidade específica.              | Permite ao usuário utilizar as funcionalidades do sistema.                     | [Lucas Martins](https://github.com/martinsglucas) |
 | Adicionar | Verbo | Ação de incluir itens no carrinho de compras.                                  | Permite ao cliente preparar um pedido para finalização.                        | [Kauan Eiras](https://github.com/kauaneiras)    |
 | Atualizar | Verbo | Ação de modificar informações (perfil, catálogo, status do pedido).            | Garante que os dados estejam sempre corretos e atualizados.                    | [Kauan Eiras](https://github.com/kauaneiras)    |
 | Avaliar   | Verbo | Ação de atribuir uma nota ou comentário para um restaurante ou pedido.         | Melhora a reputação e confiabilidade das lojas e entregadores.                 | [Kauan Eiras](https://github.com/kauaneiras)    |
 | Cadastrar | Verbo | Ação de registrar um novo usuário no sistema (cliente, lojista ou entregador). | Permite o acesso ao aplicativo e suas funcionalidades.                         | [Kauan Eiras](https://github.com/kauaneiras)    |
+| Confirmar | Verbo | Ação de validar o recebimento de um pedido | Atualiza o status do pedido e finaliza o processo de entrega. | [Lucas Martins](https://github.com/martinsglucas) |
 | Excluir   | Verbo | Ação de remover itens do carrinho de compras.                                  | Permite ao cliente ajustar o pedido antes da finalização.                      | [Guilherme Westphall](https://github.com/west7) |
 | Explorar  | Verbo | Ação de navegar pelo aplicativo em busca de novos produtos ou restaurantes.    | Facilita a descoberta de novos itens e lojas e estimula a compra.              | [Guilherme Westphall](https://github.com/west7) |
 | Filtrar   | Verbo | Ação de aplicar critérios de pesquisa (localização, categoria, avaliação).     | Melhora a experiência de busca, reduzindo o tempo para encontrar produtos.     | [Kauan Eiras](https://github.com/kauaneiras)    |
@@ -32,8 +36,9 @@ Este artefato tem como objetivo identificar os léxicos relacionados ao aplicati
 | Pesquisar | Verbo | Ação de buscar restaurantes ou produtos no aplicativo.                         | Facilita a navegação do usuário e a localização de itens ou lojas específicas. | [Kauan Eiras](https://github.com/kauaneiras)    |
 | Pagar     | Verbo | Ação de efetuar o pagamento do pedido.                                         | Finaliza a compra e garante a entrega dos produtos.                            | [Guilherme Westphall](https://github.com/west7) |
 | Rastrear  | Verbo | Ação de acompanhar o trajeto do pedido em tempo real.                          | Oferece transparência ao cliente sobre a localização do pedido.                | [Kauan Eiras](https://github.com/kauaneiras)    |
+| Visualizar| Verbo | Ação de ver informações detalhadas sobre produtos, pedidos ou perfil.         | Facilita a tomada de decisão e a interação do usuário com o aplicativo.         | [Lucas Martins](https://github.com/martinsglucas) |
 
-**Autores:** [Kauan Eiras](https://github.com/kauaneiras), [Guilherme Westphall](https://github.com/west7)
+**Autores:** [Kauan Eiras](https://github.com/kauaneiras), [Guilherme Westphall](https://github.com/west7), [Lucas Martins](https://github.com/martinsglucas)
 
 ## **Léxicos de Objeto**
 
@@ -42,11 +47,13 @@ Este artefato tem como objetivo identificar os léxicos relacionados ao aplicati
 | Avaliação            | Objeto | Nota e comentário feitos pelos usuários sobre produtos ou serviços.                                      | Auxilia na melhoria contínua do sistema e na reputação dos restaurantes.             | [Kauan Eiras](https://github.com/kauaneiras)                                                  |
 | Carrinho             | Objeto | Espaço virtual onde os produtos são armazenados antes de serem comprados.                                | Facilita o gerenciamento de itens antes da finalização do pedido.                    | [Kauan Eiras](https://github.com/kauaneiras)                                                  |
 | Categoria            | Objeto | Classificação dos produtos (lanche, bebida, sobremesa, etc.).                                            | Facilita a organização e a busca de itens no aplicativo.                             | [Guilherme Westphall](https://github.com/west7)                                               |
+| Cardápio             | Objeto | Lista de produtos disponíveis em um restaurante.                                                         | Apresenta os itens que podem ser comprados e entregues aos clientes.                | [Lucas Martins](https://github.com/martinsglucas)                                             |
 | Cliente              | Objeto | Tipo de usuário que utiliza o aplicativo para realizar pedidos.                                          | Define o público-alvo do sistema e suas funcionalidades.                             | [Guilherme Westphall](https://github.com/west7)                                               |
 | Endereço de entrega  | Objeto | Local onde o pedido será entregue (endereço residencial do cliente).                                     | Define a logística e o tempo estimado para a entrega.                                | [Kauan Eiras](https://github.com/kauaneiras), [Guilherme Westphall](https://github.com/west7) |
 | Endereço de retirada | Objeto | Local onde o pedido será retirado (endereço da loja).                                                    | Facilita a logística de retirada de pedidos e a comunicação entre cliente e lojista. | [Guilherme Westphall](https://github.com/west7)                                               |
 | Entregador           | Objeto | Tipo de usuário responsável por transportar os pedidos até os clientes.                                  | Garante a entrega dos produtos e a satisfação do cliente.                            | [Guilherme Westphall](https://github.com/west7)                                               |
 | Favoritos            | Objeto | Lista de produtos ou restaurantes marcados como favoritos pelo cliente.                                  | Facilita o acesso a itens frequentemente comprados ou lojas preferidas.              | [Guilherme Westphall](https://github.com/west7)                                               |
+| Forma de pagamento  | Objeto | Método utilizado para efetuar o pagamento do pedido (dinheiro, cartão, etc.).                             | Define as opções disponíveis e facilita a finalização da compra.                     | [Lucas Martins](https://github.com/martinsglucas)                                             |
 | Histórico de pedidos | Objeto | Registro de pedidos realizados pelo cliente.                                                             | Permite ao usuário visualizar pedidos anteriores e repetir compras.                  | [Guilherme Westphall](https://github.com/west7)                                               |
 | Localização Atual    | Objeto | Posição atual do entregador no mapa.                                                                     | Facilita a entrega de pedidos e a comunicação entre as partes.                       | [Guilherme Westphall](https://github.com/west7)                                               |
 | Lojista              | Objeto | Tipo de usuário que utiliza o aplicativo para gerenciar produtos e pedidos. Responsável pelo Restaurante | Responsável por disponibilizar produtos e gerenciar pedidos no sistema.              | [Guilherme Westphall](https://github.com/west7)                                               |
@@ -65,7 +72,7 @@ Este artefato tem como objetivo identificar os léxicos relacionados ao aplicati
 | Total do Pedido      | Objeto | Valor total do pedido, incluindo produtos, taxas e descontos.                                            | Informa ao cliente o custo final da compra e facilita o pagamento.                   | [Guilherme Westphall](https://github.com/west7)                                               |
 | Usuário              | Objeto | Qualquer pessoa que utiliza o aplicativo (cliente, lojista ou entregador).                               | É o público-alvo do sistema e define os requisitos funcionais a serem desenvolvidos. | [Kauan Eiras](https://github.com/kauaneiras)                                                  |
 
-**Autores:** [Kauan Eiras](https://github.com/kauaneiras), [Guilherme Westphall](https://github.com/west7)
+**Autores:** [Kauan Eiras](https://github.com/kauaneiras), [Guilherme Westphall](https://github.com/west7), [Lucas Martins](https://github.com/martinsglucas)
 
 ## **Léxicos de Estado**
 
@@ -92,5 +99,6 @@ Este artefato tem como objetivo identificar os léxicos relacionados ao aplicati
 
 | Versão | Data       | Descrição                  | Autor                                           | Revisor |
 | ------ | ---------- | -------------------------- | ----------------------------------------------- | ------- |
-| 1.0    | 16/11/2024 | Criação do Artefato Lexico | [Kauan Eiras](https://github.com/kauaneiras)    |         |
-| 1.1    | 17/11/2024 | Adição de novos léxicos    | [Guilherme Westphall](https://github.com/west7) |         |
+| 1.0    | 16/11/2024 | Criação do Artefato Lexico | [Kauan Eiras](https://github.com/kauaneiras)    | [Lucas Martins](https://github.com/martinsglucas)        |
+| 1.1    | 17/11/2024 | Adição de novos léxicos    | [Guilherme Westphall](https://github.com/west7) | [Lucas Martins](https://github.com/martinsglucas)        |
+| 1.2   | 20/11/2024 | Adição de léxicos do tipo verbo e objeto | [Lucas Martins](https://github.com/martinsglucas) |           |
