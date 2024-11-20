@@ -14,7 +14,7 @@
 
 ## Link para a Gravação da Reunião
 
-<iframe width="560" height="315" src="LINK" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/vIAtFYOmlWQ" frameborder="0" allowfullscreen></iframe>
 
 ---
 
