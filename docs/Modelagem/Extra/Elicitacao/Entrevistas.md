@@ -14,7 +14,7 @@ As entrevistas estão separadas em:
 
 A equipe trabalhou a técnica de entrevista por meio de uma abordagem semi-estruturada. Foram escolhidos previamente 4 entrevistadores que ficariam responsáveis por realizarem uma ou mais entrevistas cada um. A escolha dos stakeholders a serem entrevistados foi feita com base nos principais perfis interessados no sistema (**clientes**, **entregadores** ou **donos de restaurantes**). Os integrantes do grupo responsáveis pelas entrevistas estão listados na **tabela 1** a seguir:
 
-**Tabela 1**: Participantes
+### Tabela 1: Participantes
 
 | Matrícula | Aluno |
 |--|--|
@@ -26,8 +26,6 @@ A equipe trabalhou a técnica de entrevista por meio de uma abordagem semi-estru
 Foi pré-definido um conjunto de perguntas norteadoras para as entrevistas, as mesmas foram elaboradas com a importancia das linhas de questionamento em mente, buscando extrair o máximo de informações relevantes dos diferentes stakeholders entrevistados.
 
 ### Perguntas
-
-<!-- adicionar os tópicos principais e perguntas norteadoras -->
 
 #### Perguntas de cunho geral
 
@@ -69,7 +67,40 @@ Foi pré-definido um conjunto de perguntas norteadoras para as entrevistas, as m
 > 6. Como você avalia os sistemas de pagamento dos aplicativos que já usou? Alguma melhoria que gostaria de ver?
 > 7. Você recebe suporte suficiente dos aplicativos em caso de problemas com clientes ou restaurantes?
 
+Com as respostas obtidas nas entrevistas foi gerado uma tabela de elicitação ([tabela 2](/Modelagem/Extra/Elicitacao/Entrevistas.md#tabela-2-requisitos-elicitados)) com todos os requisitos elicitados, a [tabela 2](/Modelagem/Extra/Elicitacao/Entrevistas.md#tabela-2-requisitos-elicitados) pode ser encontrada após a seção das entrevistas
+
 ## Entrevistas
+
+### Entrevista 1
+
+A entrevista 1 foi realizada com no dia 24/11/2024 com o estudante de Engenharia de Software na UnB, João Vitor, e com o entrevistador [Felipe Amorim de Araújo](https://github.com/lipeaaraujo), utilizando a ferramenta de reuniões Teams. O entrevistado nos permitiu usar a entrevista para fins de validação no nosso projeto.
+
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zy7KxT5LnR4?si=Dw0uRsoKeE2bbiP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Autores:** [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)
+
+</center>
+
+Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado a seguir: 
+
+<iframe src="https://drive.google.com/file/d/1n6V1_1wnds1jd30d0Sj7CFnCL3bVq8pw/preview" width="100%" height=600px></iframe>
+
+### Tabela 2: Requisitos elicitados
+
+| Número | Descrição | Tipo |
+|--|--|--|
+| 1      | O aplicativo deve organizar os restaurantes e pratos por categorias, preço, distância e tempo estimado. | RF |
+| 2      | O sistema deve permitir que o cliente adicione observações e personalize o pedido, como retirar ou adicionar ingredientes. | RF |
+| 3      | O sistema deve notificar o cliente quando o pedido sair para entrega e quando estiver próximo de chegar. | RF               |
+| 4      | O aplicativo deve oferecer um sistema de avaliação de pedidos. | RF               |
+| 5      | O aplicativo deve oferecer um recurso para acompanhar o pedido em tempo real através de um mapa. | RF               |
+| 6      | O aplicativo deve permitir o pagamento por diferentes métodos, incluindo PIX, vale-refeição, cartão e dinheiro. | RF               |
+| 7      | O sistema deve oferecer um programa de fidelidade com recompensas, como cupons e promoções. | RF               |
+| 8 | O aplicativo deve oferecer promoções e descontos para incentivar pedidos.                   | RF               |
+| 9 | O aplicativo deve possuir uma interface intuitiva e eficiente para facilitar a navegação. | RNF |
+| 10 | O aplicativo deve oferecer suporte a idiomas adicionais, como espanhol e inglês, para facilitar o uso internacional. | RNF              |
 
 ## Referências
 
@@ -80,3 +111,4 @@ Foi pré-definido um conjunto de perguntas norteadoras para as entrevistas, as m
 | Versão | Data da alteração | Comentário | Autor(es) | Revisor(es) | Data de revisão |
 |--------|-----------|-----------|-----------|-------------|-------------|
 | 1.0 | 16/11/2024 | Criação do documento | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
+| 1.1 | 25/11/2024 | Adição do entrevista 1, e tabela de requisitos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
