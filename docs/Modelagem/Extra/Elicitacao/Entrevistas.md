@@ -74,7 +74,7 @@ Com as respostas obtidas nas entrevistas foi gerado uma tabela de elicitação (
 
 ### Entrevista 1
 
-A entrevista 1 foi realizada com no dia 24/11/2024 com o estudante de Engenharia de Software na UnB, João Vitor, e com o entrevistador [Felipe Amorim de Araújo](https://github.com/lipeaaraujo), utilizando a ferramenta de reuniões Teams. O entrevistado nos permitiu usar a entrevista para fins de validação no nosso projeto.
+A entrevista 1 foi realizada no dia 24/11/2024 com o estudante de Engenharia de Software na UnB, João Vitor, e com o entrevistador [Felipe Amorim de Araújo](https://github.com/lipeaaraujo), utilizando a ferramenta de reuniões Teams. O entrevistado nos permitiu usar a entrevista para fins de validação no nosso projeto.
 
 <center>
 
@@ -103,6 +103,48 @@ Um documento com as respostas do entrevistado foi gerado durante a entrevista, o
 | 9 | O aplicativo deve possuir uma interface intuitiva e eficiente para facilitar a navegação. | RNF |
 | 10 | O aplicativo deve oferecer suporte a idiomas adicionais, como espanhol e inglês, para facilitar o uso internacional. | RNF              |
 
+### Entrevista 2
+
+A entrevista 2 foi realizada no dia 25/11/2024 com a estudante de Engenharia Aeroespacial na UnB, Luisa Musse, e com o entrevistador [Leonardo Aguiar](https://github.com/Leonardo0o0), utilizando a ferramenta de reuniões Teams. A entrevistada nos permitiu usar a entrevista para fins de validação no nosso projeto.
+
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hoGwOpZyQRg?si=kygZol3R3zyeJAPR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Autor** [Leonardo Aguiar](https://github.com/Leonardo0o0).
+
+</center>
+
+Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado no [link](https://docs.google.com/document/d/1POADq6kWKOb3gmbhB24mIIKcPo1CqedijWtQxe7Is54/edit?usp=sharing).
+
+
+<center>
+
+Tabela 3: Requisitos elicitados a partir da entrevista 2
+
+| Número | Descrição                                                                                             | Tipo |
+|--------|-------------------------------------------------------------------------------------------------------|------|
+| 1      | O aplicativo deve organizar os restaurantes e pratos por categorias de lanche, lojas, preço, distância e tempo estimado. | RF |
+| 2      | O aplicativo deve oferecer rastreamento em tempo real do pedido, incluindo a visualização do entregador no mapa. | RF |
+| 3      | O aplicativo deve permitir a personalização dos pedidos (ex.: remover ou adicionar ingredientes) em todas as lojas de forma padronizada. | RF |
+| 4      | O aplicativo deve garantir que observações do pedido sejam claramente exibidas. | RF |
+| 5      | O aplicativo deve permitir que o cliente avalie se as observações foram atendidas ou não, impactando na avaliação do restaurante. | RF |
+| 6      | O aplicativo deve disponibilizar um sistema que permita ao restaurante notificar o cliente sobre atrasos ou itens esgotados. | RF |
+| 7      | O aplicativo deve permitir que o cliente resolva problemas (ex.: escolha de outro item ou reembolso) quando houver itens esgotados. | RF |
+| 8      | O aplicativo deve oferecer suporte por chat 24 horas para resolver problemas de forma rápida.           | RF |
+| 9      | O aplicativo deve oferecer suporte em múltiplos idiomas para atender usuários que não falam o idioma padrão. | RF |
+| 10     | O aplicativo deve oferecer a opção de agendamento de pedidos para horários futuros.                     | RF |
+| 11     | O aplicativo deve disponibilizar múltiplas formas de pagamento, como cartão diretamente pelo aplicativo, cartão na entrega, crédito do aplicativo, entre outros. | RF |
+| 12     | O aplicativo deve disponibilizar um meio para comprar crédito do aplicativo para outras contas de forma segura. | RF |
+| 13     | O aplicativo deve oferecer um programa de fidelidade que acumule pontos e ofereça cupons de desconto.   | RF |
+| 14     | O aplicativo deve exibir o valor economizado pelos usuários em pedidos realizados com promoções ou cupons em dado período de tempo. | RF |
+| 15     | O aplicativo deve apresentar promoções e descontos de forma destacada para que elas sejam notadas mais facilmente. | RF |
+| 16     | O aplicativo deve exibir informações detalhadas sobre o tempo estimado de entrega e status do pedido.   | RF |
+
+**Autor** [Leonardo Aguiar](https://github.com/Leonardo0o0).
+
+</center>
+
 ## Referências
 
 1. REtraining Requirements Engineering. Guia facetado de técnicas elicitação de requisitos. Disponível em: https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-entrevista. Acesso em 16 de novembro de 2024.
@@ -114,3 +156,4 @@ Um documento com as respostas do entrevistado foi gerado durante a entrevista, o
 | 1.0 | 16/11/2024 | Criação do documento | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
 | 1.1 | 25/11/2024 | Adição do entrevista 1, e tabela de requisitos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
 | 1.2 | 26/11/2024 | Adição de pergunta no questionário | [Bruno Araújo](https://github.com/brunocva) |  |  |
+| 1.3 | 26/11/2024 | Adição entrevista 2 | [Leonardo Aguiar](https://github.com/Leonardo0o0) |  |  |
