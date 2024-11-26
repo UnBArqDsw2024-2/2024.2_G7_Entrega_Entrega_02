@@ -1,7 +1,21 @@
 # Cenários Produzidos
 
 ## Introdução 
-Neste documento serão apresentados os cenários produzidos
+Neste documento serão apresentados os cenários produzidos.
+
+| ID | Titulo |
+|------|---------|
+| CN1 | Cliente cadastra uma conta |
+| CN2 | Cliente faz login |
+| CN3 | Cliente pesquisa um produto |
+| CN4 | Cliente verifica produtos de uma loja |
+| CN5 | Cliente adiciona item aos favoritos |
+| CN6 | Cliente remove item dos favoritos |
+| CN7 | Cliente solicita suporte |
+| CN8 | Cliente adiciona produto ao carrinho |
+| CN9 | Cliente remove produto ao carrinho | 
+| CN10 | Cliente finaliza compra |
+
 
 ### CN1: Cliente cadastra uma conta
 
@@ -61,27 +75,40 @@ Neste documento serão apresentados os cenários produzidos
 
 **Autor:** [Davi Pierre](https://github.com/DaviPierre), [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
 
-### CN5: Cliente realiza um pedido
+### CN5: Cliente adiciona item aos favoritos
 
-| Elemento   | Descrição                                                                 |
-|------------|---------------------------------------------------------------------------|
-| **Título** | Cliente realiza um pedido                                                |
-| **Objetivo** | Cliente deseja fazer um pedido pelo aplicativo HungryHub                 |
+| Elemento   | Descrição  |
+|------------|-------------------------------------|
+| **Título** | Cliente adiciona item aos favoritos     |
+| **Objetivo** | Cliente deseja adicionar um item aos favoritos     |
 | **Contexto** | Local: Em casa ou trabalho <br> Pré-condições: Aplicativo instalado, acesso à internet e conta cadastrada |    
 | **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
-| **Atores** | Cliente do HungryHub                                                     |
-| **Episódios** | 1. Cliente acessa o aplicativo. <br> 2. Faz login. <br> 3. Pesquisa produtos. <br> 4. Adiciona itens ao carrinho. <br> 5. Confirma o pedido e escolhe a forma de pagamento. |
-| **Restrição** | Cliente deve possuir saldo suficiente para realizar o pagamento        |
-| **Exceção** | Cliente perde conexão à internet durante a finalização do pedido        |
+| **Atores** | Cliente do HungryHub  |
+| **Episódios** | 1. Cliente acessa o aplicativo. <br> 2. Faz login. <br> 3. Pesquisa produtos. <br> Cliente seleciona um produto desejado. <br> Cliente clica no icone de coração.  |
+| **Restrição** | Item não pode já estar favoritado|
+| **Exceção** | Cliente perde conexão à internet durante o processo |
 
-**Autor:** [Bruno Araújo] [https://github.com/brunocva)
+**Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
 
----
+### CN6: Cliente remove item dos favoritos
 
-### CN6: Cliente solicita suporte
+| Elemento   | Descrição  |
+|------------|-------------------------------------|
+| **Título** | Cliente remove item dos favoritos     |
+| **Objetivo** | Cliente deseja remover um item dos favoritos     |
+| **Contexto** | Local: Em casa ou trabalho <br> Pré-condições: Aplicativo instalado, acesso à internet e conta cadastrada |    
+| **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
+| **Atores** | Cliente do HungryHub  |
+| **Episódios** | 1. Cliente acessa o aplicativo. <br> 2. Faz login. <br> 3. Cliente clica no icone de coração na parte inferior da tela. <br> Cliente é redirecionado para tela de favoritos. <br> Cliente clica no icone de coração localizado ao lado do item que deseja remover.  |
+| **Restrição** | Item deve estar favoritado|
+| **Exceção** | Cliente perde conexão à internet durante o processo |
 
-| Elemento   | Descrição                                                                 |
-|------------|---------------------------------------------------------------------------|
+**Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
+
+### CN7: Cliente solicita suporte
+
+| Elemento   | Descrição            |
+|------------|-----------------------------------|
 | **Título** | Cliente solicita suporte                                                 |
 | **Objetivo** | Permitir que o cliente entre em contato com o suporte pelo aplicativo    |
 | **Contexto** | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada e aplicativo atualizado |    
@@ -93,18 +120,57 @@ Neste documento serão apresentados os cenários produzidos
 
 **Autor:** [Bruno Araújo](https://github.com/brunocva)
 
+### CN8: Cliente adiciona produto ao carrinho
+
+| Elemento   |Descrição    |
+|------------|------------------------------------------|
+| **Título** | Cliente adiciona produto ao carrinho |
+|**Objetivo** | Cliente deseja adicionar um produto ao carrinho  |
+| **Contexto** | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada e aplicativo atualizado |    
+| **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
+| **Atores** | Cliente do HungryHub |
+| **Episódios** | Cliente deseja adicionar um produto ao carrinho. <br> Abre o aplicativo HungryHub. <br> Cliente faz login. <br>Cliente é direcionado a tela inicial. <br> Cliente clica em um restaurante para visualizar os detalhes de seus produtos, incluindo preço e descrição. <br> Cliente clica no botão "Adicionar ao carrinho" |
+| **Restrição** | Produto não pode já estar no carrinho.   |
+| **Exceção** | Perder a conexão a internet antes de concluir o processo |
+
+**Autor:** [Davi Pierre](https://github.com/DaviPierre), [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
+
+### CN9: Cliente remove produto do carrinho
+
+| Elemento   |Descrição    |
+|------------|------------------------------------------|
+| **Título** | Cliente remove produto do carrinho |
+|**Objetivo** | Cliente deseja remover um produto do carrinho  |
+| **Contexto** | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada e aplicativo atualizado |    
+| **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
+| **Atores** | Cliente do HungryHub |
+| **Episódios** | Cliente deseja remover um produto do carrinho. <br> Abre o aplicativo HungryHub. <br> Cliente faz login. <br>Cliente é direcionado a tela inicial. <br> Cliente clica no icone de carrinho no canto superior direito <br> Cliente clica no item que deseja remover. <br> Cliente é redirecionado para uma tela que especifica o pedido. <br> Cliente clica no botão "Remover do carrinho" |
+| **Restrição** | Cliente deve ter algum produto no carrinho   |
+| **Exceção** | Perder a conexão a internet antes de concluir o processo |
+
+**Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
+
+### CN10: Cliente finaliza compra
+
+| Elemento   |Descrição    |
+|------------|------------------------------------------|
+| **Título** | Cliente finaliza compra |
+|**Objetivo** | Cliente deseja finalizar a compra  |
+| **Contexto** | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada e aplicativo atualizado |    
+| **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
+| **Atores** | Cliente do HungryHub |
+| **Episódios** | Cliente deseja remover um produto do carrinho. <br> Abre o aplicativo HungryHub. <br> Cliente faz login. <br>Cliente é direcionado a tela inicial. <br> Cliente clica no icone de carrinho no canto superior direito <br> Cliente clica no botão "Confirmar pedido" <br> Cliente adiciona o endereço de entrega e o metodo de pagamento. <br> Cliente clica no bptão "Confirmar pagamento" |
+| **Restrição** | Cliente deve possuir dinheiro suficiente para realizar o pagamento    |
+| **Exceção** | Perder a conexão a internet antes de concluir o processo |
+
+**Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022), [Bruno Araújo](https://github.com/brunocva)
+
+
+
 
 **Perfil:**
 João tem 30 anos e mora em uma grande cidade. Ele é um profissional ocupado que valoriza a praticidade na hora de pedir comida. Ele utiliza aplicativos de delivery regularmente para economizar tempo.<br>
 **Fluxo de Uso do Aplicativo**<br>
-
-Seleção de Produtos e Adição ao Carrinho<br>
-    João escolhe uma pizza grande e adiciona ao carrinho de compras ([R11](./Requisitos/baselinde.md#bl11)).<br>
-    Ele revisa os itens no carrinho e decide remover um refrigerante antes de prosseguir ([R13](./Requisitos/baselinde.md#bl01)).<br>
-
-Finalização da Compra<br>
-    João finaliza a compra escolhendo pagar com cartão de crédito ([R14](./Requisitos/baselinde.md#bl14), [R16](./Requisitos/baselinde.md#bl16)).<br>
-    O sistema processa o pagamento em menos de 10 segundos, garantindo uma experiência ágil ([R43](./Requisitos/baselinde.md#bl43)).<br>
 
 Acompanhamento da Entrega<br>
     Após concluir o pedido, João acompanha o status e a localização do entregador em tempo real no mapa do aplicativo ([R15](./Requisitos/baselinde.md#bl15), [R39](./Requisitos/baselinde.md#bl39)).<br>
@@ -196,4 +262,5 @@ Suporte e Consultas<br>
 | ------ | ----------------- | ------------------------------------------------------------------------------- | -------------------------------------------- | ----------- | --------------- |
 | 1.0    | 25/11/2024        | Criação do documento de cenários, introdução e dos cenários CNE01, CNE02, CNE03 | [Davi Pierre](https://github.com/DaviPierre) |             |                 |
 | 1.1    | 26/11/2024        | Altera a introdução.<br> Subdive os cenarios anteriores em cenários menores e mais detalhados | [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) |             |                 |
-| 1.2    | 26/11/2024        | Inclusão dos cenários CNE05 e CNE06| [Bruno Araújo](https://github.com/brunocva) |             |         
+| 1.2    | 26/11/2024        | Inclusão dos cenários CNE05 e CNE06| [Bruno Araújo](https://github.com/brunocva) |             |  
+| 1.3    | 26/11/2024        | Adiciona tabela de cenarios produzido e CN5, CN8, CN9, CN10|  [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) |             |         
