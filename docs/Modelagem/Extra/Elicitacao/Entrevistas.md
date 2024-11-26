@@ -84,9 +84,25 @@ A entrevista 1 foi realizada no dia 24/11/2024 com o estudante de Engenharia de 
 
 </center>
 
+
 Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado a seguir: 
 
 <iframe src="https://drive.google.com/file/d/1n6V1_1wnds1jd30d0Sj7CFnCL3bVq8pw/preview" width="100%" height=600px></iframe>
+
+
+<center>
+
+<iframe width="560" height="315" src=" " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Autores:** [Bruno Araújo](https://github.com/brunocva)
+
+</center>
+
+
+Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado a seguir: 
+
+<iframe src="https://i.imgur.com/S7PkRzo.jpeg" width="100%" height=600px></iframe>
+
 
 ### Tabela 2: Requisitos elicitados
 
@@ -102,6 +118,7 @@ Um documento com as respostas do entrevistado foi gerado durante a entrevista, o
 | 8 | O aplicativo deve oferecer promoções e descontos para incentivar pedidos.                   | RF               |
 | 9 | O aplicativo deve possuir uma interface intuitiva e eficiente para facilitar a navegação. | RNF |
 | 10 | O aplicativo deve oferecer suporte a idiomas adicionais, como espanhol e inglês, para facilitar o uso internacional. | RNF              |
+| 11 | O aplicativo deve promover a visibilidade de novos restaurantes | RF. |         
 
 ### Entrevista 2
 
