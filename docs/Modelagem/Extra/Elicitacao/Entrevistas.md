@@ -56,6 +56,7 @@ Foi pré-definido um conjunto de perguntas norteadoras para as entrevistas, as m
 > 5. As taxas cobradas pelos aplicativos são justas? Por quê?
 > 6. Como os aplicativos poderiam ajudar a promover o seu restaurante?
 > 7. Quais tipos de relatórios (ex.: vendas, avaliações) você gostaria de receber para acompanhar o desempenho do restaurante?
+> 8. Você acha que existem poucos aplicativos de delivery? Você vê isso como positivo ou negativo?
 
 #### Perguntas para entregadores
 
@@ -112,3 +113,4 @@ Um documento com as respostas do entrevistado foi gerado durante a entrevista, o
 |--------|-----------|-----------|-----------|-------------|-------------|
 | 1.0 | 16/11/2024 | Criação do documento | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
 | 1.1 | 25/11/2024 | Adição do entrevista 1, e tabela de requisitos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
+| 1.2 | 26/11/2024 | Adição de pergunta no questionário | [Bruno Araújo](https://github.com/brunocva) |  |  |
