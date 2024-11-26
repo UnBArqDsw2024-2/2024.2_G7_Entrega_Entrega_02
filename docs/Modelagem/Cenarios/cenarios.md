@@ -61,6 +61,39 @@ Neste documento serão apresentados os cenários produzidos
 
 **Autor:** [Davi Pierre](https://github.com/DaviPierre), [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
 
+### CN5: Cliente realiza um pedido
+
+| Elemento   | Descrição                                                                 |
+|------------|---------------------------------------------------------------------------|
+| **Título** | Cliente realiza um pedido                                                |
+| **Objetivo** | Cliente deseja fazer um pedido pelo aplicativo HungryHub                 |
+| **Contexto** | Local: Em casa ou trabalho <br> Pré-condições: Aplicativo instalado, acesso à internet e conta cadastrada |    
+| **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
+| **Atores** | Cliente do HungryHub                                                     |
+| **Episódios** | 1. Cliente acessa o aplicativo. <br> 2. Faz login. <br> 3. Pesquisa produtos. <br> 4. Adiciona itens ao carrinho. <br> 5. Confirma o pedido e escolhe a forma de pagamento. |
+| **Restrição** | Cliente deve possuir saldo suficiente para realizar o pagamento        |
+| **Exceção** | Cliente perde conexão à internet durante a finalização do pedido        |
+
+**Autor:** [Bruno Araújo] [https://github.com/brunocva)
+
+---
+
+### CN6: Cliente solicita suporte
+
+| Elemento   | Descrição                                                                 |
+|------------|---------------------------------------------------------------------------|
+| **Título** | Cliente solicita suporte                                                 |
+| **Objetivo** | Permitir que o cliente entre em contato com o suporte pelo aplicativo    |
+| **Contexto** | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada e aplicativo atualizado |    
+| **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
+| **Atores** | Cliente do HungryHub                                                     |
+| **Episódios** | 1. Cliente acessa o menu de suporte. <br> 2. Inicia um chat com o atendente. <br> 3. Descreve seu problema. <br> 4. Recebe orientação ou solução do atendente. |
+| **Restrição** | Horário de atendimento do suporte                                       |
+| **Exceção** | Cliente não consegue se comunicar devido a problemas no chat             |
+
+**Autor:** [Bruno Araújo](https://github.com/brunocva)
+
+
 **Perfil:**
 João tem 30 anos e mora em uma grande cidade. Ele é um profissional ocupado que valoriza a praticidade na hora de pedir comida. Ele utiliza aplicativos de delivery regularmente para economizar tempo.<br>
 **Fluxo de Uso do Aplicativo**<br>
@@ -163,3 +196,4 @@ Suporte e Consultas<br>
 | ------ | ----------------- | ------------------------------------------------------------------------------- | -------------------------------------------- | ----------- | --------------- |
 | 1.0    | 25/11/2024        | Criação do documento de cenários, introdução e dos cenários CNE01, CNE02, CNE03 | [Davi Pierre](https://github.com/DaviPierre) |             |                 |
 | 1.1    | 26/11/2024        | Altera a introdução.<br> Subdive os cenarios anteriores em cenários menores e mais detalhados | [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) |             |                 |
+| 1.2    | 26/11/2024        | Inclusão dos cenários CNE05 e CNE06| [Bruno Araújo](https://github.com/brunocva) |             |         
