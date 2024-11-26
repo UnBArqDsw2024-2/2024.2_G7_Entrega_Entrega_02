@@ -89,10 +89,12 @@ Um documento com as respostas do entrevistado foi gerado durante a entrevista, o
 
 <iframe src="https://drive.google.com/file/d/1n6V1_1wnds1jd30d0Sj7CFnCL3bVq8pw/preview" width="100%" height=600px></iframe>
 
+### Entrevista 2
 
+A entrevista 2 foi realizada no dia 25/11/2024 com o comerciante Júlio Cesar, proprietário do food truck blood brothers, e com o entrevistador [Bruno Araújo](https://github.com/brunocva), utilizando a ferramenta de reuniões Teams. O entrevistado nos permitiu usar a entrevista para fins de validação no nosso projeto.
 <center>
 
-<iframe width="560" height="315" src=" " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/Fd-mN2RQdZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Autores:** [Bruno Araújo](https://github.com/brunocva)
 
@@ -120,9 +122,9 @@ Um documento com as respostas do entrevistado foi gerado durante a entrevista, o
 | 10 | O aplicativo deve oferecer suporte a idiomas adicionais, como espanhol e inglês, para facilitar o uso internacional. | RNF              |
 | 11 | O aplicativo deve promover a visibilidade de novos restaurantes | RF. |         
 
-### Entrevista 2
+### Entrevista 3
 
-A entrevista 2 foi realizada no dia 25/11/2024 com a estudante de Engenharia Aeroespacial na UnB, Luisa Musse, e com o entrevistador [Leonardo Aguiar](https://github.com/Leonardo0o0), utilizando a ferramenta de reuniões Teams. A entrevistada nos permitiu usar a entrevista para fins de validação no nosso projeto.
+A entrevista 3 foi realizada no dia 25/11/2024 com a estudante de Engenharia Aeroespacial na UnB, Luisa Musse, e com o entrevistador [Leonardo Aguiar](https://github.com/Leonardo0o0), utilizando a ferramenta de reuniões Teams. A entrevistada nos permitiu usar a entrevista para fins de validação no nosso projeto.
 
 <center>
 
@@ -137,7 +139,7 @@ Um documento com as respostas do entrevistado foi gerado durante a entrevista, o
 
 <center>
 
-Tabela 3: Requisitos elicitados a partir da entrevista 2
+Tabela 3: Requisitos elicitados a partir da entrevista 3
 
 | Número | Descrição                                                                                             | Tipo |
 |--------|-------------------------------------------------------------------------------------------------------|------|
@@ -172,5 +174,5 @@ Tabela 3: Requisitos elicitados a partir da entrevista 2
 |--------|-----------|-----------|-----------|-------------|-------------|
 | 1.0 | 16/11/2024 | Criação do documento | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
 | 1.1 | 25/11/2024 | Adição do entrevista 1, e tabela de requisitos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
-| 1.2 | 26/11/2024 | Adição de pergunta no questionário | [Bruno Araújo](https://github.com/brunocva) |  |  |
-| 1.3 | 26/11/2024 | Adição entrevista 2 | [Leonardo Aguiar](https://github.com/Leonardo0o0) |  |  |
+| 1.2 | 26/11/2024 | Adição de pergunta no questionário,, requisito tabela 2 e entrevista 2 | [Bruno Araújo](https://github.com/brunocva) |  |  |
+| 1.3 | 26/11/2024 | Adição entrevista 3 | [Leonardo Aguiar](https://github.com/Leonardo0o0) |  |  |
