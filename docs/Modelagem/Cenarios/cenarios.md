@@ -1,8 +1,9 @@
 # Cenários Produzidos
 
 ## Introdução 
-Neste documento serão apresentados os cenários produzidos.
+Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 estão enumerados os cenários de Cliente, Entregador e loja respectivamente.
 
+### Tabela 01: Cenários do Cliente
 | ID | Titulo |
 |------|---------|
 | CN1 | Cliente cadastra uma conta |
@@ -15,7 +16,34 @@ Neste documento serão apresentados os cenários produzidos.
 | CN8 | Cliente adiciona produto ao carrinho |
 | CN9 | Cliente remove produto ao carrinho | 
 | CN10 | Cliente finaliza compra |
+| CN11 | Cliente acompanha pedido |
+| CN12 | Cliente acessa histórico de pedidos |
+| CN13 | Cliente avalia entregador | 
+| CN14 | Cliente avalia loja |
 
+### Tabela 02: Cenários do Entregador
+| ID | Titulo |
+|------|---------|
+| CN15 | Entregador faz login |
+| CN16 | Entregador atualiza disponibilidade|
+| CN17 | Entregador recebe notificação de um novo pedido |
+| CN18 | Entregador aceita ou recusa pedido|
+| CN19 | Entregador verifica rota de entrega no mapa |
+| CN20 | Entregador atualiza status do pedido (coletado/entregue)|
+| CN21 | Entregador contata cliente via chat ou chamada|
+| CN22 | Entregador atualiza informações pessoais |
+| CN23 | Entregador verifica histórico de entregas |
+
+### Tabela 03: Cenários de Loja
+| ID | Titulo |
+|------|---------|
+| CN24 | Lojista cadastra sua loja |
+| CN25 | Lojista gerencia cardápio |
+| CN26 | Lojista acompanha pedidos |
+| CN27 |  Lojista cadastra entregador |
+| CN28 |  Lojista configura promoções |
+
+## Cenarios para Cliente
 
 ### CN1: Cliente cadastra uma conta
 
@@ -165,97 +193,281 @@ Neste documento serão apresentados os cenários produzidos.
 
 **Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022), [Bruno Araújo](https://github.com/brunocva)
 
+### CN11: Cliente acompanha pedido
+
+| Elemento   |Descrição    |
+|------------|------------------------------------------|
+| **Título** | Cliente acompanha pedido |
+|**Objetivo** | Cliente deseja acompanhar um pedido  |
+| **Contexto** | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada e aplicativo atualizado |    
+| **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
+| **Atores** | Cliente do HungryHub |
+| **Episódios** | Cliente deseja acompanhar um pedido. <br> Abre o aplicativo HungryHub. <br> Cliente faz login. <br>Cliente é direcionado a tela inicial. <br>  |
+| **Restrição** | Cliente deve ter realizado um pedido    |
+| **Exceção** | Perder a conexão a internet enquanto acompanha o pedido |
+
+**Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
+
+### CN12: Cliente acessa histórico de pedidos
+
+| Elemento   |Descrição    |
+|------------|------------------------------------------|
+| **Título** | Cliente acessa histórico de pedidos |
+|**Objetivo** | Cliente deseja acessar todos os pedidos ja fez no aplicativo.  |
+| **Contexto** | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada e aplicativo atualizado |    
+| **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
+| **Atores** | Cliente do HungryHub |
+| **Episódios** | Cliente deseja acessar o historico de pedidos. <br> Abre o aplicativo HungryHub. <br> Cliente faz login. <br>Cliente é direcionado a tela inicial. <br> Cliente clica no icone de registro na parte central da tabbar. <br> Cliente é direcionado para a tela de "Meus pedido" |
+| **Restrição** | Cliente já deve ter realizado um pedido    |
+| **Exceção** | Perder a conexão a internet durante o processo |
+
+**Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
+
+### CN13: Cliente avalia entregador  
+
+| Elemento   |Descrição    |
+|------------|------------------------------------------|
+| **Título** | Cliente avalia entregador |
+|**Objetivo** | Cliente deseja avaliar um entregador  |
+| **Contexto** | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada e aplicativo atualizado |    
+| **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
+| **Atores** | Cliente do HungryHub |
+| **Episódios** | Cliente deseja acompanhar um pedido. <br> Abre o aplicativo HungryHub. <br> Cliente faz login. <br>Cliente é direcionado a tela inicial. <br> Cliente acessa histórico de pedidos.<br> Cliente seleciona um dos pedidos. <br> Cliente é direcionado para tela "Detalhes pedido". <br> CLiente clica em "Avaliar entregador". <br> Cliente preenche os dados solicitados eclica no botão "Confirmar".   |
+| **Restrição** | Pedido deve estar no historico de pedidos    |
+| **Exceção** | Perder a conexão a internet enquanto acompanha o pedido |
+
+**Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
+
+### CN14: Cliente avalia loja
+
+| Elemento   |Descrição    |
+|------------|------------------------------------------|
+| **Título** | Cliente avalia loja |
+|**Objetivo** | Cliente deseja avaliar uma loja |
+| **Contexto** | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada e aplicativo atualizado |    
+| **Recursos** | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet |
+| **Atores** | Cliente do HungryHub |
+| **Episódios** | Cliente deseja acompanhar um pedido. <br> Abre o aplicativo HungryHub. <br> Cliente faz login. <br>Cliente é direcionado a tela inicial. <br> Cliente acessa histórico de pedidos.<br> Cliente seleciona um dos pedidos. <br> Cliente é direcionado para tela "Detalhes pedido". <br> CLiente clica em "Avaliar loja". <br> Cliente preenche os dados solicitados eclica no botão "Confirmar".   |
+| **Restrição** | Pedido deve estar no historico de pedidos    |
+| **Exceção** | Perder a conexão a internet enquanto acompanha o pedido |
+
+**Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
+
+## Cenarios para Entregador
+
+### CN15: Entregador faz login  
+
+| **Elemento**   | **Descrição** |  
+|-----------------|-------------------------------------------|  
+| **Título**      | Entregador faz login |  
+| **Objetivo**    | O entregador deseja acessar sua conta no aplicativo HungryHub Driver. |  
+| **Contexto**    | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada no aplicativo, app instalado e atualizado, e acesso à internet. |  
+| **Recursos**    | Aplicativo HungryHub Driver instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet. |  
+| **Atores**      | Entregador do HungryHub Driver. |  
+| **Episódios**   |  O entregador abre o aplicativo HungryHub Driver. <br> O entregador acessa a tela de login. <br> Insere suas credenciais (e-mail e senha). <br> O aplicativo valida as informações. <br> O entregador é direcionado à tela inicial do app, que exibe seu status atual e pedidos disponíveis. |   
+| **Restrição**   | O entregador precisa fornecer credenciais válidas para acessar sua conta. |  
+| **Exceção**     | Credenciais inválidas: Exibe mensagem de erro e solicita nova tentativa. <br> Perda de conexão com a internet impede o login. |  
+
+**Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)
+
+### CN16: Entregador atualiza disponibilidade  
+
+| **Elemento**   | **Descrição** |  
+|-----------------|-------------------------------------------|  
+| **Título**      | Entregador atualiza disponibilidade |  
+| **Objetivo**    | O entregador deseja alterar seu status de disponibilidade para receber pedidos. |  
+| **Contexto**    | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Conta cadastrada, aplicativo atualizado, e entregador autenticado. |  
+| **Recursos**    | Aplicativo instalado. <br> Dispositivo móvel ou similar. <br> Conexão com a internet. |  
+| **Atores**      | Entregador do HungryHub Driver. |  
+| **Episódios**   | O entregador deseja atualizar seu status de disponibilidade. <br> Abre o aplicativo HungryHub Driver. <br> Entregador acessa a tela inicial. <br> O entregador clica no botão de status (online/offline). <br> O status é atualizado e uma confirmação é exibida na tela. |  
+| **Restrição**   | O aplicativo deve estar conectado à internet e sincronizado com o servidor. |  
+| **Exceção**     | Perda de conexão com a internet impede a atualização do status. |  
+
+**Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)
+
+### CN17: Entregador recebe notificação de um novo pedido  
+
+| **Elemento**   | **Descrição** |  
+|-----------------|-------------------------------------------|  
+| **Título**      | Entregador recebe notificação de um novo pedido |  
+| **Objetivo**    | O entregador é informado sobre um novo pedido disponível. |  
+| **Contexto**    | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Entregador logado no aplicativo e com status definido como "online". |  
+| **Recursos**    | Aplicativo HungryHub Driver instalado. <br> Dispositivo móvel. <br> Conexão com a internet. |  
+| **Atores**      | Entregador do HungryHub Driver. |  
+| **Episódios**   | O aplicativo recebe informações de um novo pedido. <br> Uma notificação é exibida na tela do entregador. <br> Detalhes do pedido (endereço de coleta e entrega) são exibidos. |  
+| **Restrição**   | O entregador precisa estar com o aplicativo em funcionamento e conectado à internet. |  
+| **Exceção**     | Notificação atrasada ou não recebida devido à falha na conexão. |  
+
+**Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)  
+
+### CN18: Entregador aceita ou recusa pedido  
+
+| **Elemento**   | **Descrição** |  
+|-----------------|-------------------------------------------|  
+| **Título**      | Entregador aceita ou recusa pedido |  
+| **Objetivo**    | O entregador decide se aceita ou recusa um novo pedido. |  
+| **Contexto**    | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Notificação de novo pedido recebida. |  
+| **Recursos**    | Aplicativo HungryHub Driver instalado. <br> Dispositivo móvel. <br> Conexão com a internet. |  
+| **Atores**      | Entregador do HungryHub Driver. |  
+| **Episódios**   | O entregador visualiza os detalhes do pedido na notificação. <br> O aplicativo exibe opções de "Aceitar" ou "Recusar". <br> O entregador seleciona uma das opções. <br> O sistema registra a decisão e atualiza o status do pedido. |  
+| **Restrição**   | Decisão precisa ser tomada dentro do tempo limite configurado pelo sistema. |  
+| **Exceção**     | Pedido expirado devido à demora na decisão. |  
+
+**Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)  
+
+### CN19: Entregador verifica rota de entrega no mapa  
+
+| **Elemento**   | **Descrição** |  
+|-----------------|-------------------------------------------|  
+| **Título**      | Entregador verifica rota de entrega no mapa |  
+| **Objetivo**    | O entregador deseja visualizar a rota para coleta ou entrega de um pedido. |  
+| **Contexto**    | Local: Durante o percurso. <br> Pré-condições: Pedido aceito e conexão ativa. |  
+| **Recursos**    | Aplicativo HungryHub Driver instalado. <br> Dispositivo móvel com GPS. <br> Conexão com a internet. |  
+| **Atores**      | Entregador do HungryHub Driver. |  
+| **Episódios**   | O entregador acessa os detalhes do pedido no aplicativo. <br> Clica na opção "Visualizar rota". <br> O aplicativo exibe a rota no mapa, destacando os pontos de coleta e entrega. |  
+| **Restrição**   | GPS e conexão com a internet devem estar ativos. |  
+| **Exceção**     | Rotas podem não ser carregadas devido à falha no GPS ou na conexão. |  
+
+**Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)  
+
+### CN20: Entregador atualiza status do pedido (coletado/entregue)  
+
+| **Elemento**   | **Descrição** |  
+|-----------------|-------------------------------------------|  
+| **Título**      | Entregador atualiza status do pedido (coletado/entregue) |  
+| **Objetivo**    | O entregador informa o progresso do pedido no aplicativo. |  
+| **Contexto**    | Local: Durante o percurso. <br> Pré-condições: Pedido em andamento e conexão ativa. |  
+| **Recursos**    | Aplicativo HungryHub Driver instalado. <br> Dispositivo móvel. <br> Conexão com a internet. |  
+| **Atores**      | Entregador do HungryHub Driver. |  
+| **Episódios**   | O entregador acessa os detalhes do pedido no aplicativo. <br> Seleciona "Pedido coletado" após retirar o item. <br> Seleciona "Pedido entregue" ao concluir a entrega. <br> O aplicativo registra as atualizações e notifica o cliente. |  
+| **Restrição**   | Atualizações dependem de conexão ativa com o servidor. |  
+| **Exceção**     | Atualização falha devido à perda de conexão ou erro no aplicativo. |  
+
+**Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)  
+
+### CN21: Entregador contata cliente via chat ou chamada  
+
+| **Elemento**   | **Descrição** |  
+|-----------------|-------------------------------------------|  
+| **Título**      | Entregador contata cliente via chat ou chamada |  
+| **Objetivo**    | O entregador deseja entrar em contato com o cliente para tirar dúvidas ou resolver problemas do pedido. |  
+| **Contexto**    | Local: Durante o percurso ou no ponto de entrega. <br> Pré-condições: Pedido em andamento. |  
+| **Recursos**    | Aplicativo HungryHub Driver instalado. <br> Dispositivo móvel. <br> Conexão com a internet. |  
+| **Atores**      | Entregador do HungryHub Driver. |  
+| **Episódios**   | O entregador acessa os detalhes do pedido no aplicativo. <br> Seleciona a opção "Contatar cliente". <br> Escolhe entre chat ou chamada. <br> A comunicação é iniciada, permitindo a resolução de problemas. |  
+| **Restrição**   | Cliente precisa estar disponível para responder. |  
+| **Exceção**     | Falha na conexão impede a comunicação. |  
+
+**Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)
+
+### CN22: Entregador atualiza informações pessoais (dados bancários ou contato)  
+
+| **Elemento**   | **Descrição** |  
+|-----------------|-------------------------------------------|  
+| **Título**      | Entregador atualiza informações pessoais (dados bancários ou contato) |  
+| **Objetivo**    | O entregador deseja atualizar suas informações pessoais, como dados bancários ou informações de contato. |  
+| **Contexto**    | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Entregador logado no aplicativo. |  
+| **Recursos**    | Aplicativo HungryHub Driver instalado. <br> Dispositivo móvel. <br> Conexão com a internet. |  
+| **Atores**      | Entregador do HungryHub Driver. |  
+| **Episódios**   | O entregador acessa o menu de configurações no aplicativo. <br> Seleciona a opção "Editar informações pessoais". <br> Atualiza os dados desejados (como informações bancárias ou de contato). <br> Confirma as alterações. <br> O aplicativo salva as informações e exibe uma mensagem de sucesso. |  
+| **Restrição**   | O entregador deve fornecer informações válidas e completas. |  
+| **Exceção**     | Alteração falha devido à conexão instável ou erro no sistema. |  
+
+**Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)  
+
+### CN23: Entregador verifica histórico de entregas  
+
+| **Elemento**   | **Descrição** |  
+|-----------------|-------------------------------------------|  
+| **Título**      | Entregador verifica histórico de entregas |  
+| **Objetivo**    | O entregador deseja consultar o histórico de entregas realizadas. |  
+| **Contexto**    | Local: Qualquer lugar com acesso à internet. <br> Pré-condições: Entregador logado no aplicativo. |  
+| **Recursos**    | Aplicativo HungryHub Driver instalado. <br> Dispositivo móvel. <br> Conexão com a internet. |  
+| **Atores**      | Entregador do HungryHub Driver. |  
+| **Episódios**   | O entregador acessa o menu principal do aplicativo. <br> Seleciona a opção "Histórico de entregas". <br> O aplicativo exibe uma lista das entregas realizadas, com detalhes como data, horário e valor recebido. |  
+| **Restrição**   | O histórico só inclui entregas associadas à conta do entregador. |  
+| **Exceção**     | Histórico não é exibido devido a falha no carregamento ou erro no aplicativo. |  
+
+**Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)
+
+## Cenarios para Loja
+
+### CN24: Lojista cadastra sua loja
+
+| Elemento   | Descrição                                                                 |
+|------------|---------------------------------------------------------------------------|
+| **Título** | Lojista cadastra sua loja                                                |
+| **Objetivo** | O lojista deseja registrar sua loja no aplicativo HungryHub.            |
+| **Contexto** | Local: Escritório ou qualquer lugar com acesso à internet.              |
+| **Recursos** | Aplicativo HungryHub Business instalado. <br> Dispositivo móvel ou computador. <br> Conexão com a internet. |
+| **Atores** | Lojista do HungryHub Business                                                     |
+| **Episódios** | 1. O lojista faz login no aplicativo. <br> 2. Acessa a opção "Cadastrar loja". <br> 3. Preenche o formulário com os dados da loja, incluindo endereço, horário de funcionamento e categorias de produtos. <br> 4. Confirma o cadastro da loja. |
+| **Restrição** | Todos os campos obrigatórios devem ser preenchidos corretamente.      |
+| **Exceção** | Perder a conexão com a internet durante o preenchimento do formulário. |
+
+**Autor:** Bruno Araújo, [github.com/brunocva](https://github.com/brunocva)
 
 
+### CN25: Lojista gerencia cardápio
 
-**Perfil:**
-João tem 30 anos e mora em uma grande cidade. Ele é um profissional ocupado que valoriza a praticidade na hora de pedir comida. Ele utiliza aplicativos de delivery regularmente para economizar tempo.<br>
-**Fluxo de Uso do Aplicativo**<br>
+| Elemento   | Descrição                                                                 |
+|------------|---------------------------------------------------------------------------|
+| **Título** | Lojista gerencia cardápio                                                |
+| **Objetivo** | O lojista deseja adicionar, editar ou remover itens do cardápio.       |
+| **Contexto** | Local: Escritório ou qualquer lugar com acesso à internet.             |
+| **Recursos** | Aplicativo ou portal web do HungryHub Business. <br> Dispositivo móvel ou computador. <br> Conexão com a internet. |
+| **Atores** | Lojista do HungryHub Business                                                    |
+| **Episódios** | 1. O lojista faz login no aplicativo. <br> 2. Acessa a seção "Gerenciar cardápio". <br> 3. Adiciona novos itens, incluindo descrição, preço e imagem. <br> 4. Edita itens existentes ou remove itens desatualizados. <br> 5. Salva as alterações. |
+| **Restrição** | Os itens precisam conter descrição, preço e categoria definidos.      |
+| **Exceção** | Perder a conexão com a internet durante a edição do cardápio.          |
 
-Acompanhamento da Entrega<br>
-    Após concluir o pedido, João acompanha o status e a localização do entregador em tempo real no mapa do aplicativo ([R15](./Requisitos/baselinde.md#bl15), [R39](./Requisitos/baselinde.md#bl39)).<br>
-    Ele recebe notificações sobre o progresso do pedido, como quando foi preparado e está a caminho ([R34](./Requisitos/baselinde.md#bl34)).<br>
+**Autor:** Bruno Araújo, [github.com/brunocva](https://github.com/brunocva)
 
-Interação Pós-Entrega<br>
-    Após receber o pedido, João avalia a loja e o entregador, deixando um comentário positivo sobre a rapidez no serviço ([R22](./Requisitos/baselinde.md#bl22), [R23](./Requisitos/baselinde.md#bl23), [R24](./Requisitos/baselinde.md#bl24)).<br>
-    Ele verifica o histórico de pedidos e decide favoritar o restaurante para futuras compras rápidas ([R20](./Requisitos/baselinde.md#bl20), [R21](./Requisitos/baselinde.md#bl21)).<br>
+### CN26: Lojista acompanha pedidos
 
-Suporte e Segurança<br>
-    Em caso de dúvida sobre o pedido, João utiliza o suporte via chat integrado ao aplicativo ([R36](./Requisitos/baselinde.md#bl36)).<br>
-    João tem a tranquilidade de saber que seus dados bancários e pessoais estão protegidos ([R37](./Requisitos/baselinde.md#bl37), [R38](./Requisitos/baselinde.md#bl38), [R40](./Requisitos/baselinde.md#bl40)).<br>
+| Elemento   | Descrição                                                                 |
+|------------|---------------------------------------------------------------------------|
+| **Título** | Lojista acompanha pedidos                                                |
+| **Objetivo** | O lojista deseja acompanhar os pedidos realizados pelos clientes.      |
+| **Contexto** | Local: Escritório ou qualquer lugar com acesso à internet.             |
+| **Recursos** | Aplicativo ou portal web do HungryHub. <br> Dispositivo móvel ou computador. <br> Conexão com a internet. |
+| **Atores** | Lojista do HungryHub                                                     |
+| **Episódios** | 1. O lojista faz login no aplicativo. <br> 2. Acessa a seção "Pedidos". <br> 3. Visualiza os pedidos pendentes, em preparação e finalizados. <br> 4. Atualiza o status dos pedidos conforme necessário. |
+| **Restrição** | O pedido deve ter um status válido (pendente, em preparo, concluído).  |
+| **Exceção** | O sistema não atualiza o status devido a falhas de conexão ou erros no aplicativo. |
 
-**Autor:** [Davi Pierre](https://github.com/DaviPierre)
+**Autor:** Bruno Araújo, [github.com/brunocva](https://github.com/brunocva)
 
-### Cenário de Uso: Carlos, o Entregador Dedicado (CNE02)
+### CN27: Lojista cadastra entregador
 
-**Perfil:**
-Carlos é um entregador autônomo de 28 anos, que utiliza o aplicativo para complementar sua renda. Ele trabalha em horários flexíveis e prioriza pedidos que sejam eficientes em distância e tempo.<br>
-**Fluxo de Uso do Aplicativo**
+| Elemento   | Descrição                                                                 |
+|------------|---------------------------------------------------------------------------|
+| **Título** | Lojista cadastra entregador                                              |
+| **Objetivo** | O lojista deseja cadastrar um entregador para realizar entregas da sua loja. |
+| **Contexto** | Local: Escritório ou qualquer lugar com acesso à internet.             |
+| **Recursos** | Aplicativo ou portal web do HungryHub. <br> Dispositivo móvel ou computador. <br> Conexão com a internet. |
+| **Atores** | Lojista do HungryHub                                                     |
+| **Episódios** | 1. O lojista faz login no aplicativo. <br> 2. Acessa a seção "Gerenciar entregadores". <br> 3. Seleciona a opção "Cadastrar entregador". <br> 4. Preenche o formulário com os dados do entregador (nome, CPF, telefone, e-mail). <br> 5. Confirma o cadastro do entregador. |
+| **Restrição** | Todos os campos obrigatórios devem ser preenchidos corretamente.      |
+| **Exceção** | Perder a conexão com a internet durante o preenchimento do formulário. |
 
-Cadastro e Configuração do Perfil<br>
-    Carlos instala o aplicativo e realiza seu cadastro como entregador, preenchendo informações pessoais, incluindo dados bancários para receber os pagamentos ([R02](./Requisitos/baselinde.md#bl02), [R35](./Requisitos/baselinde.md#bl35)).
-    Após o cadastro, ele carrega uma foto de perfil e personaliza suas preferências de trabalho, como horários disponíveis e regiões de atuação ([R05](./Requisitos/baselinde.md#bl05)).
+**Autor:** Bruno Araújo, [github.com/brunocva](https://github.com/brunocva)
 
-Recebendo Pedidos<br>
-    Carlos acessa a interface do entregador, onde pode visualizar solicitações de entrega disponíveis ([R31](./Requisitos/baselinde.md#bl31)).<br>
-    Ele aceita um pedido e verifica os detalhes, incluindo o endereço da loja e o local de entrega ([R32](./Requisitos/baselinde.md#bl32), [R33](./Requisitos/baselinde.md#bl33)).<br>
+### CN28: Lojista configura promoções
 
-Localização e Navegação<br>
-    O aplicativo fornece a localização exata da loja utilizando geolocalização em tempo real (R32).<br>
-    Carlos utiliza o mapa integrado para planejar a melhor rota até a loja (R39).<br>
+| Elemento   | Descrição                                                                 |
+|------------|---------------------------------------------------------------------------|
+| **Título** | Lojista configura promoções                                              |
+| **Objetivo** | O lojista deseja criar promoções para atrair mais clientes.            |
+| **Contexto** | Local: Escritório ou qualquer lugar com acesso à internet. <br> **Pré-condições**: Loja cadastrada e ativa no aplicativo HungryHub. |    
+| **Recursos** | Aplicativo ou portal web do HungryHub Business. <br> Dispositivo móvel ou computador. <br> Conexão com a internet. |
+| **Atores** | Lojista do HungryHub Business                                                     |
+| **Episódios** | 1. O lojista faz login no aplicativo. <br> 2. Acessa a seção "Promoções". <br> 3. Configura promoções para itens selecionados (por exemplo, desconto, combo ou frete grátis). <br> 4. Define a validade da promoção. <br> 5. Salva as configurações. |
+| **Restrição** | As promoções precisam ter uma data de início e fim claramente definidas. |
+| **Exceção** | Perder a conexão com a internet durante a configuração da promoção.     |
 
-Retirada do Pedido<br>
-    Ao chegar na loja, Carlos confirma a retirada do pedido pelo aplicativo, sinalizando que está a caminho do cliente ([R15](./Requisitos/baselinde.md#bl15)).<br>
+**Autor:** Bruno Araújo, [github.com/brunocva](https://github.com/brunocva)
 
-Entrega ao Cliente<br>
-    O sistema guia Carlos até o endereço do cliente, atualizando o mapa em tempo real para evitar trânsito e rotas congestionadas ([R33](./Requisitos/baselinde.md#bl33), [R39](./Requisitos/baselinde.md#bl39)).<br>
-    Após concluir a entrega, Carlos registra a finalização no aplicativo, o que atualiza automaticamente o status para o cliente ([R34](./Requisitos/baselinde.md#bl34)).<br>
-
-Interações e Avaliações<br>
-    O cliente avalia a entrega e, caso necessário, pode deixar comentários sobre o serviço. Carlos acompanha as avaliações diretamente no aplicativo, utilizando o feedback para aprimorar sua performance ([R22](./Requisitos/baselinde.md#bl22)).<br>
-
-Recebimento de Pagamentos<br>
-    Carlos recebe o pagamento pela entrega diretamente na conta bancária cadastrada (R35). O aplicativo valida e garante a segurança da transação ([R17](./Requisitos/baselinde.md#bl17), [R18](./Requisitos/baselinde.md#bl18)).<br>
-
-Suporte e Problemas Eventuais<br>
-    Em caso de dúvidas ou problemas, como dificuldade para localizar o cliente, Carlos pode utilizar o suporte via chat para resolver a situação rapidamente ([R36](./Requisitos/baselinde.md#bl36)).<br>
-
-**Autor:** [Davi Pierre](https://github.com/DaviPierre)
-
-### Cenário de Uso: Padaria Delícias do Pão (CNE03)
-
-**Perfil:**
-A Padaria Delícias do Pão é um estabelecimento familiar que decidiu expandir suas vendas através do aplicativo de delivery. Gerenciada por Marina, a proprietária, a padaria busca aumentar o alcance dos seus produtos, especialmente durante a manhã e no fim da tarde.<br>
-**Fluxo de Uso do Aplicativo**
-
-Cadastro da Loja<br>
-    Marina realiza o cadastro da padaria no aplicativo, fornecendo informações básicas, como nome da loja, endereço e horário de funcionamento ([R03](./Requisitos/baselinde.md#bl03)).<br>
-    Em seguida, ela cria seu perfil administrativo para gerenciar pedidos e acompanhar o desempenho de vendas ([R04](./Requisitos/baselinde.md#bl04), [R05](./Requisitos/baselinde.md#bl05)).<br>
-
-Configuração do Cardápio<br>
-    Marina utiliza a funcionalidade de gestão de cardápio para cadastrar todos os produtos oferecidos, incluindo pães, bolos e lanches, com fotos e descrições detalhadas ([R25](./Requisitos/baselinde.md#bl25)).<br>
-    Ela também define preços, categorias e horários de disponibilidade para produtos específicos, como combos matinais ([R26](./Requisitos/baselinde.md#bl26)).<br>
-
-Recebendo e Gerenciando Pedidos<br>
-    Quando um cliente realiza um pedido, Marina recebe uma notificação no aplicativo com os detalhes completos, como itens solicitados, endereço de entrega e forma de pagamento ([R27](./Requisitos/baselinde.md#bl27)).<br>
-    Ela confirma o pedido e inicia o preparo, com status atualizado automaticamente para o cliente ([R34](./Requisitos/baselinde.md#bl34)).<br>
-
-Escolha da Forma de Entrega<br>
-    Marina decide a melhor forma de entrega para cada pedido:<br>
-        Para regiões próximas, utiliza seu entregador próprio ([R30](./Requisitos/baselinde.md#bl30)).<br>
-        Para distâncias maiores, conta com entregadores parceiros disponíveis no aplicativo ([R28](./Requisitos/baselinde.md#bl28)).<br>
-        Caso o cliente opte por retirada no local, garanta que o pedido esteja no balcão o mais cedo possível ([R29](./Requisitos/baselinde.md#bl29)).<br>
-
-Acompanhamento do Pedido<br>
-    Marina acompanha em tempo real a entrega feita pelo entregador, podendo monitorar a localização e confirmar a finalização do pedido ([R15](./Requisitos/baselinde.md#bl15)).<br>
-
-Interação com os Clientes<br>
-    Após a entrega, os clientes podem avaliar os produtos e o serviço da padaria. Marina utiliza essas avaliações para ajustar seu cardápio e melhorar o atendimento ([R23](./Requisitos/baselinde.md#bl23)).<br>
-
-Suporte e Consultas<br>
-    Sempre que necessário, Marina entra em contato com o suporte do aplicativo via chat para esclarecer dúvidas ou resolver problemas ([R36](./Requisitos/baselinde.md#bl36)).<br>
-
-**Autor:** [Davi Pierre](https://github.com/DaviPierre)
 
 # Histórico de versão 
 | Versão | Data da alteração | Comentário                                                                      | Autor(es)                                    | Revisor(es) | Data de revisão |
@@ -263,4 +475,5 @@ Suporte e Consultas<br>
 | 1.0    | 25/11/2024        | Criação do documento de cenários, introdução e dos cenários CNE01, CNE02, CNE03 | [Davi Pierre](https://github.com/DaviPierre) |             |                 |
 | 1.1    | 26/11/2024        | Altera a introdução.<br> Subdive os cenarios anteriores em cenários menores e mais detalhados | [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) |             |                 |
 | 1.2    | 26/11/2024        | Inclusão dos cenários CNE05 e CNE06| [Bruno Araújo](https://github.com/brunocva) |             |  
-| 1.3    | 26/11/2024        | Adiciona tabela de cenarios produzido e CN5, CN8, CN9, CN10|  [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) |             |         
+| 1.3    | 26/11/2024        | Adiciona tabela de cenarios produzido e CN5, CN8, CN9, CN10|  [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) |             | 
+| 1.4    | 26/11/2024        | Adiciona os cenarios do CN11 ao CN28 |  [Júlio Roberto da Silva Neto](https://github.com/JulioR2022), [Bruno Araújo](https://github.com/brunocva), [Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns)         |     |    |            
