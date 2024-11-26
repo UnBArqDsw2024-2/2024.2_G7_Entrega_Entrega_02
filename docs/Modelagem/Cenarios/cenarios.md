@@ -1,26 +1,69 @@
-# Cenários
+# Cenários Produzidos
+
 ## Introdução 
-Este documento apresenta uma série de cenários de uso (COLOCAR O NÚMERO EXATO DE CENÁRIOS AQUI E OS HIPERLINKS) desenvolvidos utilizando os requisitos da [baseline](./Requisitos/baseline.md) do projeto do aplicativo de delivery HungryHub.
+Neste documento serão apresentados os cenários produzidos
 
-Os cenários descritos buscam ilustrar situações reais que usuários podem vivenciar ao interagir com o aplicativo, abrangendo tanto o público final (clientes) quanto os outros atores envolvidos, como entregadores e lojas parceiras. Cada cenário detalha as funcionalidades utilizadas, os fluxos de interação e os benefícios esperados, permitindo uma melhor compreensão do impacto do sistema no dia a dia dos usuários.
+### CN1: Cliente cadastra uma conta
 
-Além disso, os cenários servem como um guia prático para validação de requisitos, identificação de melhorias e alinhamento com os objetivos do projeto. Eles representam uma ferramenta essencial para assegurar que as soluções propostas sejam intuitivas, eficientes e alinhadas às expectativas do mercado.
+| Elemento | Descrição |
+|--------|-----------|
+| Titulo | Cliente cadastra uma conta |
+| Objetivo | Cliente deseja cadastrar uma conta no app HungryHub |
+| Contexto | Local: Em casa <br> Pré-condições: Aplicativo instalado e acesso a internet  |    
+| Recursos | Aplicativo instalado. <br> Dispositivo celular e semelhantes. <br> Acesso à internet |
+| Atores | Cliente do HungryHub |
+| Episódios | Cliente deseja cadastrar uma conta. <br> Abre o aplicativo HungryHub. <br> Cliente acessa a tela de registro. <br> Cliente preenche o formulário com dados válidos. <br> A conta é criada e o cliente é direcionado a tela inicial.|
+| Restrição | Cliente precisa fornecer informações válidas |
+| Exceção | Perder a conexão a internet antes de concluir o cadastro |
 
-### Cenário de Uso: João, o Usuário Comum (CNE01)
+**Autor:** [Davi Pierre](https://github.com/DaviPierre), [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
+
+### CN2: Cliente faz login
+
+| Elemento | Descrição |
+|--------|-----------|
+| Titulo | Cliente faz login |
+| Objetivo | Cliente deseja fazer login em uma conta já cadastrada |
+| Contexto | Local: Em casa <br> Pré-condições: Aplicativo instalado, acesso a internet e já ter uma conta cadastrada |    
+| Recursos | Aplicativo instalado. <br> Dispositivo celular e semelhantes. <br> Acesso à internet |
+| Atores | Cliente do HungryHub |
+| Episódios | Cliente deseja cadastrar uma conta. <br> Abre o aplicativo HungryHub. <br> Cliente acessa a tela de login. <br> Cliente preenche o formulário com dados válidos. <br>Cliente é direcionado a tela inicial.|
+| Restrição | Cliente precisa fornecer informações válidas |
+| Exceção | Perder a conexão a internet antes de concluir o login |
+
+**Autor:** [Davi Pierre](https://github.com/DaviPierre), [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
+
+### CN3: Cliente pesquisa um produto
+
+| Elemento | Descrição |
+|--------|-----------|
+| Titulo | Cliente pesquisa um produto |
+| Objetivo | Cliente deseja pesquisar um produto especifico |
+| Contexto | Local: Em casa <br> Pré-condições: Aplicativo instalado, acesso a internet e já ter uma conta cadastrada |    
+| Recursos | Aplicativo instalado. <br> Dispositivo celular e semelhantes. <br> Acesso à internet |
+| Atores | Cliente do HungryHub |
+| Episódios | Cliente deseja pesquisar um produto. <br> Abre o aplicativo HungryHub. <br> Cliente faz login. <br>Cliente é direcionado a tela inicial. <br> Cliente clica na barra de pesquisa. <br> Cliente digita o que esta procurando. <br> Cliente é redirecionado para uma tela com produtos relacionados a pesquisa feita|
+| Restrição | Pesquisar algo relacionado ao tipo de serviço disponibilizado no aplicativo |
+| Exceção | Perder a conexão a internet antes de concluir a pesquisa|
+
+### CN4: Cliente verifica produtos de uma loja
+
+| Elemento | Descrição |
+|--------|-----------|
+| Titulo | Cliente verifica produtos de uma loja |
+| Objetivo | Cliente deseja verificar os produtos fornecidos por determinada loja |
+| Contexto | Local: Em casa <br> Pré-condições: Aplicativo instalado, acesso a internet e já ter uma conta cadastrada |    
+| Recursos | Aplicativo instalado. <br> Dispositivo celular e semelhantes. <br> Acesso à internet |
+| Atores | Cliente do HungryHub |
+| Episódios | Cliente deseja pesquisar um produto. <br> Abre o aplicativo HungryHub. <br> Cliente faz login. <br>Cliente é direcionado a tela inicial. <br> Clienteclica em um restaurante para visualizar os detalhes de seus produtos, incluindo preço e descrição. |
+| Restrição | A loja deve ter produtos cadastrados |
+| Exceção | Perder a conexão a internet antes de concluir o processo|
+
+**Autor:** [Davi Pierre](https://github.com/DaviPierre), [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
 
 **Perfil:**
 João tem 30 anos e mora em uma grande cidade. Ele é um profissional ocupado que valoriza a praticidade na hora de pedir comida. Ele utiliza aplicativos de delivery regularmente para economizar tempo.<br>
 **Fluxo de Uso do Aplicativo**<br>
-
-Cadastro e Login<br>
-    João instala o aplicativo e realiza o cadastro como cliente ([R01](./Requisitos/baselinde.md#bl01)).<br>
-    Após preencher seus dados básicos, ele cadastra um endereço residencial para entrega ([R06](./Requisitos/baselinde.md#bl06)).<br>
-    João faz login no sistema utilizando seu e-mail e senha ([R04](./Requisitos/baselinde.md#bl04)).<br>
-
-Navegação e Pesquisa de Produtos<br>
-    No menu inicial, João visualiza diversas lojas e produtos disponíveis ([R07](./Requisitos/baselinde.md#bl07)).<br>
-    Ele utiliza a barra de busca para encontrar restaurantes que vendem "pizza" ([R09](./Requisitos/baselinde.md#bl09)).<br>
-    João clica em um restaurante para visualizar os detalhes de seus produtos, incluindo preço e descrição ([R08](./Requisitos/baselinde.md#bl08)).<br>
 
 Seleção de Produtos e Adição ao Carrinho<br>
     João escolhe uma pizza grande e adiciona ao carrinho de compras ([R11](./Requisitos/baselinde.md#bl11)).<br>
@@ -119,3 +162,4 @@ Suporte e Consultas<br>
 | Versão | Data da alteração | Comentário                                                                      | Autor(es)                                    | Revisor(es) | Data de revisão |
 | ------ | ----------------- | ------------------------------------------------------------------------------- | -------------------------------------------- | ----------- | --------------- |
 | 1.0    | 25/11/2024        | Criação do documento de cenários, introdução e dos cenários CNE01, CNE02, CNE03 | [Davi Pierre](https://github.com/DaviPierre) |             |                 |
+| 1.1    | 26/11/2024        | Altera a introdução.<br> Subdive os cenarios anteriores em cenários menores e mais detalhados | [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) |             |                 |
