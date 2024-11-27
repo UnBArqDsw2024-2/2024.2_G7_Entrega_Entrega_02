@@ -11,7 +11,7 @@ A validação do protótipo foi realizada a partir de entrevistas qualitativas c
 | Entrevistadores | Entrevista |
 |--|--|
 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | Entrevista 1 |
-| [Guilherme Silva Dutra](https://github.com/GuiDutra21) |  |
+| [Guilherme Silva Dutra](https://github.com/GuiDutra21) | Entrevista 2 |
 | [Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns) |  |
 
 O fluxo de tarefas das entrevistas foi definida previamente pelos entrevistadores, em vista de padronizar a metodologia utilizada
@@ -51,13 +51,59 @@ A entrevista 1 foi realizada com no dia 24/11/2024 com o estudante de engenharia
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z6O8Yvl5boU?si=hkoIaDLTTTuwH8r2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+</center>
+
+O usuário foi capaz de realizar todas as tarefas do fluxo e expressou opiniões interessantes sobre os fluxos de navegações, elementos de interface, funcionalidades, além das seguintes melhorias:
+
+Assim como definido no arquivo de perguntas orientadoras da entrevista, questionamentos de melhorias e sugestões foram realizados ao logo da gravação, sendo assim, logo abaixo temos, pela visão do entrevistado, as sugestões de melhorias:
+
+
+- Deixar o ícone de favoritar uma comida mais visível
+- Na tela de  notificações fazer as notificações de promoção estarem mais destacadas visualmente do que as demais notificações
+- Acrescentar um botão para impar todas as notificações
+- Aumentar o ícone de voltar(back) das telas
+- Na tela de busca deixar o switch de comida/restaurante mais intuitvo
+- Quando o usuário adiciona um item ao carrinho apresentar uma mensagem perguntando se ele deseja continuar comprando ou se ele já deseja ir para a tela do carrinho 
+- Adicionar mensagens de confirmação ao realizar ações mais importantes, como adicionar item no carrinho e remover um item do carrinho 
+- Na tela de detalhes do pedido, facilitar a compreensão de que os produtos que estão naquela tela são os produtos do próprio pedido e não apenas os produto das loja( sugestão: alterar o nome de produtos para itens do pedido )
+- Mover o ícone de trocar senha par o final da tela
+- Nas telas relacionadas ao perfil do usuário adicionar uma legenda para a lixeira(ícone de remoção)
+- Na tela de endereços colocar um ícone de edição igual na tela de pagamentos
+- Adicionar na tela de ajuda uma nova opção com o nome: conheça sobre o hngryHub
+- O contraste entre o amarelo e o vermelho não ficou muito agradável, principalmente para os ícones da tab bar
+
+<center>
+
 **Autores:** [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)
 
 </center>
 
-O usuário foi capaz de realizar todas as tarefas do fluxo e expressou opiniões interessantes sobre os fluxos de navegações, elementos de interface, funcionalidades e possíveis melhorias.
 
 <!-- adicionar aqui as entrevistas -->
+
+### Entrevista 2
+
+A entrevista 2 foi realizada com no dia 20/11/2024 com a médica e usuária de aplicativos de delivery Dhayane Freire, utilizando a ferramenta de reuniões Teams. A entrevistada nos permitiu usar a entrevista para fins de validação no nosso projeto.
+
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J9PJlI1PDvs?si=6j42u6zENpgxfaXz&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</center>
+
+O usuário foi capaz de realizar todas as tarefas do fluxo e expressou opiniões interessantes sobre os fluxos de navegações, elementos de interface, funcionalidades, além das seguintes melhorias:
+
+Assim como definido no arquivo de perguntas orientadoras da entrevista, questionamentos de melhoria e sugestões foram realizados ao logo da gravação, sendo assim, logo abaixo temos, pela visão da entrevistada, as sugestões de melhorias:
+
+- Acrescentar a opção de Esqueceu a senha
+- Melhorar a descrição das comidas colocando mais detalhes sobre o que vem na comida
+- Na tela do próprio restaurante conter as promoções que ele fornece
+- Ter a possibilidade de remover um elemento do carrinho através do botão de redução de quantidade ao levar ela até zero
+- Alterar o ícone da tab bar que direciona para a tela de meus pedidos para algum outro ícone mais intuitivo
+- Alongar os componentes roláveis na horizontal a fim de que eles ocupem todo os espaço disponível nesse eixo
+- Ter pop-ups de confirmação no momento de execução de alguma ação mais crítica
+- Na tela de configuração dos pagamentos apresentar apenas os últimos dígitos do cartão
+- Na tela de ajuda acrescentar um chat para falar com algum atendente caso o problema do usuário não se encaixe nas opções disponibilizadas
 
 ## Histórico de Versão
 
@@ -65,3 +111,4 @@ O usuário foi capaz de realizar todas as tarefas do fluxo e expressou opiniões
 |--------|-----------|-----------|-----------|-------------|-------------|
 | 1.0 | 14/11/2024 | Criação do documento, introdução e metodologia | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
 | 1.1 | 25/11/2024 | Adicionando documento de fluxos e entrevista 1 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
+| 1.1 | 26/11/2024 | Adicionando a entrevista 2 e as sugestões de melhoria das entrevistas 1 e 2 | [Guilherme Silva Dutra](https://github.com/GuiDutra21) |  |  |
