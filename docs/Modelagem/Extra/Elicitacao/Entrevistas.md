@@ -140,22 +140,22 @@ Um documento com as respostas do entrevistado foi gerado durante a entrevista, o
 
 | Número | Descrição | Tipo |
 |--|--|--|
-| 1      | O aplicativo deve organizar os restaurantes e pratos por categorias (lanches, lojas, alimentos), preço, distância e tempo estimado.                              | RF   |
-| 2      | O aplicativo deve permitir a localização precisa da residência do cliente.                                                                                       | RF   |
-| 3      | O sistema deve enviar notificações ao cliente sobre o status do pedido, incluindo quando o pedido sair para entrega, estiver próximo de chegar ou houver atrasos. | RF   |
-| 4      | O aplicativo deve permitir a personalização de pedidos (ex.: remover ou adicionar ingredientes), exibindo claramente as observações e garantindo padronização.   | RF   |
-| 5      | O sistema deve permitir a comunicação entre o cliente e o entregador, e entre o cliente e a loja, para tratar observações ou problemas no pedido.                | RF   |
-| 6      | O aplicativo deve oferecer suporte em múltiplos idiomas, como espanhol e inglês, para facilitar o uso internacional.                                             | RF   |
-| 7      | O aplicativo deve permitir o pagamento por diferentes métodos, incluindo PIX, cartão de crédito, crédito do aplicativo, vale-refeição, dinheiro e agendamento.   | RF   |
-| 8      | O aplicativo deve oferecer um sistema de avaliação, permitindo que o cliente avalie a experiência e se as observações foram atendidas, impactando na reputação.  | RF   |
-| 9      | O aplicativo deve disponibilizar rastreamento em tempo real do pedido, com visualização no mapa e detalhes sobre o tempo estimado de entrega e status.            | RF   |
-| 10     | O aplicativo deve permitir o agendamento de pedidos para horários futuros.                                                                                       | RF   |
-| 11     | O aplicativo deve oferecer um programa de fidelidade, com sistema de pontos que acumule recompensas, descontos e cupons, e exiba o valor economizado pelo usuário.| RF   |
-| 12     | O aplicativo deve apresentar promoções e descontos de forma destacada para incentivar pedidos e facilitar sua localização.                                       | RF   |
-| 13     | O sistema deve permitir a compra de crédito do aplicativo para outras contas de forma segura.                                                                    | RF   |
-| 14     | O aplicativo deve disponibilizar suporte por chat 24 horas para resolver problemas rapidamente.                                                                  | RF   |
-| 15     | O aplicativo deve promover a visibilidade de novos restaurantes.                                                                                                | RF   |
-| 16     | O aplicativo deve oferecer uma interface intuitiva e eficiente, organizando informações (como personalização de pedidos) de forma clara e legível.               | RNF  |
+| <a id="e01">1</a>      | O aplicativo deve organizar os restaurantes e pratos por categorias (lanches, lojas, alimentos), preço, distância e tempo estimado.                              | RF   |
+| <a id="e02">2</a>      | O aplicativo deve permitir a localização precisa da residência do cliente.                                                                                       | RF   |
+| <a id="e03">3</a>      | O sistema deve enviar notificações ao cliente sobre o status do pedido, incluindo quando o pedido sair para entrega, estiver próximo de chegar ou houver atrasos. | RF   |
+| <a id="e04">4</a>      | O aplicativo deve permitir a personalização de pedidos (ex.: remover ou adicionar ingredientes), exibindo claramente as observações e garantindo padronização.   | RF   |
+| <a id="e05">5</a>      | O sistema deve permitir a comunicação entre o cliente e o entregador, e entre o cliente e a loja, para tratar observações ou problemas no pedido.                | RF   |
+| <a id="e06">6</a>      | O aplicativo deve oferecer suporte em múltiplos idiomas, como espanhol e inglês, para facilitar o uso internacional.                                             | RF   |
+| <a id="e07">7</a>      | O aplicativo deve permitir o pagamento por diferentes métodos, incluindo PIX, cartão de crédito, crédito do aplicativo, vale-refeição, dinheiro e agendamento.   | RF   |
+| <a id="e08">8</a>      | O aplicativo deve oferecer um sistema de avaliação, permitindo que o cliente avalie a experiência e se as observações foram atendidas, impactando na reputação.  | RF   |
+| <a id="e09">9</a>      | O aplicativo deve disponibilizar rastreamento em tempo real do pedido, com visualização no mapa e detalhes sobre o tempo estimado de entrega e status.            | RF   |
+| <a id="e10">10</a>     | O aplicativo deve permitir o agendamento de pedidos para horários futuros.                                                                                       | RF   |
+| <a id="e11">11</a>     | O aplicativo deve oferecer um programa de fidelidade, com sistema de pontos que acumule recompensas, descontos e cupons, e exiba o valor economizado pelo usuário.| RF   |
+| <a id="e12">12</a>     | O aplicativo deve apresentar promoções e descontos de forma destacada para incentivar pedidos e facilitar sua localização.                                       | RF   |
+| <a id="e13">13</a>     | O sistema deve permitir a compra de crédito do aplicativo para outras contas de forma segura.                                                                    | RF   |
+| <a id="e14">14</a>     | O aplicativo deve disponibilizar suporte por chat 24 horas para resolver problemas rapidamente.                                                                  | RF   |
+| <a id="e15">15</a>     | O aplicativo deve promover a visibilidade de novos restaurantes.                                                                                                | RF   |
+| <a id="e16">16</a>     | O aplicativo deve oferecer uma interface intuitiva e eficiente, organizando informações (como personalização de pedidos) de forma clara e legível.               | RNF  |
 
 **Autores**: [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre), [Felipe Amorim de Araújo](https://github.com/lipeaaraujo), [Bruno Cunha Vasconcelos de Araújo](https://github.com/brunocva),  [Leonardo Sobrinho de Aguiar](https://github.com/Leonardo0o0)
 
@@ -174,4 +174,4 @@ Um documento com as respostas do entrevistado foi gerado durante a entrevista, o
 | 1.2 | 26/11/2024 | Adição de pergunta no questionário,, requisito tabela 2 e entrevista 2 | [Bruno Araújo](https://github.com/brunocva) |  |  |
 | 1.3 | 26/11/2024 | Adição entrevista 3  | [Leonardo Aguiar](https://github.com/Leonardo0o0) |  |  |
 | 1.4 | 26/11/2024 | Adição entrevista 4 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |  |  |
-| 1.5 | 26/11/2024 | Juntando tabelas de requisitos e corrigindo links | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
+| 1.5 | 26/11/2024 | Juntando tabelas de requisitos, corrigindo links e fazendo rastreabilidade | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |

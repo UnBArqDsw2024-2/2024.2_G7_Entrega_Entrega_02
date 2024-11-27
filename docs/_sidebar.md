@@ -12,5 +12,6 @@
     - [2.3. Modelagem UML Organizacional ou Casos de Uso](/Modelagem/ModelagemOrganizacional/2.3.ModelagemOrganizacionalCasosDeUso.md)
     - [2.4. Participações - Modelagem](/Modelagem/2.4.ParticipacoesModelagem.md)
     - [2.5. Iniciativas Extras - Modelagem](/Modelagem/2.5.IniciativasExtras.md)
-      - [2.5.2. Elicitação](/Modelagem/Extra/Elicitacao/2.5.2.Elicitacao.md)
+      - [Elicitação](/Modelagem/Extra/Elicitacao/Elicitacao.md)
         - [Entrevistas](/Modelagem/Extra/Elicitacao/Entrevistas.md)
+      - [Baseline](/Modelagem/Extra/Baseline.md)
