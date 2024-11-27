@@ -80,7 +80,7 @@ A baseline de requisitos refere-se ao grupo de requisitos documentados no Softwa
 ## Referências
 
 1. SAYÃO, Miriam; LEITE, Julio Cesar. Monografias em Ciência da Computação n° 20/05. Acesso em 3 de novembro de 2024.
-2. 1. **Easterbrook, Steve.** *Knowledge Elicitation Techniques in Requirements Engineering.* Universidade de Toronto, Departamento de Ciência da Computação. Disponível em: [https://www.cs.toronto.edu](https://www.cs.toronto.edu/~sme/CSC2106S/slides/04-elicitation-techniques.pdf). Acesso em: 1 nov. 2024.
+2. **Easterbrook, Steve.** *Knowledge Elicitation Techniques in Requirements Engineering.* Universidade de Toronto, Departamento de Ciência da Computação. Disponível em: [https://www.cs.toronto.edu](https://www.cs.toronto.edu/~sme/CSC2106S/slides/04-elicitation-techniques.pdf). Acesso em: 1 nov. 2024.
 2. **Asian Research Publishing Network.** *Introspection as an Individual-Centered Requirement Elicitation Technique.* *ARPN Journal of Engineering and Applied Sciences*, v. 14, n. 2, p. 567-568, jan. 2019. Disponível em: [http://www.arpnjournals.com](https://www.arpnjournals.org/jeas/research_papers/rp_2019/jeas_0119_7590.pdf). Acesso em: 1 nov. 2024.
 1. **REtraining Requirements Engineering.** *Guia facetado de técnicas elicitação de requisitos*. Disponível em: <https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-brainstorming>. Acesso em: 2 nov. 2024.
 
