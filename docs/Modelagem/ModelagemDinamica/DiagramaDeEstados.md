@@ -88,6 +88,18 @@ Os estados representam as situações em que os componentes do sistema podem est
 
 ## Transições entre Estados
 
+Tabela:
+
+| **Estado Atual**       | **Evento/Condição**                           | **Próximo Estado**          |
+|-------------------------|-----------------------------------------------|-----------------------------|
+| Inativo                | Usuário insere credenciais válidas           | Logado                     |
+| Logado                 | Usuário inicia um pedido                     | Realizando Pedido          |
+| Realizando Pedido      | Pedido enviado pelo usuário                  | Aguardando Confirmação     |
+| Aguardando Confirmação | Restaurante aceita o pedido                  | Pedido Confirmado          |
+| Pedido Confirmado      | Entregador aceita o pedido                   | Pedido em Entrega          |
+
+Autor: [Bruno Araújo](https://github.com/brunocva)
+
 ## Referências
 
 * Lucidchart. O que é um Diagrama de Máquina de Estados UML. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml. Acesso em: 26 nov. 2024.
@@ -99,3 +111,4 @@ Os estados representam as situações em que os componentes do sistema podem est
 | Versão | Data da alteração | Comentário | Autor(es) | Revisor(es) | Data de revisão |
 |--------|-----------|-----------|-----------|-------------|-------------|
 | 1.0 | 26/11/2024 | Criação do documento e adição de introdução, metodologia, escopo, definição de estados e referências | [Leonardo Aguiar](https://github.com/Leonardo0o0) |  |  |
+| 1.1 | 26/11/2024 | Atualização da documentação e correções | [Bruno Araújo](https://github.com/brunocva) |  |  |
