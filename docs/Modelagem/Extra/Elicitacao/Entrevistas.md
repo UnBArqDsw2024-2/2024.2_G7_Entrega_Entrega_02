@@ -33,8 +33,8 @@ Foi pré-definido um conjunto de perguntas norteadoras para as entrevistas, as m
 > 2. O que você considera essencial em um aplicativo de delivery?
 > 3. Já teve alguma experiência ruim ao usar um aplicativo de delivery? Pode contar o que aconteceu?
 > 4. O que você sente falta nos seus aplicativos de delivery favoritos?
-> 4. Quais tipos de suporte você gostaria de ter em um aplicativo de delivery?
-> 5. Você acha que há necessidade de suporte a diferentes idiomas no aplicativo?
+> 5. Quais tipos de suporte você gostaria de ter em um aplicativo de delivery?
+> 6. Você acha que há necessidade de suporte a diferentes idiomas no aplicativo?
 
 #### Perguntas para clientes
 
@@ -84,43 +84,25 @@ A entrevista 1 foi realizada no dia 24/11/2024 com o estudante de Engenharia de 
 
 </center>
 
-
-Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado a seguir: 
+Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado a seguir:
 
 <iframe src="https://drive.google.com/file/d/1n6V1_1wnds1jd30d0Sj7CFnCL3bVq8pw/preview" width="100%" height=600px></iframe>
 
 ### Entrevista 2
 
-A entrevista 2 foi realizada no dia 25/11/2024 com o comerciante Júlio Cesar, proprietário do food truck blood brothers, e com o entrevistador [Bruno Araújo](https://github.com/brunocva), utilizando a ferramenta de reuniões Teams. O entrevistado nos permitiu usar a entrevista para fins de validação no nosso projeto.
+A entrevista 2 foi realizada no dia 25/11/2024 com o comerciante Júlio Cesar, proprietário do Food Truck Blood Brothers, e com o entrevistador [Bruno Araújo](https://github.com/brunocva), utilizando a ferramenta de reuniões Teams. O entrevistado nos permitiu usar a entrevista para fins de validação no nosso projeto.
+
 <center>
 
-<iframe width="560" height="315" src="https://youtu.be/Fd-mN2RQdZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fd-mN2RQdZs?si=2Ea4ReXYgz0OFStV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Autores:** [Bruno Araújo](https://github.com/brunocva)
 
 </center>
 
+Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado a seguir:
 
-Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado a seguir: 
-
-<iframe src="https://i.imgur.com/S7PkRzo.jpeg" width="100%" height=600px></iframe>
-
-
-### Tabela 2: Requisitos elicitados
-
-| Número | Descrição                                                                                                                  | Tipo |
-| ------ | -------------------------------------------------------------------------------------------------------------------------- | ---- |
-| 1      | O aplicativo deve organizar os restaurantes e pratos por categorias, preço, distância e tempo estimado.                    | RF   |
-| 2      | O sistema deve permitir que o cliente adicione observações e personalize o pedido, como retirar ou adicionar ingredientes. | RF   |
-| 3      | O sistema deve notificar o cliente quando o pedido sair para entrega e quando estiver próximo de chegar.                   | RF   |
-| 4      | O aplicativo deve oferecer um sistema de avaliação de pedidos.                                                             | RF   |
-| 5      | O aplicativo deve oferecer um recurso para acompanhar o pedido em tempo real através de um mapa.                           | RF   |
-| 6      | O aplicativo deve permitir o pagamento por diferentes métodos, incluindo PIX, vale-refeição, cartão e dinheiro.            | RF   |
-| 7      | O sistema deve oferecer um programa de fidelidade com recompensas, como cupons e promoções.                                | RF   |
-| 8      | O aplicativo deve oferecer promoções e descontos para incentivar pedidos.                                                  | RF   |
-| 9      | O aplicativo deve possuir uma interface intuitiva e eficiente para facilitar a navegação.                                  | RNF  |
-| 10     | O aplicativo deve oferecer suporte a idiomas adicionais, como espanhol e inglês, para facilitar o uso internacional.       | RNF  |
-| 11     | O aplicativo deve promover a visibilidade de novos restaurantes                                                            | RF.  |
+![anotacoes-entrevista-2](assets/anotacoes-entrevista-2.jpg)
 
 ### Entrevista 3
 
@@ -136,34 +118,6 @@ A entrevista 3 foi realizada no dia 25/11/2024 com a estudante de Engenharia Aer
 
 Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado no [link](https://docs.google.com/document/d/1POADq6kWKOb3gmbhB24mIIKcPo1CqedijWtQxe7Is54/edit?usp=sharing).
 
-
-<center>
-
-Tabela 3: Requisitos elicitados a partir da entrevista 3
-
-| Número | Descrição                                                                                                                                                        | Tipo |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| 1      | O aplicativo deve organizar os restaurantes e pratos por categorias de lanche, lojas, preço, distância e tempo estimado.                                         | RF   |
-| 2      | O aplicativo deve oferecer rastreamento em tempo real do pedido, incluindo a visualização do entregador no mapa.                                                 | RF   |
-| 3      | O aplicativo deve permitir a personalização dos pedidos (ex.: remover ou adicionar ingredientes) em todas as lojas de forma padronizada.                         | RF   |
-| 4      | O aplicativo deve garantir que observações do pedido sejam claramente exibidas.                                                                                  | RF   |
-| 5      | O aplicativo deve permitir que o cliente avalie se as observações foram atendidas ou não, impactando na avaliação do restaurante.                                | RF   |
-| 6      | O aplicativo deve disponibilizar um sistema que permita ao restaurante notificar o cliente sobre atrasos ou itens esgotados.                                     | RF   |
-| 7      | O aplicativo deve permitir que o cliente resolva problemas (ex.: escolha de outro item ou reembolso) quando houver itens esgotados.                              | RF   |
-| 8      | O aplicativo deve oferecer suporte por chat 24 horas para resolver problemas de forma rápida.                                                                    | RF   |
-| 9      | O aplicativo deve oferecer suporte em múltiplos idiomas para atender usuários que não falam o idioma padrão.                                                     | RF   |
-| 10     | O aplicativo deve oferecer a opção de agendamento de pedidos para horários futuros.                                                                              | RF   |
-| 11     | O aplicativo deve disponibilizar múltiplas formas de pagamento, como cartão diretamente pelo aplicativo, cartão na entrega, crédito do aplicativo, entre outros. | RF   |
-| 12     | O aplicativo deve disponibilizar um meio para comprar crédito do aplicativo para outras contas de forma segura.                                                  | RF   |
-| 13     | O aplicativo deve oferecer um programa de fidelidade que acumule pontos e ofereça cupons de desconto.                                                            | RF   |
-| 14     | O aplicativo deve exibir o valor economizado pelos usuários em pedidos realizados com promoções ou cupons em dado período de tempo.                              | RF   |
-| 15     | O aplicativo deve apresentar promoções e descontos de forma destacada para que elas sejam notadas mais facilmente.                                               | RF   |
-| 16     | O aplicativo deve exibir informações detalhadas sobre o tempo estimado de entrega e status do pedido.                                                            | RF   |
-
-**Autor** [Leonardo Aguiar](https://github.com/Leonardo0o0).
-
-</center>
-
 ### Entrevista 4
 
 A entrevista 4 foi realizada no dia 26/11/2024 com o usuário padrão de um aplicativo delivery Luis Felipe, e com o entrevistador [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre), utilizando a ferramenta de reuniões Teams. O entrevistado nos permitiu usar a entrevista para fins de validação no nosso projeto.
@@ -176,32 +130,34 @@ A entrevista 4 foi realizada no dia 26/11/2024 com o usuário padrão de um apli
 
 </center>
 
-
-Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado a seguir: 
+Um documento com as respostas do entrevistado foi gerado durante a entrevista, o mesmo foi utilizado como base para a elitação dos requisitos. O documento pode ser encontrado a seguir:
 
 ![Imagem da documentação da entrevista](./assets/anotaçõesDaReuniao.jpeg)
 
+### Tabela 2: Requisitos elicitados
+
 <center>
 
-Tabela 4: Requisitos elicitados a partir da entrevista 3
+| Número | Descrição | Tipo |
+|--|--|--|
+| 1      | O aplicativo deve organizar os restaurantes e pratos por categorias (lanches, lojas, alimentos), preço, distância e tempo estimado.                              | RF   |
+| 2      | O aplicativo deve permitir a localização precisa da residência do cliente.                                                                                       | RF   |
+| 3      | O sistema deve enviar notificações ao cliente sobre o status do pedido, incluindo quando o pedido sair para entrega, estiver próximo de chegar ou houver atrasos. | RF   |
+| 4      | O aplicativo deve permitir a personalização de pedidos (ex.: remover ou adicionar ingredientes), exibindo claramente as observações e garantindo padronização.   | RF   |
+| 5      | O sistema deve permitir a comunicação entre o cliente e o entregador, e entre o cliente e a loja, para tratar observações ou problemas no pedido.                | RF   |
+| 6      | O aplicativo deve oferecer suporte em múltiplos idiomas, como espanhol e inglês, para facilitar o uso internacional.                                             | RF   |
+| 7      | O aplicativo deve permitir o pagamento por diferentes métodos, incluindo PIX, cartão de crédito, crédito do aplicativo, vale-refeição, dinheiro e agendamento.   | RF   |
+| 8      | O aplicativo deve oferecer um sistema de avaliação, permitindo que o cliente avalie a experiência e se as observações foram atendidas, impactando na reputação.  | RF   |
+| 9      | O aplicativo deve disponibilizar rastreamento em tempo real do pedido, com visualização no mapa e detalhes sobre o tempo estimado de entrega e status.            | RF   |
+| 10     | O aplicativo deve permitir o agendamento de pedidos para horários futuros.                                                                                       | RF   |
+| 11     | O aplicativo deve oferecer um programa de fidelidade, com sistema de pontos que acumule recompensas, descontos e cupons, e exiba o valor economizado pelo usuário.| RF   |
+| 12     | O aplicativo deve apresentar promoções e descontos de forma destacada para incentivar pedidos e facilitar sua localização.                                       | RF   |
+| 13     | O sistema deve permitir a compra de crédito do aplicativo para outras contas de forma segura.                                                                    | RF   |
+| 14     | O aplicativo deve disponibilizar suporte por chat 24 horas para resolver problemas rapidamente.                                                                  | RF   |
+| 15     | O aplicativo deve promover a visibilidade de novos restaurantes.                                                                                                | RF   |
+| 16     | O aplicativo deve oferecer uma interface intuitiva e eficiente, organizando informações (como personalização de pedidos) de forma clara e legível.               | RNF  |
 
-| Número | Descrição                                                                                                                | Tipo |
-| ------ | ------------------------------------------------------------------------------------------------------------------------ | ---- |
-| 1      | O aplicativo deve organizar os restaurantes e pratos por categorias de lanche, lojas, preço, distância e tempo estimado. | RF   |
-| 2      | O aplicativo deve permitir uma localização precisa da residência do cliente.                                             | RF   |
-| 3      | O aplicativo deve enviar notificações do tempo médio que o entregador vai levar para chegar com o pedido.                | RF   |
-| 4      | O aplicativo deve possibilitar a personalização de pedidos.                                                              | RF   |
-| 5      | O aplicativo deve permitir a comunicação entre o cliente e o entregador.                                                 | RF   |
-| 6      | O aplicativo deve permitir a comunicação entre o cliente e a loja.                                                       | RF   |
-| 7      | O aplicativo deve ter suporte para diferentes idiomas.                                                                   | RF   |
-| 8      | O aplicativo deve permitir a pesquisa de restaurantes pela categoria de alimentos vendidos pelos mesmos.                 | RF   |
-| 9      | O aplicativo deve permitir que o cliente pague seu pedido apenas no momento da entrega.                                  | RF   |
-| 10     | O aplicativo deve permitir o pagamento no cartão de crédito.                                                             | RF   |
-| 11     | O aplicativo deve possuir um sistema de pontos que recompensa com descontos.                                             | RF   |
-| 12     | O aplicativo deve possuir um sistema de fidelidade gratúito.                                                             | RNF  |
-| 13     | O aplicativo deve mostrar as informações de personalização organizadas em grupos facilitando a leitura                   | RNF  |
-
-**Autor** [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre).
+**Autores**: [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre), [Felipe Amorim de Araújo](https://github.com/lipeaaraujo), [Bruno Cunha Vasconcelos de Araújo](https://github.com/brunocva),  [Leonardo Sobrinho de Aguiar](https://github.com/Leonardo0o0)
 
 </center>
 
@@ -213,8 +169,9 @@ Tabela 4: Requisitos elicitados a partir da entrevista 3
 
 | Versão | Data da alteração | Comentário                                                             | Autor(es)                                                      | Revisor(es) | Data de revisão |
 | ------ | ----------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------- | ----------- | --------------- |
-| 1.0    | 16/11/2024        | Criação do documento                                                   | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)      |             |                 |
-| 1.1    | 25/11/2024        | Adição do entrevista 1, e tabela de requisitos                         | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)      |             |                 |
-| 1.2    | 26/11/2024        | Adição de pergunta no questionário,, requisito tabela 2 e entrevista 2 | [Bruno Araújo](https://github.com/brunocva)                    |             |                 |
-| 1.3    | 26/11/2024        | Adição entrevista 3                                                    | [Leonardo Aguiar](https://github.com/Leonardo0o0)              |             |                 |
-| 1.4    | 26/11/2024        | Adição entrevista 4                                                    | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |             |                 |
+| 1.0 | 16/11/2024  | Criação do documento | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
+| 1.1 | 25/11/2024 | Adição do entrevista 1, e tabela de requisitos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
+| 1.2 | 26/11/2024 | Adição de pergunta no questionário,, requisito tabela 2 e entrevista 2 | [Bruno Araújo](https://github.com/brunocva) |  |  |
+| 1.3 | 26/11/2024 | Adição entrevista 3  | [Leonardo Aguiar](https://github.com/Leonardo0o0) |  |  |
+| 1.4 | 26/11/2024 | Adição entrevista 4 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |  |  |
+| 1.5 | 26/11/2024 | Juntando tabelas de requisitos e corrigindo links | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
