@@ -12,7 +12,7 @@ A validação do protótipo foi realizada a partir de entrevistas qualitativas c
 |--|--|
 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | Entrevista 1 |
 | [Guilherme Silva Dutra](https://github.com/GuiDutra21) | Entrevista 2 |
-| [Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns) |  |
+| [Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns) | Entrevista 3 |
 
 O fluxo de tarefas das entrevistas foi definida previamente pelos entrevistadores, em vista de padronizar a metodologia utilizada
 
@@ -105,6 +105,24 @@ Assim como definido no arquivo de perguntas orientadoras da entrevista, question
 - Na tela de configuração dos pagamentos apresentar apenas os últimos dígitos do cartão
 - Na tela de ajuda acrescentar um chat para falar com algum atendente caso o problema do usuário não se encaixe nas opções disponibilizadas
 
+### Entrevista 3
+
+A entrevista 3 foi realizada com no dia 26/11/2024 com o Analista e Desenvolvedor de Sistemas e usuário de aplicativos de delivery Jonata Micael, utilizando a ferramenta de reuniões Teams. O entrevistado nos permitiu usar a entrevista para fins de validação no nosso projeto.
+
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bjo-WiHhatQ?si=oiYfbj-TZfJr6bY7&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</center>
+
+O usuário foi capaz de realizar todas as tarefas do fluxo e expressou opiniões interessantes sobre os fluxos de navegações, elementos de interface, funcionalidades, além das seguintes melhorias:
+
+Assim como definido no arquivo de perguntas orientadoras da entrevista, questionamentos de melhoria e sugestões foram realizados ao logo da gravação, sendo assim, logo abaixo temos, pela visão da entrevistada, as sugestões de melhorias:
+
+- Na tela de método de pagamento a edição de pagamento seja em todo o painel do cartão e não apenas no ícone do lápis
+- Ícone de meus pedidos mais intuitivo
+
+
 ## Histórico de Versão
 
 | Versão | Data da alteração | Comentário | Autor(es) | Revisor(es) | Data de revisão |
@@ -112,3 +130,4 @@ Assim como definido no arquivo de perguntas orientadoras da entrevista, question
 | 1.0 | 14/11/2024 | Criação do documento, introdução e metodologia | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
 | 1.1 | 25/11/2024 | Adicionando documento de fluxos e entrevista 1 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
 | 1.1 | 26/11/2024 | Adicionando a entrevista 2 e as sugestões de melhoria das entrevistas 1 e 2 | [Guilherme Silva Dutra](https://github.com/GuiDutra21) |  |  |
+| 1.2 | 27/11/2024 | Adicionando a entrevista 3 | [Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns) |  |  |
