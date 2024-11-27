@@ -45,7 +45,9 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ## Cenarios para Cliente
 
-### CN1: Cliente cadastra uma conta
+### CN01: Cliente cadastra uma conta
+
+#### Tabela 04: CN01
 
 | Elemento | Descrição |
 |--------|-----------|
@@ -60,7 +62,10 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 **Autor:** [Davi Pierre](https://github.com/DaviPierre), [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
 
+
 ### CN2: Cliente faz login
+
+#### Tabela 05: CN02
 
 | Elemento | Descrição |
 |--------|-----------|
@@ -77,6 +82,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN3: Cliente pesquisa um produto
 
+#### Tabela 06: CN03
+
 | Elemento | Descrição |
 |--------|-----------|
 | Titulo | Cliente pesquisa um produto |
@@ -89,6 +96,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 | Exceção | Perder a conexão a internet antes de concluir a pesquisa|
 
 ### CN4: Cliente verifica produtos de uma loja
+
+#### Tabela 07: CN04
 
 | Elemento | Descrição |
 |--------|-----------|
@@ -105,6 +114,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN5: Cliente adiciona item aos favoritos
 
+#### Tabela 08: CN05
+
 | Elemento   | Descrição  |
 |------------|-------------------------------------|
 | **Título** | Cliente adiciona item aos favoritos     |
@@ -119,6 +130,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 **Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
 
 ### CN6: Cliente remove item dos favoritos
+
+#### Tabela 09: CN06
 
 | Elemento   | Descrição  |
 |------------|-------------------------------------|
@@ -135,6 +148,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN7: Cliente solicita suporte
 
+#### Tabela 10: CN07
+
 | Elemento   | Descrição            |
 |------------|-----------------------------------|
 | **Título** | Cliente solicita suporte                                                 |
@@ -149,6 +164,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 **Autor:** [Bruno Araújo](https://github.com/brunocva)
 
 ### CN8: Cliente adiciona produto ao carrinho
+
+#### Tabela 11: CN08
 
 | Elemento   |Descrição    |
 |------------|------------------------------------------|
@@ -165,6 +182,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN9: Cliente remove produto do carrinho
 
+#### Tabela 12: CN09
+
 | Elemento   |Descrição    |
 |------------|------------------------------------------|
 | **Título** | Cliente remove produto do carrinho |
@@ -179,6 +198,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 **Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
 
 ### CN10: Cliente finaliza compra
+
+#### Tabela 13: CN10
 
 | Elemento   |Descrição    |
 |------------|------------------------------------------|
@@ -195,6 +216,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN11: Cliente acompanha pedido
 
+#### Tabela 14: CN11
+
 | Elemento   |Descrição    |
 |------------|------------------------------------------|
 | **Título** | Cliente acompanha pedido |
@@ -210,6 +233,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN12: Cliente acessa histórico de pedidos
 
+#### Tabela 15: CN12
+
 | Elemento   |Descrição    |
 |------------|------------------------------------------|
 | **Título** | Cliente acessa histórico de pedidos |
@@ -223,7 +248,9 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 **Autor:**[Júlio Roberto da Silva Neto](https://github.com/JulioR2022)
 
-### CN13: Cliente avalia entregador  
+### CN13: Cliente avalia entregador
+
+#### Tabela 16: CN13
 
 | Elemento   |Descrição    |
 |------------|------------------------------------------|
@@ -240,6 +267,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN14: Cliente avalia loja
 
+#### Tabela 17: CN14
+
 | Elemento   |Descrição    |
 |------------|------------------------------------------|
 | **Título** | Cliente avalia loja |
@@ -255,7 +284,9 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ## Cenarios para Entregador
 
-### CN15: Entregador faz login  
+### CN15: Entregador faz login
+
+#### Tabela 18: CN15
 
 | **Elemento**   | **Descrição** |  
 |-----------------|-------------------------------------------|  
@@ -272,6 +303,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN16: Entregador atualiza disponibilidade  
 
+#### Tabela 19: CN16
+
 | **Elemento**   | **Descrição** |  
 |-----------------|-------------------------------------------|  
 | **Título**      | Entregador atualiza disponibilidade |  
@@ -286,6 +319,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 **Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)
 
 ### CN17: Entregador recebe notificação de um novo pedido  
+
+#### Tabela 20: CN17
 
 | **Elemento**   | **Descrição** |  
 |-----------------|-------------------------------------------|  
@@ -302,6 +337,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN18: Entregador aceita ou recusa pedido  
 
+#### Tabela 21: CN18
+
 | **Elemento**   | **Descrição** |  
 |-----------------|-------------------------------------------|  
 | **Título**      | Entregador aceita ou recusa pedido |  
@@ -316,6 +353,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 **Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)  
 
 ### CN19: Entregador verifica rota de entrega no mapa  
+
+#### Tabela 22: CN19
 
 | **Elemento**   | **Descrição** |  
 |-----------------|-------------------------------------------|  
@@ -332,6 +371,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN20: Entregador atualiza status do pedido (coletado/entregue)  
 
+#### Tabela 23: CN20
+
 | **Elemento**   | **Descrição** |  
 |-----------------|-------------------------------------------|  
 | **Título**      | Entregador atualiza status do pedido (coletado/entregue) |  
@@ -346,6 +387,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 **Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)  
 
 ### CN21: Entregador contata cliente via chat ou chamada  
+
+#### Tabela 24: CN21
 
 | **Elemento**   | **Descrição** |  
 |-----------------|-------------------------------------------|  
@@ -362,6 +405,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN22: Entregador atualiza informações pessoais (dados bancários ou contato)  
 
+#### Tabela 25: CN22
+
 | **Elemento**   | **Descrição** |  
 |-----------------|-------------------------------------------|  
 | **Título**      | Entregador atualiza informações pessoais (dados bancários ou contato) |  
@@ -376,6 +421,8 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 **Autor:** [Gabryel Nicolas S de Sousa](https://github.com/gabryelns)  
 
 ### CN23: Entregador verifica histórico de entregas  
+
+#### Tabela 26: CN23
 
 | **Elemento**   | **Descrição** |  
 |-----------------|-------------------------------------------|  
@@ -394,8 +441,10 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN24: Lojista cadastra sua loja
 
-| Elemento   | Descrição                                                                 |
-|------------|---------------------------------------------------------------------------|
+#### Tabela 27: CN24
+
+| Elemento   | Descrição    |
+|------------|-------------------------------------------|
 | **Título** | Lojista cadastra sua loja                                                |
 | **Objetivo** | O lojista deseja registrar sua loja no aplicativo HungryHub.            |
 | **Contexto** | Local: Escritório ou qualquer lugar com acesso à internet.              |
@@ -407,11 +456,12 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 **Autor:** Bruno Araújo, [github.com/brunocva](https://github.com/brunocva)
 
-
 ### CN25: Lojista gerencia cardápio
 
-| Elemento   | Descrição                                                                 |
-|------------|---------------------------------------------------------------------------|
+#### Tabela 28: CN25
+
+| Elemento   | Descrição                      |
+|------------|--------------------------------------|
 | **Título** | Lojista gerencia cardápio                                                |
 | **Objetivo** | O lojista deseja adicionar, editar ou remover itens do cardápio.       |
 | **Contexto** | Local: Escritório ou qualquer lugar com acesso à internet.             |
@@ -425,8 +475,10 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN26: Lojista acompanha pedidos
 
-| Elemento   | Descrição                                                                 |
-|------------|---------------------------------------------------------------------------|
+#### Tabela 29: CN26
+
+| Elemento   | Descrição                                     |
+|------------|----------------------------|
 | **Título** | Lojista acompanha pedidos                                                |
 | **Objetivo** | O lojista deseja acompanhar os pedidos realizados pelos clientes.      |
 | **Contexto** | Local: Escritório ou qualquer lugar com acesso à internet.             |
@@ -440,8 +492,10 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN27: Lojista cadastra entregador
 
-| Elemento   | Descrição                                                                 |
-|------------|---------------------------------------------------------------------------|
+#### Tabela 30: CN27
+
+| Elemento   | Descrição           |
+|------------|-------------------|
 | **Título** | Lojista cadastra entregador                                              |
 | **Objetivo** | O lojista deseja cadastrar um entregador para realizar entregas da sua loja. |
 | **Contexto** | Local: Escritório ou qualquer lugar com acesso à internet.             |
@@ -455,8 +509,10 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 
 ### CN28: Lojista configura promoções
 
-| Elemento   | Descrição                                                                 |
-|------------|---------------------------------------------------------------------------|
+#### Tabela 31: CN28
+
+| Elemento   | Descrição                         |
+|------------|---------------------------|
 | **Título** | Lojista configura promoções                                              |
 | **Objetivo** | O lojista deseja criar promoções para atrair mais clientes.            |
 | **Contexto** | Local: Escritório ou qualquer lugar com acesso à internet. <br> **Pré-condições**: Loja cadastrada e ativa no aplicativo HungryHub. |    
@@ -476,4 +532,5 @@ Neste documento serão apresentados os cenários produzidos. Na tabela 1, 2 , 3 
 | 1.1    | 26/11/2024        | Altera a introdução.<br> Subdive os cenarios anteriores em cenários menores e mais detalhados | [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) |             |                 |
 | 1.2    | 26/11/2024        | Inclusão dos cenários CNE05 e CNE06| [Bruno Araújo](https://github.com/brunocva) |             |  
 | 1.3    | 26/11/2024        | Adiciona tabela de cenarios produzido e CN5, CN8, CN9, CN10|  [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) |             | 
-| 1.4    | 26/11/2024        | Adiciona os cenarios do CN11 ao CN28 |  [Júlio Roberto da Silva Neto](https://github.com/JulioR2022), [Bruno Araújo](https://github.com/brunocva), [Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns)         |     |    |            
+| 1.4    | 26/11/2024        | Adiciona os cenarios do CN11 ao CN28 |  [Júlio Roberto da Silva Neto](https://github.com/JulioR2022), [Bruno Araújo](https://github.com/brunocva), [Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns)         |     |    |  
+| 1.5    | 26/11/2024        | Nomeia e enumera as tabelas do documento |  [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) |     |    |            
