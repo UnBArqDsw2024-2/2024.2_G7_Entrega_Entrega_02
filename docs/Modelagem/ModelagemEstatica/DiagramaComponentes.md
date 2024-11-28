@@ -1,4 +1,4 @@
-# Diagrama de Arquitetura Front-end
+# Diagrama de Componentes (Arquitetura Front-end)
 
 ## Introdução
 
