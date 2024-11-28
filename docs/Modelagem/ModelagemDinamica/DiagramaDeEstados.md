@@ -26,7 +26,7 @@ O aplicativo de delivery tem como objetivo conectar usuários a restaurantes e e
 
 * **Restaurante**: recebe e processam os pedidos.
 
-* **Entregadore**: realiza a coleta e entrega dos pedidos.
+* **Entregadores**: realiza a coleta e entrega dos pedidos.
 
 ## Definição de Estados
 
@@ -34,7 +34,7 @@ Os estados representam as situações em que os componentes do sistema podem est
 
 ### Estados do Usuário
 
-* **Fazendo login**: Usuário está se cadastrando no sistema.
+* **Fazendo cadastro**: Usuário está se cadastrando no sistema.
 
 * **Inativo**: Usuário não está logado no sistema.
 
