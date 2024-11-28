@@ -13,6 +13,7 @@
     - [2.4. Participações - Modelagem](/Modelagem/2.4.ParticipacoesModelagem.md)
     - [2.5. Iniciativas Extras - Modelagem](/Modelagem/Extra/2.5.IniciativasExtras.md)
       - [Léxicos](/Modelagem/Extra/Lexicos.md)
-      - [Cenários](/Modelagem/Extra/Cenarios)
+      - Cenários
         - [Introdução](/Modelagem/Extra/Cenarios/introducao.md)
         - [Cenários Produzidos](/Modelagem/Extra/Cenarios/cenarios.md)
+      - [Diagrama Modelo-Relacional](/Modelagem/Extra/DiagramaModeloRelacional.md)
