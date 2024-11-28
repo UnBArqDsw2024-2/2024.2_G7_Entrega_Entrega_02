@@ -38,7 +38,11 @@ A tabela a seguir apresenta os requisitos de usabilidade identificados para o ap
 | US14 | O acompanhamento de entregas deve ser apresentado de forma visual e intuitiva, como em um mapa atualizado em tempo real ([R15](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R15,atrav%C3%A9s%20do%20aplicativo), [R39](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R39,em%20tempo%20real)).                                                    |
 | US15 | O aplicativo deve utilizar uma linguagem clara e concisa, evitando jargões técnicos e facilitando a compreensão por parte de todos os usuários.                                                                                                                                                                                                                                                                                                                                   |
 
+<center>
+
 **Autores**: [Kauan Eiras](https://github.com/kauaneiras)
+
+</center>
 
 ## Confiabilidade
 
@@ -65,8 +69,11 @@ A tabela abaixo apresenta os requisitos de confiabilidade identificados para o a
 | CR11 | O aplicativo deve implementar controles de acesso adequados, garantindo que apenas usuários autorizados possam realizar determinadas ações ou acessar certas informações.                                                                                                                                                                                                |
 | CR12 | Em caso de manutenção ou indisponibilidade programada, o sistema deve notificar os usuários com antecedência para minimizar impactos.                                                                                                                                                                                                                                    |
 | CR13 | O sistema deve validar todas as entradas de dados dos usuários para prevenir a inserção de informações maliciosas ou inválidas.                                                                                                                                                                                                                                          |
+<center>
 
 **Autores**: [Kauan Eiras](https://github.com/kauaneiras)
+
+</center>
 
 ## Desempenho
 
@@ -84,7 +91,11 @@ O desempenho é um aspecto crítico para o aplicativo, que, em um contexto de de
 | PE06 | O aplicativo deve consumir no máximo 100MB de armazenamento no dispositivo do usuário.                                                                                                                                         |
 | PE07 | A sincronização de dados entre dispositivo e servidor deve ocorrer em intervalos não superiores a 30 segundos.                                                                                                                 |
 
+<center>
+
 **Autores**: [Kallyne Macedo Passos](https://github.com/kalipassos)
+
+</center>
 
 ## Suportabilidade
 
@@ -103,7 +114,11 @@ A suportabilidade refere-se à capacidade do sistema de ser mantido, atualizado 
 | SU07 | O sistema deve ter logs detalhados para facilitar o diagnóstico de problemas.                                                                                                                      |
 | SU08 | A aplicação deve ser testável em diferentes níveis (unitário, integração, sistema).                                                                                                                |
 
+<center>
+
 **Autores**: [Kallyne Macedo Passos](https://github.com/kalipassos)
+
+</center>
 
 ## Restrições de Design
 
@@ -120,7 +135,11 @@ As restrições de design estabelecem limitações e padrões que devem ser segu
 | RD05 | O código deve seguir princípios SOLID e padrões de design estabelecidos.                                                                                                             |
 | RD06 | A interface deve ser responsiva e seguir o conceito de Mobile First ([R46](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline)). |
 
+<center>
+
 **Autores**: [Kallyne Macedo Passos](https://github.com/kalipassos)
+
+</center>
 
 ## Requisitos de Implementação
 
@@ -166,6 +185,8 @@ Os requisitos de implementação tratam dos aspectos técnicos e tecnológicos n
 </center>
 
 ## Requisitos Físicos
+
+### Físicos
 
 | ID | Descrição |
 |--|--|
