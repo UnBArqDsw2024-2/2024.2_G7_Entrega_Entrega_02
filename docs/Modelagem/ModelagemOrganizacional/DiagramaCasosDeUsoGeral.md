@@ -21,7 +21,7 @@ Foi utilizada a ferramenta Excalidraw para a criação do diagrama.
 | UCG5   | Comprar produtos                |
 | UCG6   | Acompanhar pedido               |
 | UCG7   | Visualizar histórico de pedidos |
-| UCG8   | Acompanhar suporte via chat     |
+| UCG8   | Acessar suporte via chat     |
 | UCG9   | Realizar avaliação              |
 | UCG10  | Cadastrar cardápio              |
 | UCG11  | Recebe pedidos                  |
@@ -74,7 +74,11 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | Pós-condições     | O usuário consegue acessar o aplicativo pelo seu perfil.                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Data da Criação   | 27/11/2024                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
-**Autor:** [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre)
+<center>
+
+**Autores**: [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre)
+
+</center>
 
 ### Especificação UG02 Editar perfil
 
@@ -92,7 +96,11 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | Pós-condições     | Os dados do perfil do usuário foram editados com sucesso.                                                                                                                                                                                                                                                                       |
 | Data da Criação   | 27/11/2024                                                                                                                                                                                                                                                                                                                      |
 
-**Autor:** [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre)
+<center>
+
+**Autores**: [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre)
+
+</center>
 
 ### Especificação UG03 Buscar produtos
 
@@ -110,7 +118,11 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | Pós-condições     | O cliente encontra o produto procurado                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Data da Criação   | 28/11/2024                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-**Autor:** [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre)
+<center>
+
+**Autores**: [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre)
+
+</center>
 
 ### Especialização UG04 Buscar lojas
 
@@ -127,6 +139,12 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | Fluxo de Exceção  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo.<br> - O usuário clica na ferramenta de busca do aplicativo.<br> - O usuário digita o nome dda loja a ser pesquisada.<br> - O aplicativo imprime uma mensagem de erro de "Loja não encontrada".<br> - O usuário percebe um erro ortográfico. <br> - O usuário corrige o erro.<br> - O usuário encontra a loja desejada e realiza seu pedido. |
 | Pós-condições     | O usuário encontra a loja que estava procurando                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Data da Criação   | 28/11/2024                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+<center>
+
+**Autores**: [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre)
+
+</center>
 
 ### Especialização UG05 Comprar produtos
 
@@ -146,9 +164,83 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | Fluxo Alternativo 5 | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo.<br> - O usuário clica na ferramenta de busca do aplicativo.<br> - O usuário digita o nome da loja a ser pesquisado.<br> - O usuário encontra a loja que está sendo pesquisada.<br> - O usuário escolhe entre as opções o produto que mais lhe agrada.<br> - O usuário adiciona os produtos no carrinh.<br> - O usuário aperta no ícone do carrinho no aplicativo.<br> - O usuário visualiza os produtos no carrinho.<br> - O usuário finaliza sua compra.<br> - O usuário decide pagar com o PIX.                                                                                                                                                                                                                                  |
 | Fluxo de Exceção 1  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo.<br> - O usuário clica na ferramenta de busca do aplicativo.<br> - O usuário digita o nome da loja a ser pesquisado.<br> - O usuário encontra a loja que está sendo pesquisada.<br> - O usuário escolhe entre as opções o produto que mais lhe agrada.<br> - O usuário adiciona os produtos no carrinh.<br> - O usuário aperta no ícone do carrinho no aplicativo.<br> - O usuário visualiza os produtos no carrinho.<br> - O usuário finaliza sua compra.<br> - O usuário decide pagar com o cartão de débito.<br> - O aplicativo não reconhece o cartão.<br> - O usuário precisa ligar para o suporte de cartão de débito.<br> - O problema do usuário é resolvido pela equipe de suporte.<br> - O usuário completa sua compra.   |
 | Fluxo de Exceção 2  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo.<br> - O usuário clica na ferramenta de busca do aplicativo.<br> - O usuário digita o nome da loja a ser pesquisado.<br> - O usuário encontra a loja que está sendo pesquisada.<br> - O usuário escolhe entre as opções o produto que mais lhe agrada.<br> - O usuário adiciona os produtos no carrinh.<br> - O usuário aperta no ícone do carrinho no aplicativo.<br> - O usuário visualiza os produtos no carrinho.<br> - O usuário finaliza sua compra.<br> - O usuário decide pagar com o cartão de crédito.<br> - O aplicativo não reconhece o cartão.<br> - O usuário precisa ligar para o suporte de cartão de crédito.<br> - O problema do usuário é resolvido pela equipe de suporte.<br> - O usuário completa sua compra. |
+| Pós-condições     | O cliente é capaz de confirmar a compra de seu produto desejado          |
 | Data da Criação     | 28/11/2024                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
-**Autor:** [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre)
+<center>
+
+**Autores**: [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre)
+
+</center>
+
+## Especificação UG06 Acompanhar pedido
+
+| Elemento          | Descrição                                                                     |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Caso de Uso       | Acompanhar pedido                                                           |
+| Descrição         | O usuário acompanha os status ou a localizaçao do seu pedido realizado                                          |
+| Requisitos        | R15                                  |
+| Atores            | Cliente                              |
+| Frequência de Uso | Alta                               |
+| Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.            |
+| Fluxo Principal   | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona o pedido que realizou. <br> - O usuário acompanha o pedido                                                    |
+| Fluxo Alternativo 1 | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona o pedido que realizou. <br> - O usuário observa os status atual atualizado do pedido                                                   |
+| Fluxo Alternativo 2 | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona o pedido que realizou. <br> - O usuário acessa o mapa<br> - O usuário observa a localização atual do pedido no restaurante ou com o entregador                                                   |
+| Fluxo de Exceção 1  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona o pedido que realizou. <br> - Os status do pedido não está sendo atualizado <br> - O usuário não é capaz de acompanhar em tempo real o status do pedido |
+| Fluxo de Exceção 2 | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona o pedido que realizou. <br> - O usuário acessa o mapa<br> - O mapa não está atualizado com a localização atual <br> - O usuário não é capaz de acompanhar a localização atualizada do pedido |
+| Pós-condições     | O cliente consegue se informar do status atual do seu pedido           |
+| Data da Criação   | 28/11/2024                                          |
+
+<center>
+
+**Autores**: [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)
+
+</center>
+
+## Especificação UG07 Visualizar histórico de pedidos
+
+| Elemento          | Descrição                                                                     |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Caso de Uso       | Visualizar histórico de pedidos                                                           |
+| Descrição         | O usuário visualiza informações do seu histórico de pedidos que já foram ou não entregues e pode realizar uma compra automática                                          |
+| Requisitos        | R20, R21                                  |
+| Atores            | Cliente                              |
+| Frequência de Uso | Alta                               |
+| Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.            |
+| Fluxo Principal   | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário visualiza as informações dos pedidos que já realizou como preço, itens, data e horário de pedido e entrega                                                    |
+| Fluxo Alternativo  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona um pedido que realizou. <br> - O usuário seleciona um item que deseja comprar <br> - O usuário acessa a tela de informações do item do pedido e aperta o botão de visualizar produto na loja <br> - O usuário realiza a compra do produto                                                   |
+| Fluxo de Exceção  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona um pedido que realizou. <br> - O usuário seleciona um item que deseja comprar <br> - O usuário acessa a tela de informações do item do pedido e aperta o botão de visualizar produto na loja <br> O item não está mais disponível para entrega <br> O usuário não é capaz de realizar a compra do pedido |
+| Pós-condições     | O cliente consegue visualizar informações úteis dos pedidos que já realizou           |
+| Data da Criação   | 28/11/2024                                          |
+
+<center>
+
+**Autores**: [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)
+
+</center>
+
+## Especificação UG08 Acessar suporte via chat
+
+<!-- todo -->
+
+| Elemento          | Descrição                                                                     |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Caso de Uso       | Acessar suporte via chat                                                           |
+| Descrição         | O usuário                                           |
+| Requisitos        |                                   |
+| Atores            | Cliente                              |
+| Frequência de Uso | Alta                               |
+| Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.            |
+| Fluxo Principal   | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br>                                                    |
+| Fluxo Alternativo 1 | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br>                                                    |
+| Fluxo de Exceção 1  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br>  |
+| Data da Criação   | 28/11/2024                                          |
+
+<center>
+
+**Autores**: [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)
+
+</center>
 
 ## Histórico de Versão
 
@@ -156,3 +248,5 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | ------ | ----------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ----------- | --------------- |
 | 1.0    | 26/11/2024        | Criação do documento, adicionando introdução, metodologia e diagrama                              | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)      |             |                 |
 | 1.1    | 28/11/2028        | Criação da especialização dos casos de uso UG01, UG02, UG03, UG04, UG05 e atualização da tabela 1 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |             |                 |
+| 1.2    | 28/11/2028        | Criação da especialização dos casos de uso UG06 e UG07 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |             |                 |
+
