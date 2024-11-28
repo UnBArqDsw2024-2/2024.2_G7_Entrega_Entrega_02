@@ -14,17 +14,17 @@ Foi utilizada a ferramenta Excalidraw para a criação do diagrama.
 
 | Código | Caso de Uso                     | Resonsável                      |
 | ------ | ------------------------------- | ------------------------------- |
-| [UC01](#especificacao-uc01-login)   | Login                           | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
-| [UC02](#especificacao-uc02-editar-perfil)   | Editar perfil                   | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
-| [UC03](#especificacao-uc03-buscar-produtos)   | Buscar produtos                 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
-| [UC04](#especificacao-uc04-buscar-lojas)   | Buscar lojas                    | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
-| [UC05](#especificacao-uc05-comprar-produtos)   | Comprar produtos                | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
-| [UC06](#especificacao-uc06-acompanhar-pedido)   | Acompanhar pedido               | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 
-| [UC07](#especificacao-uc07-visualizar-historico-de-pedidos)   | Visualizar histórico de pedidos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |
-| [UC08](#especificacao-uc08-acessar-suporte-via-chat)   | Acessar suporte via chat     | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |
-| [UC09](#especificacao-uc09-realizar-avaliacao)   | Realizar avaliação              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
-| [UC10](#especificacao-uc10-cadastrar-cardápio)  | Cadastrar cardápio              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
-| [UC11](#especificacao-uc11-recebe-pedidos)  | Recebe pedidos                  | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
+| [UC01](#especificação-uc01-login)   | Login                           | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| [UC02](#especificação-uc02-editar-perfil)   | Editar perfil                   | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| [UC03](#especificação-uc03-buscar-produtos)   | Buscar produtos                 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| [UC04](#especificação-uc04-buscar-lojas)   | Buscar lojas                    | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| [UC05](#especificação-uc05-comprar-produtos)   | Comprar produtos                | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| [UC06](#especificação-uc06-acompanhar-pedido)   | Acompanhar pedido               | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 
+| [UC07](#especificação-uc07-visualizar-histórico-de-pedidos)   | Visualizar histórico de pedidos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |
+| [UC08](#especificação-uc08-acessar-suporte-via-chat)   | Acessar suporte via chat     | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |
+| [UC09](#especificação-uc09-realizar-avaliação)   | Realizar avaliação              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
+| [UC10](#especificação-uc10-cadastrar-cardápio)  | Cadastrar cardápio              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
+| [UC11](#especificação-uc11-recebe-pedidos)  | Recebe pedidos                  | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
 | UC12  | Entregar pedido                 |
 | UC13  | Recebe pedido da loja           |
 | UC14  | Localizar o cliente             |
