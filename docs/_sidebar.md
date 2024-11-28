@@ -16,3 +16,6 @@
       - [Diagrama de Casos de Uso - Entregador](/Modelagem/ModelagemOrganizacional/DiagramaCasosDeUsoEntregador.md)
     - [2.4. Participações - Modelagem](/Modelagem/2.4.ParticipacoesModelagem.md)
     - [2.5. Iniciativas Extras - Modelagem](/Modelagem/2.5.IniciativasExtras.md)
+      - [Elicitação](/Modelagem/Extra/Elicitacao/Elicitacao.md)
+        - [Entrevistas](/Modelagem/Extra/Elicitacao/Entrevistas.md)
+      - [Baseline](/Modelagem/Extra/Baseline.md)
