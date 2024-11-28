@@ -205,7 +205,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | Descrição         | O usuário visualiza informações do seu histórico de pedidos que já foram ou não entregues e pode realizar uma compra automática                                          |
 | Requisitos        | R20, R21                                  |
 | Atores            | Cliente                              |
-| Frequência de Uso | Alta                               |
+| Frequência de Uso | Média                               |
 | Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.            |
 | Fluxo Principal   | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário visualiza as informações dos pedidos que já realizou como preço, itens, data e horário de pedido e entrega                                                    |
 | Fluxo Alternativo  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona um pedido que realizou. <br> - O usuário seleciona um item que deseja comprar <br> - O usuário acessa a tela de informações do item do pedido e aperta o botão de visualizar produto na loja <br> - O usuário realiza a compra do produto                                                   |
@@ -226,14 +226,13 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | Elemento          | Descrição                                                                     |
 | ----------------- | ----------------------------------------------------------------------------- |
 | Caso de Uso       | Acessar suporte via chat                                                           |
-| Descrição         | O usuário                                           |
-| Requisitos        |                                   |
-| Atores            | Cliente                              |
+| Descrição         | O usuário acessa uma interface de suporte via chat para comunicação com loja, entregador ou cliente                                         |
+| Requisitos        | R36                                  |
+| Atores            | Cliente, Loja, Entregador                             |
 | Frequência de Uso | Alta                               |
 | Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.            |
-| Fluxo Principal   | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br>                                                    |
-| Fluxo Alternativo 1 | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br>                                                    |
-| Fluxo de Exceção 1  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br>  |
+| Fluxo Principal   | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a interface de pedidos. <br> - O usuário seleciona um pedido específico em andamento. <br> - O usuário abre a interface de suporte via chat. <br> - O usuário seleciona falar com o cliente, a loja ou o entregador. <br> - O usuário consegue realizar a comunicação                                                    |
+| Fluxo de Exceção  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a interface de pedidos. <br> - O usuário seleciona um pedido específico em andamento. <br> - O usuário abre a interface de suporte via chat. <br> - O serviço de chat está fora do ar <br> - O usuário reporta o problema |
 | Data da Criação   | 28/11/2024                                          |
 
 <center>
@@ -249,4 +248,6 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | 1.0    | 26/11/2024        | Criação do documento, adicionando introdução, metodologia e diagrama                              | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)      |             |                 |
 | 1.1    | 28/11/2028        | Criação da especialização dos casos de uso UG01, UG02, UG03, UG04, UG05 e atualização da tabela 1 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |             |                 |
 | 1.2    | 28/11/2028        | Criação da especialização dos casos de uso UG06 e UG07 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |             |                 |
+| 1.3    | 28/11/2028        | Criação da especialização do caso de uso UG08 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |             |                 |
+
 
