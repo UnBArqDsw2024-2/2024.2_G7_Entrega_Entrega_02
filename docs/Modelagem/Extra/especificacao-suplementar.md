@@ -21,7 +21,7 @@ A usabilidade refere-se à facilidade com que os usuários podem interagir com u
 A tabela a seguir apresenta os requisitos de usabilidade identificados para o aplicativo, baseados nos [requisitos elicitados](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline):
 
 | ID   | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | US01 | O aplicativo deve possuir uma interface intuitiva e fácil de navegar, permitindo que os usuários acessem as principais funcionalidades com poucos toques.                                                                                                                                                                                                                                                                                                                         |
 | US02 | O design da interface deve seguir as diretrizes de design do Android e iOS para garantir consistência e familiaridade com os padrões das plataformas ([R44](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R44,Android%20e%20iOS)).                                                                                                                                                                                |
 | US03 | A interface deve ser responsiva e se adaptar automaticamente a diferentes tamanhos e orientações de tela, mantendo a usabilidade em dispositivos variados ([R46](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R46,tela%20de%20dispositivo)).                                                                                                                                                                     |
@@ -51,7 +51,7 @@ A confiabilidade é crucial para que clientes, lojas e entregadores possam utili
 A tabela abaixo apresenta os requisitos de confiabilidade identificados para o aplicativo, baseados nos requisitos elicitados:
 
 | ID   | Descrição                                                                                                                                                                                                                                                                                                                                                                |
-|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | CR01 | O sistema deve proteger os dados bancários dos usuários utilizando criptografia e seguindo padrões de segurança da indústria de pagamentos ([R37](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R37,banc%C3%A1rios%20do%20usu%C3%A1rio)).                                                                |
 | CR02 | Os dados pessoais dos usuários devem ser armazenados de forma segura, prevenindo acesso não autorizado ou vazamento de informações ([R38](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=R38,pessoais%20do%20usu%C3%A1rio)).                                                                              |
 | CR03 | A implementação do sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD), assegurando a privacidade e os direitos dos usuários ([R40](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline:~:text=A%20implementa%C3%A7%C3%A3o%20do%20sistema%20deve%20seguir%20as%20diretrizes%20da%20LGPD)). |
@@ -75,7 +75,7 @@ O desempenho é um aspecto crítico para o aplicativo, que, em um contexto de de
 ### Requisitos de Desempenho
 
 | ID   | Descrição                                                                                                                                                                                                                      |
-|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | PE01 | O tempo de resposta para carregamento inicial do aplicativo não deve exceder 5 segundos em conexões 4G.                                                                                                                        |
 | PE02 | As transações de pagamento devem ser processadas em no máximo 10 segundos ([R43](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline)).                                     |
 | PE03 | A atualização da localização do entregador deve ocorrer a cada 20 segundos para garantir rastreamento preciso ([R39](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline)). |
@@ -93,7 +93,7 @@ A suportabilidade refere-se à capacidade do sistema de ser mantido, atualizado 
 ### Requisitos de Suportabilidade
 
 | ID   | Descrição                                                                                                                                                                                          |
-|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SU01 | O aplicativo deve ser compatível com Android 8.0 ou superior e iOS 13 ou superior ([R44](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline)). |
 | SU02 | O sistema deve permitir atualizações automáticas sem interrupção do serviço.                                                                                                                       |
 | SU03 | A arquitetura deve ser modular para facilitar manutenção e atualizações.                                                                                                                           |
@@ -112,7 +112,7 @@ As restrições de design estabelecem limitações e padrões que devem ser segu
 ### Restrições
 
 | ID   | Descrição                                                                                                                                                                            |
-|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | RD01 | O design deve seguir a identidade visual estabelecida, incluindo paleta de cores e tipografia definidas.                                                                             |
 | RD02 | O desenvolvimento front-end deve utilizar frameworks modernos como React Native.                                                                                                     |
 | RD03 | O banco de dados deve ser relacional para garantir integridade das transações.                                                                                                       |
@@ -120,29 +120,88 @@ As restrições de design estabelecem limitações e padrões que devem ser segu
 | RD05 | O código deve seguir princípios SOLID e padrões de design estabelecidos.                                                                                                             |
 | RD06 | A interface deve ser responsiva e seguir o conceito de Mobile First ([R46](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Baseline)). |
 
-
 **Autores**: [Kallyne Macedo Passos](https://github.com/kalipassos)
-
 
 ## Requisitos de Implementação
 
+Os requisitos de implementação tratam dos aspectos técnicos e tecnológicos necessários para o desenvolvimento e operação do sistema. Eles definem tecnologias, ferramentas e práticas que devem ser utilizadas durante o projeto.
+
+### Implementação
+
+| ID | Descrição |
+|--|--|
+| IM01 | A aplicação deve ser desenvolvida utilizando React Native para compatibilidade entre plataformas Android e iOS. |
+| IM02 | O backend deve ser implementado em Python, utilizando Django como framwork para maior consistência e manutenção. |
+| IM03 | O banco de dados utilizado deve ser PostgreSQL, devido à sua robustez e suporte a transações complexas. |
+| IM04 | A aplicação deve ser desenvolvida utilizando React Native e Expo para compatibilidade entre plataformas Android e iOS. |
+| IM05 | A integração contínua (CI) deve ser configurada utilizando ferramentas como GitHub Actions, garantindo testes automáticos a cada commit. |
+| IM06 | A infraestrutura de nuvem deve utilizar AWS, incluindo serviços como S3 para armazenamento, RDS para banco de dados e CloudFront para entrega rápida.. |
+| IM07 | O sistema deve integrar APIs de terceiros para serviços de pagamento (ex: Stripe ou PayPal) e mapas (ex: Google Maps ou Mapbox). |
+| IM08 | O código deve ser versionado utilizando Git, com o repositório hospedado no GitHub. |
+
+<center>
+
+**Autores**: [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)
+
+</center>
+
 ## Requisitos de Interface
+
+### Interface
+
+| ID | Descrição |
+|--|--|
+| IN01 | A interface do aplicativo deve ser projetada para suportar idiomas em inglês e português, com capacidade de expansão para outras línguas futuramente. |
+| IN02 | O sistema deve ter integração com serviços de localização e rastreamento em tempo real, exibindo mapas e rotas diretamente na interface do usuário. |
+| IN03 | Os relatórios e dados exportáveis do sistema devem estar disponíveis em formatos padrão, como PDF e CSV, para compatibilidade com outras ferramentas. |
+| IN04 | Deve haver integração com APIs RESTful para comunicação entre cliente e servidor, utilizando JSON como formato de troca de dados. |
+| IN05 | O sistema deve exibir mensagens de erro amigáveis ao usuário, evitando termos técnicos ou informações irrelevantes. |
+| IN06 | O layout deve ser responsivo, garantindo funcionalidade em dispositivos móveis e tablets com diferentes tamanhos de tela. |
+| IN07 | A interface deve ser projetada com base no sistema de design Material Design para Android e Human Interface Guidelines para iOS. |
+
+<center>
+
+**Autores**: [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)
+
+</center>
 
 ## Requisitos Físicos
 
+| ID | Descrição |
+|--|--|
+| FS01 | O aplicativo deve ser compatível com dispositivos móveis Android (versão 8.0 ou superior) e iOS (versão 13 ou superior). |
+| FS02 | O servidor backend deve ser hospedado em instâncias com no mínimo 4 vCPUs, 16 GB de RAM e 500 GB de armazenamento SSD. |
+| FS03 | O sistema deve suportar alta disponibilidade, utilizando balanceadores de carga para distribuição de tráfego. |
+| FS04 | O servidor deve ter conectividade de rede de alta velocidade, com largura de banda mínima de 1 Gbps. |
+| FS05 | Para testes, devem ser disponibilizados dispositivos com diferentes versões de sistemas operacionais e tamanhos de tela. |
+| FS06 | O sistema deve ser hospedado em um provedor de nuvem confiável, como AWS, Azure ou Google Cloud. |
+| FS07 | Dispositivos móveis devem possuir pelo menos 1 GB de RAM e Android 8.0 ou iOS 13 para executar o aplicativo. |
+| FS08 | A infraestrutura deve incluir firewalls e sistemas de prevenção contra intrusões para proteger os servidores. |
+
+<center>
+
+**Autores**: [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)
+
+</center>
 
 ## Referências
 
-1. **MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES**. *Especificação de Caso de Uso*. Disponível em: [https://pdp.mctic.gov.br/MCTI-PDP/guidances/examples/Especificacao%20Caso%20Uso_81686821.html?nodeId=afc37190](https://pdp.mctic.gov.br/MCTI-PDP/guidances/examples/Especificacao%20Caso%20Uso_81686821.html?nodeId=afc37190). Acesso em: 18 de novembro de 2024.
+1. **MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES**. _Especificação de Caso de Uso_. Disponível em: [https://pdp.mctic.gov.br/MCTI-PDP/guidances/examples/Especificacao%20Caso%20Uso_81686821.html?nodeId=afc37190](https://pdp.mctic.gov.br/MCTI-PDP/guidances/examples/Especificacao%20Caso%20Uso_81686821.html?nodeId=afc37190). Acesso em: 18 de novembro de 2024.
 
-2. **PRESSMAN, Roger S.** *Engenharia de Software: uma abordagem profissional*. 7ª ed. New York: McGraw-Hill, 2014.
+2. **PRESSMAN, Roger S.** _Engenharia de Software: uma abordagem profissional_. 7ª ed. New York: McGraw-Hill, 2014.
 
-3. **NIELSEN, Jakob**. *10 Usability Heuristics for User Interface Design*. Nielsen Norman Group, 1994. Disponível em: [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/). Acesso em: 18 de novembro de 2024.
+3. **NIELSEN, Jakob**. _10 Usability Heuristics for User Interface Design_. Nielsen Norman Group, 1994. Disponível em: [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/). Acesso em: 18 de novembro de 2024.
+
+4. ISO. ISO 25010:2011 – Systems and software engineering – Systems and software Quality Requirements and Evaluation (SQuaRE) – System and software quality models. International Organization for Standardization, 2011.
+
+5. WCAG. Web Content Accessibility Guidelines (WCAG) 2.1. World Wide Web Consortium (W3C), 2018. Disponível em: https://www.w3.org/TR/WCAG21/. Acesso em: 28 nov. 2024.
 
 ## Histórico de Versões
 
 | Versão | Data da alteração | Comentário                                                   | Autor(es)                                              | Revisor(es) | Data de revisão |
-|--------|-------------------|--------------------------------------------------------------|--------------------------------------------------------|-------------|-----------------|
+| ------ | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------ | ----------- | --------------- |
 | 1.0    | 18/11/2024        | Criação do documento                                         | [Kauan Eiras](https://github.com/kauaneiras)           |             |                 |
 | 1.1    | 18/11/2024        | Adição da Usabilidade e Confiabilidade                       | [Kauan Eiras](https://github.com/kauaneiras)           |             |                 |
 | 1.2    | 27/11/2024        | Adição do Desempenho, Suportabilidade e Restrições de Design | [Kallyne Macedo Passos](https://github.com/kalipassos) |             |                 |
+| 1.3    | 28/11/2024        | Adição das tabelas de requisitos de implementação, interface e físicos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |             |                 |
+
