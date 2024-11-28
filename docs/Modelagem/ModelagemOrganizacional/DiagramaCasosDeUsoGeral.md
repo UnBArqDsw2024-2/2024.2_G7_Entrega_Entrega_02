@@ -12,23 +12,23 @@ Foi utilizada a ferramenta Excalidraw para a criação do diagrama.
 
 ### Tabela 1 - Casos de Uso
 
-| Código | Caso de Uso                     |
-| ------ | ------------------------------- |
-| UCG1   | Login                           |
-| UCG2   | Editar perfil                   |
-| UCG3   | Buscar produtos                 |
-| UCG4   | Buscar lojas                    |
-| UCG5   | Comprar produtos                |
-| UCG6   | Acompanhar pedido               |
-| UCG7   | Visualizar histórico de pedidos |
-| UCG8   | Acessar suporte via chat     |
-| UCG9   | Realizar avaliação              |
-| UCG10  | Cadastrar cardápio              |
-| UCG11  | Recebe pedidos                  |
-| UCG12  | Entregar pedido                 |
-| UCG13  | Recebe pedido da loja           |
-| UCG14  | Localizar o cliente             |
-| UCG15  | Localizar a loja                |
+| Código | Caso de Uso                     | Resonsável                      |
+| ------ | ------------------------------- | ------------------------------- |
+| UC01   | Login                           | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| UC02   | Editar perfil                   | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| UC03   | Buscar produtos                 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| UC04   | Buscar lojas                    | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| UC05   | Comprar produtos                | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| UC06   | Acompanhar pedido               | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 
+| UC07   | Visualizar histórico de pedidos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |
+| UC08   | Acessar suporte via chat     | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |
+| UC09   | Realizar avaliação              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
+| UC10  | Cadastrar cardápio              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
+| UC11  | Recebe pedidos                  | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
+| UC12  | Entregar pedido                 |
+| UC13  | Recebe pedido da loja           |
+| UC14  | Localizar o cliente             |
+| UC15  | Localizar a loja                |
 
 Posteriormente, todos os casos de uso representados no diagrama foram especificados utilizando a [tabela modelo](Modelagem/ModelagemOrganizacional/2.3.ModelagemOrganizacionalCasosDeUso.md#tabela-2-modelo-de-especificação-dos-casos-de-uso) como base.
 
@@ -58,7 +58,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | Pós-condições     | Condições que devem ser verdadeiras após a execução do caso de uso            |
 | Data da Criação   | Data em que o caso de uso foi criado                                          |
 
-### Especificação UCG1 Login
+### Especificação UC1 Login
 
 | Elemento          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -80,7 +80,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 </center>
 
-### Especificação UG02 Editar perfil
+### Especificação UC02 Editar perfil
 
 | Elemento          | Descrição                                                                                                                                                                                                                                                                                                                       |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -102,7 +102,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 </center>
 
-### Especificação UG03 Buscar produtos
+### Especificação UC03 Buscar produtos
 
 | Elemento          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -124,7 +124,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 </center>
 
-### Especialização UG04 Buscar lojas
+### Especificação UC04 Buscar lojas
 
 | Elemento          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -146,7 +146,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 </center>
 
-### Especialização UG05 Comprar produtos
+### Especiicação UC05 Comprar produtos
 
 | Elemento            | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -173,7 +173,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 </center>
 
-## Especificação UG06 Acompanhar pedido
+## Especificação UC06 Acompanhar pedido
 
 | Elemento          | Descrição                                                                     |
 | ----------------- | ----------------------------------------------------------------------------- |
@@ -197,7 +197,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 </center>
 
-## Especificação UG07 Visualizar histórico de pedidos
+## Especificação UC07 Visualizar histórico de pedidos
 
 | Elemento          | Descrição                                                                     |
 | ----------------- | ----------------------------------------------------------------------------- |
@@ -219,7 +219,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 </center>
 
-## Especificação UG08 Acessar suporte via chat
+## Especificação UC08 Acessar suporte via chat
 
 <!-- todo -->
 
@@ -241,6 +241,74 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 </center>
 
+## Especificação UC09 Realizar avaliação
+
+| Elemento          | Descrição                                                                     |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Caso de Uso       | Realizar avaliação                                                           |
+| Descrição         | O usuário avalia a loja ou o entregador após a entrega do pedido                                          |
+| Requisitos        | R22, R23, R24                                  |
+| Atores            | Cliente                              |
+| Frequência de Uso | Alta                               |
+| Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.            |
+| Fluxo Principal   | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona um pedido que realizou. <br> - O usuário realiza avaliação                                                    
+| Fluxo Alternativo  1 | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona um pedido que realizou. <br> - O usuário avalia o entregador que fez a entrega do seu pedido com estrelas e um comentário                                                   |
+| Fluxo Alternativo 2 | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona um pedido que realizou. <br> - O usuário avalia a loja que preparou seu pedido com estrelas e um comentário                                                  |
+| Fluxo Alternativo 3 | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona um pedido que realizou. <br> - O usuário comenta em outras avaliações de entregadores ou lojas                                                  |
+| Fluxo de Exceção  | - O usuário acessa o aplicativo pelo telefone celular. <br> - O usuário realiza o login no aplicativo. <br> - O usuário acessa a aba de "Meus Pedidos". <br> - O usuário seleciona um pedido que realizou. <br> - O usuário tenta avaliar um pedido que não foi entregue <br> - O usuário não é capaz de avaliar um pedido que não foi entregue |
+| Pós-condições     | O cliente consegue avaliar a loja ou o entregador que realizou a entrega do pedido           |
+| Data da Criação   | 28/11/2024                                          |
+
+<center>
+
+**Autores**: [Lucas Martins Gabriel](https://github.com/martinsglucas)
+
+</center>
+
+## Especificação UC10 Cadastrar cardápio
+
+| Elemento          | Descrição                                                                     |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Caso de Uso       | Cadastrar cardápio                                                           |
+| Descrição         | A loja cadastra o cardápio de produtos que ela oferece                                          |
+| Requisitos        | R25, R26                                  |
+| Atores            | Loja                              |
+| Frequência de Uso | Alta                               |
+| Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.            |
+| Fluxo Principal   | - A loja acessa o aplicativo pelo telefone celular. <br> - A loja realiza o login no aplicativo. <br> - A loja acessa a aba de "Meus Produtos". <br> - A loja seleciona a opção de "Cadastrar Produto". <br> - A loja preenche as informações do produto. <br> - A loja salva o produto |
+| Fluxo Alternativo  |   |
+| Fluxo de Exceção  | - A loja acessa o aplicativo pelo telefone celular. <br> - A loja realiza o login no aplicativo. <br> - A loja acessa a aba de "Meus Produtos". <br> - A loja seleciona a opção de "Cadastrar Produto". <br> - A loja preenche as informações do produto. <br> - A loja não salva o produto <br> - O produto não é cadastrado |
+| Pós-condições     | A loja consegue cadastrar um produto no cardápio           |
+| Data da Criação   | 28/11/2024                                          |
+
+<center>
+
+**Autores**: [Lucas Martins Gabriel](https://github.com/martinsglucas)
+
+</center>
+
+## Especificação UC11 Recebe pedidos
+
+| Elemento          | Descrição                                                                     |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Caso de Uso       | Recebe pedidos                                                           |
+| Descrição         | A loja recebe os pedidos realizados pelos clientes                                          |
+| Requisitos        | R27                                  |
+| Atores            | Loja                              |
+| Frequência de Uso | Alta                               |
+| Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.            |
+| Fluxo Principal   | - A loja acessa o aplicativo pelo telefone celular. <br> - A loja realiza o login no aplicativo. <br> - A loja acessa a aba de "Pedidos". <br> - A loja seleciona o pedido que foi realizado. <br> - A loja confirma o pedido. <br> - A loja prepara o pedido. <br> - A loja entrega o pedido |
+| Fluxo Alternativo  |   |
+| Fluxo de Exceção  | - A loja acessa o aplicativo pelo telefone celular. <br> - A loja realiza o login no aplicativo. <br> - A loja acessa a aba de "Pedidos". <br> - A loja não encontrou o pedido que foi realizado. <br> - A loja não confirma o pedido <br> - O pedido não é preparado <br> - O pedido não é entregue |
+| Pós-condições     | A loja consegue receber, preparar e entregar o pedido           |
+| Data da Criação   | 28/11/2024                                          |
+
+<center>
+
+**Autores**: [Lucas Martins Gabriel](https://github.com/martinsglucas)
+
+</center>
+
 ## Histórico de Versão
 
 | Versão | Data da alteração | Comentário                                                                                        | Autor(es)                                                      | Revisor(es) | Data de revisão |
@@ -249,5 +317,6 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | 1.1    | 28/11/2028        | Criação da especialização dos casos de uso UG01, UG02, UG03, UG04, UG05 e atualização da tabela 1 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |             |                 |
 | 1.2    | 28/11/2028        | Criação da especialização dos casos de uso UG06 e UG07 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |             |                 |
 | 1.3    | 28/11/2028        | Criação da especialização do caso de uso UG08 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |             |                 |
+| 1.4    | 28/11/2028        | Adicionando especificação dos casos de uso UC09, UC10 e UCC11 | [Lucas Martins Gabriel](https://github.com/martinsglucas) |             |                 |  
 
 
