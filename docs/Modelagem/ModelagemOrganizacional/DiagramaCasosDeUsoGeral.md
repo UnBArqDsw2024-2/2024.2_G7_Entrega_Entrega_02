@@ -14,17 +14,17 @@ Foi utilizada a ferramenta Excalidraw para a criação do diagrama.
 
 | Código | Caso de Uso                     | Resonsável                      |
 | ------ | ------------------------------- | ------------------------------- |
-| UC01   | Login                           | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
-| UC02   | Editar perfil                   | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
-| UC03   | Buscar produtos                 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
-| UC04   | Buscar lojas                    | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
-| UC05   | Comprar produtos                | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
-| UC06   | Acompanhar pedido               | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 
-| UC07   | Visualizar histórico de pedidos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |
-| UC08   | Acessar suporte via chat     | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |
-| UC09   | Realizar avaliação              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
-| UC10  | Cadastrar cardápio              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
-| UC11  | Recebe pedidos                  | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
+| [UC01](#especificacao-uc01-login)   | Login                           | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| [UC02](#especificacao-uc02-editar-perfil)   | Editar perfil                   | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| [UC03](#especificacao-uc03-buscar-produtos)   | Buscar produtos                 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| [UC04](#especificacao-uc04-buscar-lojas)   | Buscar lojas                    | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| [UC05](#especificacao-uc05-comprar-produtos)   | Comprar produtos                | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |
+| [UC06](#especificacao-uc06-acompanhar-pedido)   | Acompanhar pedido               | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 
+| [UC07](#especificacao-uc07-visualizar-historico-de-pedidos)   | Visualizar histórico de pedidos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |
+| [UC08](#especificacao-uc08-acessar-suporte-via-chat)   | Acessar suporte via chat     | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |
+| [UC09](#especificacao-uc09-realizar-avaliacao)   | Realizar avaliação              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
+| [UC10](#especificacao-uc10-cadastrar-cardápio)  | Cadastrar cardápio              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
+| [UC11](#especificacao-uc11-recebe-pedidos)  | Recebe pedidos                  | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
 | UC12  | Entregar pedido                 |
 | UC13  | Recebe pedido da loja           |
 | UC14  | Localizar o cliente             |
@@ -58,7 +58,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 | Pós-condições     | Condições que devem ser verdadeiras após a execução do caso de uso            |
 | Data da Criação   | Data em que o caso de uso foi criado                                          |
 
-### Especificação UC1 Login
+### Especificação UC01 Login
 
 | Elemento          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -146,7 +146,7 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 </center>
 
-### Especiicação UC05 Comprar produtos
+### Especificação UC05 Comprar produtos
 
 | Elemento            | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
