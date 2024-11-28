@@ -6,6 +6,6 @@ A [Baseline](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Ba
 
 ## Histórico de Versão
 
-| Versão | Data da alteração | Comentário | Autor(es) | Revisor(es) | Data de revisão |
-|--------|-----------|-----------|-----------|-------------|-------------|
-| 1.0 | 16/11/2024 | Criação do documento | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
+| Versão | Data da alteração | Comentário           | Autor(es)                                                 | Revisor(es)                                   | Data de revisão |
+| ------ | ----------------- | -------------------- | --------------------------------------------------------- | --------------------------------------------- | --------------- |
+| 1.0    | 16/11/2024        | Criação do documento | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | [Guilherme Westphall](https:github.com/west7) | 28/11/2024      |
