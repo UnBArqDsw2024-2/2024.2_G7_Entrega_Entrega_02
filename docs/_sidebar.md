@@ -15,4 +15,7 @@
       - [Léxicos](/Modelagem/Extra/Lexicos.md)
       - [Cenários](/Modelagem/Extra/Cenarios)
         - [Introdução](/Modelagem/Extra/Cenarios/introducao.md)
-        - [Cenários Produzidos](/Modelagem/Extra/Cenarios/cenarios.md)
+        - [Cenários Produzidos](/Modelagem/Extra/Cenarios/cenarios.md)      
+      - [Elicitação](/Modelagem/Extra/Elicitacao/Elicitacao.md)
+        - [Entrevistas](/Modelagem/Extra/Elicitacao/Entrevistas.md)
+      - [Baseline](/Modelagem/Extra/Baseline.md)
