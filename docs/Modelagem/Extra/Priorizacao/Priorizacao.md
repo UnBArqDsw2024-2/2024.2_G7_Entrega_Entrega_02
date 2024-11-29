@@ -6,20 +6,26 @@ A priorização de requisitos é o ato de classificar os requisitos elicitados q
 
 ## Metodologia
 
-A metodologia usada para as priorizações foi a MoSCoW, que é uma técnica de priorização de requisitos que classifica os requisitos em quatro categorias: Must have, Should have, Could have e Won't have, e a técnica In or Out que simplesmente classifica os requisitos como dentro ou fora. A tabela 1 mostra a classificação dos requisitos do projeto.
+A metodologia usada para as priorizações foi a MoSCoW, que é uma técnica de priorização de requisitos que classifica os requisitos em quatro categorias: Must have, Should have, Could have e Won't have, e a técnica In or Out que simplesmente classifica os requisitos como dentro ou fora, de forma a complementar a priorização por MoSCoW. A combinação destas metodologias proporciona uma visão abrangente das prioridades do projeto, facilitando decisões estratégicas de desenvolvimento, e as duas técnicas foram aplicadas com possíveis usuários do sistema, em dinâmica de entrevista. A tabela 1 mostra a classificação dos requisitos do projeto.
 
 ## Requisitos priorizados
 
 **Vídeo 1**:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yain1uZ02Z4?si=eSXEhYOmek5nN5YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+**Autor**: [Kallyne Passos](https://github.com/kalipassos)
 
 **Vídeo 2**:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MvDbRvC5bXw?si=kFAU05kI_TAQlmzL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Autor**: [Kallyne Passos](https://github.com/kalipassos)
 
 **Tabela 1**: Priorização de requisitos do aplicativo de delivery.
 
 | ID  | Descrição                                                                                                                                                          | MoSCoW | In or Out |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | --------- |
+|-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-----------|
 | R01 | O aplicativo deve permitir o cadastro de clientes                                                                                                                  | Must   | In        |
 | R02 | O aplicativo deve permitir o cadastro de entregadores                                                                                                              | Must   | In        |
 | R03 | O aplicativo deve permitir o cadastro de lojas                                                                                                                     | Must   | In        |
@@ -83,6 +89,10 @@ A metodologia usada para as priorizações foi a MoSCoW, que é uma técnica de 
 
 **Autores**: [Guilherme Westphall](https:github.com/west7), [Kallyne Passos](https://github.com/kalipassos)
 
+## Conclusão
+
+A implementação das metodologias MoSCoW e In or Out forma uma base sólida para a análise dos requisitos do projeto, permitindo uma tomada de decisão mais assertiva sobre o escopo, a redução de riscos na fase de desenvolvimento e, por fim, uma maior satisfação dos stakeholders através de entregas priorizadas conforme seus objetivos.
+
 ## Referências
 
 1. WIEGERS, Karl E.; BEATTY, Joy. First Things First: Setting Requirement Priorities. In: Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. cap. 16, p. 313-329. ISBN 9780735679665.
@@ -90,7 +100,8 @@ A metodologia usada para as priorizações foi a MoSCoW, que é uma técnica de 
 
 ## Histórico de versões
 
-| Versão | Data da alteração | Comentário           | Autor(es)                                     | Revisor(es) | Data de revisão |
-| ------ | ----------------- | -------------------- | --------------------------------------------- | ----------- | --------------- |
-| 1.0    | 28/11/2024        | Criação do documento | [Guilherme Westphall](https://github.com/west7) |             |                 |
-| 1.1    | 28/11/2024        | Adição da tabela de requisitos   | [Guilherme Westphall](https://github.com/west7) |             |                 |
+| Versão | Data da alteração | Comentário                          | Autor(es)                                       | Revisor(es)                                     | Data de revisão |
+|--------|-------------------|-------------------------------------|-------------------------------------------------|-------------------------------------------------|-----------------|
+| 1.0    | 28/11/2024        | Criação do documento                | [Guilherme Westphall](https://github.com/west7) | [Kallyne Passos](https://github.com/kalipassos) | 28/11/2024      |
+| 1.1    | 28/11/2024        | Adição da tabela de requisitos      | [Guilherme Westphall](https://github.com/west7) | [Kallyne Passos](https://github.com/kalipassos) | 28/11/2024      |
+| 1.2    | 28/11/2024        | Adição das gravações de priorização | [Kallyne Passos](https://github.com/kalipassos) | [Guilherme Westphall](https://github.com/west7) | 28/11/2024      |
