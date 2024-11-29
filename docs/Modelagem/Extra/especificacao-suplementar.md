@@ -221,8 +221,8 @@ Os requisitos de implementação tratam dos aspectos técnicos e tecnológicos n
 
 | Versão | Data da alteração | Comentário                                                   | Autor(es)                                              | Revisor(es) | Data de revisão |
 | ------ | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------ | ----------- | --------------- |
-| 1.0    | 18/11/2024        | Criação do documento                                         | [Kauan Eiras](https://github.com/kauaneiras)           |             |                 |
-| 1.1    | 18/11/2024        | Adição da Usabilidade e Confiabilidade                       | [Kauan Eiras](https://github.com/kauaneiras)           |             |                 |
-| 1.2    | 27/11/2024        | Adição do Desempenho, Suportabilidade e Restrições de Design | [Kallyne Macedo Passos](https://github.com/kalipassos) |             |                 |
-| 1.3    | 28/11/2024        | Adição das tabelas de requisitos de implementação, interface e físicos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |             |                 |
+| 1.0    | 18/11/2024        | Criação do documento                                         | [Kauan Eiras](https://github.com/kauaneiras)           |         [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)    |     28/11/2024            |
+| 1.1    | 18/11/2024        | Adição da Usabilidade e Confiabilidade                       | [Kauan Eiras](https://github.com/kauaneiras)           |      [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)       |      28/11/2024           |
+| 1.2    | 27/11/2024        | Adição do Desempenho, Suportabilidade e Restrições de Design | [Kallyne Macedo Passos](https://github.com/kalipassos) |     [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)        |       28/11/2024          |
+| 1.3    | 28/11/2024        | Adição das tabelas de requisitos de implementação, interface e físicos | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |     [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)        |         28/11/2024        |
 
