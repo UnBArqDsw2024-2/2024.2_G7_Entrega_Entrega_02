@@ -127,7 +127,7 @@ Essa abordagem permite uma visualização estruturada do backlog, facilitando a 
 
 | Versão | Data      | Descrição    | Autor     | Revisor | Data de revisão |
 |--------|-----------|--------------|-----------|---------|-------------|
-| 1.0 | 17/11/2024 | Criação dos Temas e Épicos | [Kauan Eiras](https://github.com/kauaneiras), [Raquel Andrade](https://github.com/raquel-andrade) | ------- | ------- |
-| 1.1 | 17/11/2024 | Adiciona as Histórias de usuário US01 até US13 | [Raquel Andrade](https://github.com/raquel-andrade) | ------- | ------- |
-| 1.2 | 18/11/2024 | Adiciona as Histórias de usuário US14 até US24| [Kauan Eiras](https://github.com/kauaneiras) | ------- | ------- |
-| 1.3 | 18/11/2024 | Adiciona as Histórias de usuário US25 até US37, Adiciona dois epicos "Confirmar entrega" e "Aparência" | [Leonardo Aguiar](https://github.com/Leonardo0o0) | ------- | ------- |
+| 1.0 | 17/11/2024 | Criação dos Temas e Épicos | [Kauan Eiras](https://github.com/kauaneiras), [Raquel Andrade](https://github.com/raquel-andrade) | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 28/11/2024 |
+| 1.1 | 17/11/2024 | Adiciona as Histórias de usuário US01 até US13 | [Raquel Andrade](https://github.com/raquel-andrade) | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 28/11/2024 |
+| 1.2 | 18/11/2024 | Adiciona as Histórias de usuário US14 até US24| [Kauan Eiras](https://github.com/kauaneiras) | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 28/11/2024 |
+| 1.3 | 18/11/2024 | Adiciona as Histórias de usuário US25 até US37, Adiciona dois epicos "Confirmar entrega" e "Aparência" | [Leonardo Aguiar](https://github.com/Leonardo0o0) | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 28/11/2024 |

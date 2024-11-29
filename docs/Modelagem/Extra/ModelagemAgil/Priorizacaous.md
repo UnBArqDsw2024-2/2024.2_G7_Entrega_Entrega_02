@@ -43,13 +43,17 @@ Neste documento será apresentada a priorização das histórias de usuário, el
 |US36| Localizar lojas | -[] O entregador deve poder selecionar uma loja próxima específica para realizar uma entrega; <br> -[] O entregador deve poder visualizar informações como nome da loja, distância e quantidade de pedidos disponíveis. | Média |
 |US37| Localizar Pedidos | -[] O entregador deve poder visualizar uma lista de pedidos disponíveis na loja selecionada; <br> -[] Cada pedido deve exibir informações como endereço de entrega, valor da entrega e tempo estimado. | Média |
 
+<center>
+
 **Autores**: [Leonardo Sobrinho de Aguiar](https://github.com/Leonardo0o0), [Raquel Ferreira Andrade](https://github.com/raquel-andrade)
+
+</center>
 
 ## Histórico de Versões
 
 | Versão | Data      | Descrição    | Autor     | Revisor | Data de revisão |
 |--------|-----------|--------------|-----------|---------|-------------|
-| 1.0    |28/11/2024 | Criação da tabela de priorização das histórias de usuário| [Leonardo Sobrinho de Aguiar](https://github.com/Leonardo0o0), [Raquel Ferreira Andrade](https://github.com/raquel-andrade) |---------|-------------|
-| 1.1    |28/11/2024 | Adicão da US01 à US20| [Leonardo Sobrinho de Aguiar](https://github.com/Leonardo0o0) |---------|-------------|
-| 1.2    |28/11/2024 | Adição da US21 à US37| [Raquel Ferreira Andrade](https://github.com/raquel-andrade) |---------|-------------|
+| 1.0    |28/11/2024 | Criação da tabela de priorização das histórias de usuário| [Leonardo Sobrinho de Aguiar](https://github.com/Leonardo0o0), [Raquel Ferreira Andrade](https://github.com/raquel-andrade) | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 28/11/2024 |
+| 1.1    |28/11/2024 | Adicão da US01 à US20| [Leonardo Sobrinho de Aguiar](https://github.com/Leonardo0o0) | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 28/11/2024 |
+| 1.2    |28/11/2024 | Adição da US21 à US37| [Raquel Ferreira Andrade](https://github.com/raquel-andrade) | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 28/11/2024 |
 

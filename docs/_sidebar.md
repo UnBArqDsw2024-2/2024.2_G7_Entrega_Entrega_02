@@ -12,6 +12,7 @@
     - [2.3. Modelagem UML Organizacional ou Casos de Uso](/Modelagem/ModelagemOrganizacional/2.3.ModelagemOrganizacionalCasosDeUso.md)
     - [2.4. Participações - Modelagem](/Modelagem/2.4.ParticipacoesModelagem.md)
     - [2.5. Iniciativas Extras - Modelagem](/Modelagem/Extra/2.5.IniciativasExtras.md)
-      - [2.5.1. Modelagem Ágil](/Modelagem/Extra/2.5.1.ModelagemAgil/Backlog.md)
-      - [2.5.2. Priorização das Histórias de Usuário](/Modelagem/Extra/2.5.1.ModelagemAgil/Priorizacaous.md)
+      - Modelagem Ágil
+        - [Backlog](/Modelagem/Extra/ModelagemAgil/Backlog.md)
+        - [Priorização das Histórias de Usuário](/Modelagem/Extra/ModelagemAgil/Priorizacaous.md)
 
