@@ -127,7 +127,7 @@ Assim como definido no arquivo de perguntas orientadoras da entrevista, question
 
 | Versão | Data da alteração | Comentário | Autor(es) | Revisor(es) | Data de revisão |
 |--------|-----------|-----------|-----------|-------------|-------------|
-| 1.0 | 14/11/2024 | Criação do documento, introdução e metodologia | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
-| 1.1 | 25/11/2024 | Adicionando documento de fluxos e entrevista 1 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |  |  |
-| 1.1 | 26/11/2024 | Adicionando a entrevista 2 e as sugestões de melhoria das entrevistas 1 e 2 | [Guilherme Silva Dutra](https://github.com/GuiDutra21) |  |  |
-| 1.2 | 27/11/2024 | Adicionando a entrevista 3 | [Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns) |  |  |
+| 1.0 | 14/11/2024 | Criação do documento, introdução e metodologia | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | [Leonardo Aguiar](https://github.com/Leonardo0o0) | 28/11/2024 |
+| 1.1 | 25/11/2024 | Adicionando documento de fluxos e entrevista 1 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | [Leonardo Aguiar](https://github.com/Leonardo0o0) | 28/11/2024 |
+| 1.1 | 26/11/2024 | Adicionando a entrevista 2 e as sugestões de melhoria das entrevistas 1 e 2 | [Guilherme Silva Dutra](https://github.com/GuiDutra21) | [Leonardo Aguiar](https://github.com/Leonardo0o0) | 28/11/2024 |
+| 1.2 | 27/11/2024 | Adicionando a entrevista 3 | [Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns) | [Leonardo Aguiar](https://github.com/Leonardo0o0) | 28/11/2024 |
