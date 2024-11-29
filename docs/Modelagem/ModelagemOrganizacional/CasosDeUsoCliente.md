@@ -1,4 +1,4 @@
-## Diagrama Casos de Uso - Cliente
+# Diagrama Casos de Uso - Cliente
 
 ## Introdução
 Nesse documento será apresentado o diagrama de casos de uso e suas respectivas especificações referentes ao Cliente.

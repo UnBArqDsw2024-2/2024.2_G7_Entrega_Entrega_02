@@ -1,4 +1,4 @@
-# 2.2.1 Diagrama de atividades
+# Diagrama de Atividades
 
 ## Introdução
 

@@ -1,4 +1,4 @@
-# Diagrama de Casos de Uso Geral
+# Diagrama de Casos de Uso - Geral
 
 ## Introdução
 

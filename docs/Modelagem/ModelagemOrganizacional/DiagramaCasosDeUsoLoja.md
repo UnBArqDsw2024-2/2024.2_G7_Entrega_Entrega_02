@@ -1,4 +1,4 @@
-# Diagrama de Casos de Uso da Loja
+# Diagrama de Casos de Uso - Loja
 
 ## Introdução
 

@@ -1,4 +1,4 @@
-# 2.3.3 Caso de uso Entregador
+# Diagrama de Casos de Uso - Entregador
 
 ## Introdução
 
