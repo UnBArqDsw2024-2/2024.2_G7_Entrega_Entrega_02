@@ -13,7 +13,7 @@
     - [2.2. Modelagem UML Dinâmica](/Modelagem/ModelagemDinamica/2.2.ModelagemDinamica.md)
     - [2.3. Modelagem UML Organizacional ou Casos de Uso](/Modelagem/ModelagemOrganizacional/2.3.ModelagemOrganizacionalCasosDeUso.md)
     - [2.4. Participações - Modelagem](/Modelagem/2.4.ParticipacoesModelagem.md)
-    - [2.5. Iniciativas Extras - Modelagem](/Modelagem/Extra/2.5.IniciativasExtras.md)
+    - [2.5. Iniciativas Extras - Modelagem](/Modelagem/Extra/Extra/2.5.IniciativasExtras.md)
       - [Léxicos](/Modelagem/Extra/Lexicos.md)
       - [Cenários](/Modelagem/Extra/Cenarios)
         - [Introdução](/Modelagem/Extra/Cenarios/introducao.md)
@@ -21,3 +21,7 @@
       - [Elicitação](/Modelagem/Extra/Elicitacao/Elicitacao.md)
         - [Entrevistas](/Modelagem/Extra/Elicitacao/Entrevistas.md)
       - [Baseline](/Modelagem/Extra/Baseline.md)
+      - Modelagem Ágil
+        - [Backlog](/Modelagem/Extra/ModelagemAgil/Backlog.md)
+        - [Priorização das Histórias de Usuário](/Modelagem/Extra/ModelagemAgil/Priorizacaous.md)
+
