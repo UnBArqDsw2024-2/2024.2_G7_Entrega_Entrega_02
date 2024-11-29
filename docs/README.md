@@ -34,6 +34,15 @@ Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
 
 <center>
 
+![diagrama-de-classes](assets/diagrama-de-classes.png)
+
+![diagrama-de-componentes](assets/profile-section.png)
+
+![diagrama-de-atividades](assets/image-1.png)
+
+![diagrama-de-estados](assets/Diagrama%20de%20Estados.jpg)
+
+![diagrama-de-casos-de-uso-geral](assets/casos-de-uso-geral.png)
 
 
 </center>
