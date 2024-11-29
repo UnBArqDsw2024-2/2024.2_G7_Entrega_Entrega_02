@@ -18,6 +18,7 @@
       - [Léxicos](/Modelagem/Extra/Lexicos.md)
       - Cenários
         - [Introdução](/Modelagem/Extra/Cenarios/introducao.md)
+      - [Diagrama Modelo-Relacional](/Modelagem/Extra/DiagramaModeloRelacional.md)
         - [Cenários Produzidos](/Modelagem/Extra/Cenarios/cenarios.md)      
       - [Elicitação](/Modelagem/Extra/Elicitacao/Elicitacao.md)
         - [Entrevistas](/Modelagem/Extra/Elicitacao/Entrevistas.md)
