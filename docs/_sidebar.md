@@ -25,6 +25,7 @@
         - [Cenários Produzidos](/Modelagem/Extra/Cenarios/cenarios.md)      
       - [Elicitação](/Modelagem/Extra/Elicitacao/Elicitacao.md)
         - [Entrevistas](/Modelagem/Extra/Elicitacao/Entrevistas.md)
+      - [Priorização de Requisitos](/Modelagem/Extra/Priorizacao/Priorizacao.md)
       - [Baseline](/Modelagem/Extra/Baseline.md)
       - Modelagem Ágil
         - [Backlog](/Modelagem/Extra/ModelagemAgil/Backlog.md)
