@@ -221,8 +221,6 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 ## Especificação UC08 Acessar suporte via chat
 
-<!-- todo -->
-
 | Elemento          | Descrição                                                                     |
 | ----------------- | ----------------------------------------------------------------------------- |
 | Caso de Uso       | Acessar suporte via chat                                                           |
@@ -309,14 +307,104 @@ Posteriormente, todos os casos de uso representados no diagrama foram especifica
 
 </center>
 
+## Especificação UC12 Entregar pedidos
+
+| Elemento          | Descrição                                                                     |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Caso de Uso       | Entregar pedidos                                                           |
+| Descrição         | A loja realiza a entrega do pedido                                         |
+| Requisitos        | R28 e R30                                   |
+| Atores            | Loja                              |
+| Frequência de Uso | Alta                               |
+| Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.<br> - Pedido pronto para entrega           |
+| Fluxo Principal   | - A loja termina um pedido <br> - A loja acessa o aplicativo pelo telefone celular. <br> - A loja realiza o login no aplicativo.<br> - A loja atualiza o status do pedido para pronto para entrega.<br> - A loja confirma ao aplicativo que precisa de um entregador do HungryHub para fazer a entrega do pedido.<br> - A loja entrega o pedido ao entregador |
+| Fluxo Alternativo 1 | - A loja termina um pedido <br> - A loja acessa o aplicativo pelo telefone celular. <br> - A loja realiza o login no aplicativo.<br> - A loja atualiza o status do pedido para pronto para entrega.<br> - A loja diz ao aplicativo que não vai precisar de um motorista do HungryHub para realizar a entrega.<br> - A loja entrega o pedido a um motorista parceiro. |
+| Fluxo Alternativo 2 |- A loja termina um pedido <br> - A loja acessa o aplicativo pelo telefone celular. <br> - A loja realiza o login no aplicativo.<br> - A loja atualiza o status do pedido para pronto para entrega.<br> - O aplicativo informa que o pedido será retirado fisicamente pelo cliente.<br> - A loja entrega o pedido ao cliente. |
+| Fluxo de Exceção  | - A loja acessa o aplicativo pelo telefone celular. <br> - A loja realiza o login no aplicativo. <br> - A loja acessa a aba de "Pedidos". <br> - A loja recebe um pedido. <br> - A loja prepera um pedido <br> - O entregador não aparece para buscar o pedido e nem o cliente retira o pedido fisicamente na loka <br> - O pedido não é entregue |
+| Pós-condições     | - O pedido é entregue ao cliente  |
+| Data da Criação   | 28/11/2024 |
+
+<center>
+
+**Autores**: [Guilherme Silva Dutra](https://github.com/GuiDutra21)
+
+</center>
+
+## Especificação UC13 Recebe pedido da loja
+
+| Elemento          | Descrição                                                                     |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Caso de Uso       | Recebe pedido da loja                                                           |
+| Descrição         | O entregador faz a retirada do pedido para realizar a sua entrega               |
+| Requisitos        | R31 |
+| Atores            | Entregador                         |
+| Frequência de Uso | Alta                               |
+| Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.<br> - Ser um entregador da loja ou do aplicativo     |
+| Fluxo Principal   | - O entregador acessa o celular.<br> - O entregador faz login<br> - O entregador recebe uma notificação de uma solicitação de entrega.<br> - O entregador aceita a solicitação e se direciona até a loja.<br> - O entregador recebe o pedido da loja. |
+| Fluxo Alternativo |  |
+| Fluxo de Exceção  | - O entregador recebe uma notificação no celular de uma solicitação de entrega.<br> - O entregador aceita a solicitação e se direciona até a loja.<br> - O entr   egador demora muito a chegar na loja e o aplicatio designa outro entregador para aquele pedido. <br> - O entregador não recebe o pedido. |
+| Pós-condições     | - O entregador recebe o pedido para fazer a entrega |
+| Data da Criação   | 28/11/2024 |
+
+<center>
+
+**Autores**: [Guilherme Silva Dutra](https://github.com/GuiDutra21)
+
+</center>
+
+## Especificação UC14 Localizar o cliente
+
+| Elemento          | Descrição                                                                     |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Caso de Uso       | Localizar o cliente                                                           |
+| Descrição         | O entregador atráves do aplicativo localiza o endereço físico do cliente                         |
+| Requisitos        | R33 |
+| Atores            | Entregador                            |
+| Frequência de Uso | Alta                               |
+| Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.<br> - O entregador recebeu um pedido e está para entregrega-lo|
+| Fluxo Principal   | - O entregador recebe um pedido da loja.<br> - O entregador acessa o aplicativo pelo celular.<br> - O entregador faz login.<br> - O entregador busca o endereço do cliente pela geolocalização do aplicativo. |
+| Fluxo Alternativo |  |
+| Fluxo de Exceção  | - O entregador recebe um pedido da loja.<br> - O entregador acessa o aplicativo pelo celular.<br> - O entregador faz login.<br> - O entregador tenta buscar o endereço do cliente pela geolocalização do aplicativo, mas o serviço está fora do ar.<br> - O entregador não consegue locaizar o cliente |
+| Pós-condições     | - O entregador localiza o endereço físico do cliente para fazer a entrega |
+| Data da Criação   | 28/11/2024 |
+
+<center>
+
+**Autores**: [Guilherme Silva Dutra](https://github.com/GuiDutra21)
+
+</center>
+
+## Especificação UC15 Localizar a loja
+
+| Elemento          | Descrição                                                                     |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Caso de Uso       | Localizar a loja                                                           |
+| Descrição         | O entregador atráves do aplicativo localiza o endereçço físico da loja                         |
+| Requisitos        | R32 |
+| Atores            | Entregador                            |
+| Frequência de Uso | Alta                               |
+| Pré-condições     | - Um telefone celular com conexão com a internet.<br> - O aplicativo HungryHub baixado no telefone celular.<br> - Uma conta logada no aplicativo HungryHub.<br> - O entregador deve ter aceitado uma solicitação de entrega |
+| Fluxo Principal   |  - O entregador acessa o celular.<br> - O entregador faz login<br> - O entregador recebe uma notificação de uma solicitação de entrega.<br> - O entregador aceita a solicitação.<br> - O entregador pelo serviço de geolocalização do aplicativo localiza o endereço físico da loja. |
+| Fluxo Alternativo |  |
+| Fluxo de Exceção  | - O entregador acessa o celular.<br> - O entregador faz login<br> - O entregador recebe uma notificação de uma solicitação de entrega.<br> - O entregador aceita a solicitação.<br> - O entregador pelo serviço de geolocalização do aplicativo tenta localiza o endereço físico da loja, mas o serviço não está disponível.<br> - O entregador não consegue localizar a loja.|
+| Pós-condições     | - O entregador localiza o endereço físisco da loja para realizar a entrega |
+| Data da Criação   | 28/11/2024 |
+
+<center>
+
+**Autores**: [Guilherme Silva Dutra](https://github.com/GuiDutra21)
+
+</center>
+
 ## Histórico de Versão
 
 | Versão | Data da alteração | Comentário                                                                                        | Autor(es)                                                      | Revisor(es) | Data de revisão |
 | ------ | ----------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ----------- | --------------- |
 | 1.0    | 26/11/2024        | Criação do documento, adicionando introdução, metodologia e diagrama                              | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo)      |             |                 |
-| 1.1    | 28/11/2028        | Criação da especialização dos casos de uso UG01, UG02, UG03, UG04, UG05 e atualização da tabela 1 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |             |                 |
-| 1.2    | 28/11/2028        | Criação da especialização dos casos de uso UG06 e UG07 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |             |                 |
+| 1.1    | 28/11/2028        | Criação da especialização dos casos de uso UC01, UC02, UC03, UC04, UC05 e atualização da tabela 1 | [Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |             |                 |
+| 1.2    | 28/11/2028        | Criação da especialização dos casos de uso UC06 e UC07 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |             |                 |
 | 1.3    | 28/11/2028        | Criação da especialização do caso de uso UG08 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) |             |                 |
-| 1.4    | 28/11/2028        | Adicionando especificação dos casos de uso UC09, UC10 e UCC11 | [Lucas Martins Gabriel](https://github.com/martinsglucas) |             |                 |  
+| 1.4    | 28/11/2028        | Adicionando especificação dos casos de uso UC09, UC10 e UC11 | [Lucas Martins Gabriel](https://github.com/martinsglucas) |             |                 |  
+| 1.5    | 28/11/2028        | Adicionando especificação dos casos de uso UC12, UC13, UC14 e UC15 | [Guilherme Silva Dutra](https://github.com/GuiDutra21) |             |                 |  
 
 
