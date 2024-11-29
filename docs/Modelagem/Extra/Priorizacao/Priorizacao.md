@@ -10,19 +10,28 @@ A metodologia usada para as priorizações foi a MoSCoW, que é uma técnica de 
 
 ## Requisitos priorizados
 
-**Vídeo 1**:
+
+### Vídeo 1:
+
+<center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Yain1uZ02Z4?si=eSXEhYOmek5nN5YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Autor**: [Kallyne Passos](https://github.com/kalipassos)
 
-**Vídeo 2**:
+</center>
+
+### Vídeo 2:
+
+<center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MvDbRvC5bXw?si=kFAU05kI_TAQlmzL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Autor**: [Kallyne Passos](https://github.com/kalipassos)
 
-**Tabela 1**: Priorização de requisitos do aplicativo de delivery.
+</center>
+
+### Tabela 1 - Priorização de Requisitos do HungryHub.
 
 | ID  | Descrição                                                                                                                                                          | MoSCoW | In or Out |
 |-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-----------|
@@ -102,6 +111,6 @@ A implementação das metodologias MoSCoW e In or Out forma uma base sólida par
 
 | Versão | Data da alteração | Comentário                          | Autor(es)                                       | Revisor(es)                                     | Data de revisão |
 |--------|-------------------|-------------------------------------|-------------------------------------------------|-------------------------------------------------|-----------------|
-| 1.0    | 28/11/2024        | Criação do documento                | [Guilherme Westphall](https://github.com/west7) | [Kallyne Passos](https://github.com/kalipassos) | 28/11/2024      |
-| 1.1    | 28/11/2024        | Adição da tabela de requisitos      | [Guilherme Westphall](https://github.com/west7) | [Kallyne Passos](https://github.com/kalipassos) | 28/11/2024      |
-| 1.2    | 28/11/2024        | Adição das gravações de priorização | [Kallyne Passos](https://github.com/kalipassos) | [Guilherme Westphall](https://github.com/west7) | 28/11/2024      |
+| 1.0    | 28/11/2024        | Criação do documento                | [Guilherme Westphall](https://github.com/west7) | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 29/11/2024      |
+| 1.1    | 28/11/2024        | Adição da tabela de requisitos      | [Guilherme Westphall](https://github.com/west7) | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 29/11/2024      |
+| 1.2    | 28/11/2024        | Adição das gravações de priorização | [Kallyne Passos](https://github.com/kalipassos) | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | 29/11/2024      |
