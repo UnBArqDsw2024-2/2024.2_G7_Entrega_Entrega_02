@@ -25,10 +25,10 @@ Foi utilizada a ferramenta Excalidraw para a criação do diagrama.
 | [UC09](#especificação-uc09-realizar-avaliação)   | Realizar avaliação              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
 | [UC10](#especificação-uc10-cadastrar-cardápio)  | Cadastrar cardápio              | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
 | [UC11](#especificação-uc11-recebe-pedidos)  | Recebe pedidos                  | [Lucas Martins Gabriel](https://github.com/martinsglucas) |
-| UC12  | Entregar pedido                 |
-| UC13  | Recebe pedido da loja           |
-| UC14  | Localizar o cliente             |
-| UC15  | Localizar a loja                |
+| [UC12](#especificação-uc12-entregar-pedidos)  | Entregar pedido                 | [Guilherme Silva Dutra](https://github.com/GuiDutra21) |
+| [UC13](#especificação-uc13-recebe-pedido-da-loja)  | Recebe pedido da loja           | [Guilherme Silva Dutra](https://github.com/GuiDutra21) |
+| [UC14](#especificação-uc14-localizar-o-cliente)  | Localizar o cliente             | [Guilherme Silva Dutra](https://github.com/GuiDutra21) |
+| [UC15](#especificação-uc15-localizar-a-loja)  | Localizar a loja                | [Guilherme Silva Dutra](https://github.com/GuiDutra21) |
 
 Posteriormente, todos os casos de uso representados no diagrama foram especificados utilizando a [tabela modelo](Modelagem/ModelagemOrganizacional/2.3.ModelagemOrganizacionalCasosDeUso.md#tabela-2-modelo-de-especificação-dos-casos-de-uso) como base.
 
