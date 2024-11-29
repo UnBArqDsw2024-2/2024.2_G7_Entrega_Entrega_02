@@ -11,6 +11,7 @@
       - [Diagrama de Classes](/Modelagem/ModelagemEstatica/DiagramaClasses.md)
       - [Diagrama de Componentes](/Modelagem/ModelagemEstatica/DiagramaComponentes.md)
     - [2.2. Modelagem UML Dinâmica](/Modelagem/ModelagemDinamica/2.2.ModelagemDinamica.md)
+      - [Diagrama de Estados](/Modelagem/ModelagemDinamica/DiagramaDeEstados.md)
     - [2.3. Modelagem UML Organizacional ou Casos de Uso](/Modelagem/ModelagemOrganizacional/2.3.ModelagemOrganizacionalCasosDeUso.md)
     - [2.4. Participações - Modelagem](/Modelagem/2.4.ParticipacoesModelagem.md)
     - [2.5. Iniciativas Extras - Modelagem](/Modelagem/Extra/Extra/2.5.IniciativasExtras.md)
