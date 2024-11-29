@@ -34,19 +34,82 @@ Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
 
 <center>
 
-<!-- colocar imagens da entrega aqui -->
+
 
 </center>
 
 ## Há algo a ser executado?
 
-( ) SIM
+(X) SIM
 
 ( ) NÃO
 
+O ambiente de desenvolvimento do projeto foi configurado e pode ser encontrado na branch [dev](https://github.com/UnBArqDsw2024-2/2024.2_G7_Entrega_Entrega_02/tree/dev) do repositório. Na branch foi criado um documento para auxiliar a configurar o ambiente de desenvolvimento e executar o projeto.
+
+### Back
+
+1. Entre na pasta do projeto:
+
+```bash
+    cd HungryHub/HungryHub.2024.2-Back
+```
+
+2. Crie um ambiente virtual com o comando:
+
+```bash
+    python3 -m venv ambv
+```
+
+3. Ative o ambiente virtual com o comando:
+
+```bash
+    source ambv/bin/activate #linux
+    .\ambv\Scripts\activate #windows
+``` 
+4. Instale as dependências do projeto com o comando:
+
+```bash
+    pip install -r requirements.txt
+```
+5. No primeiro acesso execute o comando:
+
+```bash
+    python manage.py migrate
+```
+
+6. Execute a aplicação com o comando:
+
+```bash
+    python manage.py runserver
+```
+
+Os endpoints disponíveis estão em:
+`localhost:8000/api/swagger`
+
+### Front
+
+1. Entre na pasta do projeto:
+   
+```bash
+    cd HungryHub/HungryHub.2024.2-Front/hungryhub
+```
+
+2. Instale as dependências do projeto com o comando:
+
+```bash
+    npm install
+```
+
+3. Para executar o frontend com o expo basta executar o seguinte comando:
+
+```bash
+    npx expo start
+```
+Após isso, basta escanear o QR Code com o aplicativo `Expo Go` no seu celular, rodar em um emulador ou até mesmo pelo navegador.
 
 ## Histórico de Versão
 
 | Versão | Data da alteração | Comentário | Autor(es) | Revisor(es) | Data de revisão |
 | -- | -- | -- | -- | -- | -- |
 | 1.0 | 13/11/2024 | Criação do documento | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | | |
+| 1.1 | 28/11/2024 | Adicionando elementos da entrega 2 | [Felipe Amorim de Araújo](https://github.com/lipeaaraujo) | | |
