@@ -26,28 +26,28 @@ Foi utilizada a ferramenta Draw.io para a criação do diagrama.
 
 | Código | Caso de Uso | Responsável |
 |--------|-------------|-------------|
-| [UCL01](#tabela-3-caso-de-uso---ucl01-cadastrar-loja-no-aplicativo) | Cadastrar Loja no Aplicativo | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL02](#tabela-4-caso-de-uso---ucl02-gerenciar-informações-da-loja) | Gerenciar Informações da Loja | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL03](#tabela-5-caso-de-uso---ucl03-cadastrar-cardápio) | Cadastrar Cardápio | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL04](#tabela-6-caso-de-uso---ucl04-gerir-cardápio) | Gerir Cardápio | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL05](#tabela-7-caso-de-uso---ucl05-cadastrar-adicional-nos-produtos) | Cadastrar Adicional nos Produtos | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL06](#tabela-8-caso-de-uso---ucl06-configurar-adicionais-nos-produtos) | Configurar Adicionais nos Produtos | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL07](#tabela-9-caso-de-uso---ucl07-receber-pedidos) | Receber Pedidos | [Kallyne Macedo](https://github.com/kalipassos) |
-| [UCL08](#tabela-10-caso-de-uso---ucl08-exibir-detalhes-de-pedido) | Exibir Detalhes de Pedido | [Kallyne Macedo](https://github.com/kalipassos) |
-| [UCL09](#tabela-11-caso-de-uso---ucl09-atualizar-status-do-pedido) | Atualizar Status do Pedido | [Kallyne Macedo](https://github.com/kalipassos) |
-| [UCL10](#tabela-12-caso-de-uso---ucl10-receber-notificações-de-pedidos) | Receber Notificações de Pedidos | [Kallyne Macedo](https://github.com/kalipassos) |
-| [UCL11](#tabela-13-caso-de-uso---ucl11-configurar-entrega-pela-própria-loja) | Configurar Entrega pela Própria Loja | [Kallyne Macedo](https://github.com/kalipassos) |
-| [UCL12](#tabela-14-caso-de-uso---ucl12-configurar-retirada-na-loja) | Configurar Retirada na Loja | [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL13](#tabela-15-caso-de-uso---ucl13-configurar-retirada-por-motorista-parceiro) | Configurar Retirada por Motorista Parceiro | [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL14](#tabela-16-caso-de-uso---ucl14-criar-promoção) | Criar Promoção | [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL15](#tabela-17-caso-de-uso---ucl15-editar-promoção) | Editar Promoção | [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL16](#tabela-18-caso-de-uso---ucl16-criar-combo) | Criar Combo | [Leonardo Aguiar](https://github.com/Leonardo0o0) |
-| [UCL17](#tabela-19-caso-de-uso---ucl17-editar-combo) | Editar Combo | [Kauan T. Eiras](https://github.com/kauaneiras) |
-| [UCL18](#tabela-20-caso-de-uso---ucl18-visualizar-e-responder-avaliações) | Visualizar e Responder Avaliações | [Kauan T. Eiras](https://github.com/kauaneiras) |
-| [UCL19](#tabela-21-caso-de-uso---ucl19-chat-para-comunicação-direta) | Chat para Comunicação Direta | [Kauan T. Eiras](https://github.com/kauaneiras) |
-| [UCL20](#tabela-22-caso-de-uso---ucl20-gerar-relatórios) | Gerar Relatórios | [Kauan T. Eiras](https://github.com/kauaneiras) |
-| [UCL21](#tabela-23-caso-de-uso---ucl21-exibir-histórico-financeiro-da-loja) | Exibir Histórico Financeiro da Loja | [Kauan T. Eiras](https://github.com/kauaneiras) |
-| [UCL22](#tabela-24-caso-de-uso---ucl22-gerenciar-as-financas-da-loja) | Gerenciar as Finanças da Loja | [Kauan T. Eiras](https://github.com/kauaneiras) |
+| [UCL01](#tabela-3-caso-de-uso-ucl01-cadastrar-loja-no-aplicativo) | Cadastrar Loja no Aplicativo | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL02](#tabela-4-caso-de-uso-ucl02-gerenciar-informações-da-loja) | Gerenciar Informações da Loja | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL03](#tabela-5-caso-de-uso-ucl03-cadastrar-cardápio) | Cadastrar Cardápio | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL04](#tabela-6-caso-de-uso-ucl04-gerir-cardápio) | Gerir Cardápio | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL05](#tabela-7-caso-de-uso-ucl05-cadastrar-adicional-nos-produtos) | Cadastrar Adicional nos Produtos | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL06](#tabela-8-caso-de-uso-ucl06-configurar-adicionais-nos-produtos) | Configurar Adicionais nos Produtos | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras), [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL07](#tabela-9-caso-de-uso-ucl07-receber-pedidos) | Receber Pedidos | [Kallyne Macedo](https://github.com/kalipassos) |
+| [UCL08](#tabela-10-caso-de-uso-ucl08-exibir-detalhes-de-pedido) | Exibir Detalhes de Pedido | [Kallyne Macedo](https://github.com/kalipassos) |
+| [UCL09](#tabela-11-caso-de-uso-ucl09-atualizar-status-do-pedido) | Atualizar Status do Pedido | [Kallyne Macedo](https://github.com/kalipassos) |
+| [UCL10](#tabela-12-caso-de-uso-ucl10-receber-notificações-de-pedidos) | Receber Notificações de Pedidos | [Kallyne Macedo](https://github.com/kalipassos) |
+| [UCL11](#tabela-13-caso-de-uso-ucl11-configurar-entrega-pela-própria-loja) | Configurar Entrega pela Própria Loja | [Kallyne Macedo](https://github.com/kalipassos) |
+| [UCL12](#tabela-14-caso-de-uso-ucl12-configurar-retirada-na-loja) | Configurar Retirada na Loja | [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL13](#tabela-15-caso-de-uso-ucl13-configurar-retirada-por-motorista-parceiro) | Configurar Retirada por Motorista Parceiro | [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL14](#tabela-16-caso-de-uso-ucl14-criar-promoção) | Criar Promoção | [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL15](#tabela-17-caso-de-uso-ucl15-editar-promoção) | Editar Promoção | [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL16](#tabela-18-caso-de-uso-ucl16-criar-combo) | Criar Combo | [Leonardo Aguiar](https://github.com/Leonardo0o0) |
+| [UCL17](#tabela-19-caso-de-uso-ucl17-editar-combo) | Editar Combo | [Kauan T. Eiras](https://github.com/kauaneiras) |
+| [UCL18](#tabela-20-caso-de-uso-ucl18-visualizar-e-responder-avaliações) | Visualizar e Responder Avaliações | [Kauan T. Eiras](https://github.com/kauaneiras) |
+| [UCL19](#tabela-21-caso-de-uso-ucl19-chat-para-comunicação-direta) | Chat para Comunicação Direta | [Kauan T. Eiras](https://github.com/kauaneiras) |
+| [UCL20](#tabela-22-caso-de-uso-ucl20-gerar-relatórios) | Gerar Relatórios | [Kauan T. Eiras](https://github.com/kauaneiras) |
+| [UCL21](#tabela-23-caso-de-uso-ucl21-exibir-histórico-financeiro-da-loja) | Exibir Histórico Financeiro da Loja | [Kauan T. Eiras](https://github.com/kauaneiras) |
+| [UCL22](#tabela-24-caso-de-uso-ucl22-gerenciar-as-finanças-da-loja) | Gerenciar as Finanças da Loja | [Kauan T. Eiras](https://github.com/kauaneiras) |
 
 **Autores**: [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras) e [Leonardo Aguiar](https://github.com/Leonardo0o0).
 
@@ -404,7 +404,7 @@ Foi utilizada a ferramenta Draw.io para a criação do diagrama.
 
 **Autor:** [Kauan T. Eiras](https://github.com/kauaneiras).
 
-### Tabela 24: Caso de Uso - UCL22 Gerenciar as financas da Loja
+### Tabela 24: Caso de Uso - UCL22 Gerenciar as finanças da Loja
 | Campo | Descrição |
 |--------------------|-------------------------------------------------------------------------------------------|
 | Caso de Uso | Gerenciar as financas da Loja |
@@ -428,4 +428,4 @@ Foi utilizada a ferramenta Draw.io para a criação do diagrama.
 
 | Versão | Data da alteração | Comentário | Autor(es) | Revisor(es) | Data de revisão |
 | -- | -- | -- | -- | -- | -- |
-| 1.0 | 28/11/2024 | Criacao dos documentos, adição das tabelas de casos de uso e adição do diagrama | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras) e [Leonardo Aguiar](https://github.com/Leonardo0o0). | | |
+| 1.0 | 28/11/2024 | Criacao dos documentos, adição das tabelas de casos de uso e adição do diagrama | [Kallyne Macedo](https://github.com/kalipassos), [Kauan T. Eiras](https://github.com/kauaneiras) e [Leonardo Aguiar](https://github.com/Leonardo0o0). |[Guilherme Silva Dutra](https://github.com/GuiDutra21) | 28/11/24 |
