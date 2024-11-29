@@ -15,6 +15,7 @@
       - [Diagrama de Estados](/Modelagem/ModelagemDinamica/DiagramaDeEstados.md)
       - [Diagrama de Sequência](/Modelagem/ModelagemDinamica/2.2.1.DiagramaSequencia.md)
     - [2.3. Modelagem UML Organizacional ou Casos de Uso](/Modelagem/ModelagemOrganizacional/2.3.ModelagemOrganizacionalCasosDeUso.md)
+      - [2.3.3 Casos de Uso Entregador](/Modelagem/ModelagemOrganizacional/2.3.3.CasoDeUsoEntregador.md)
     - [2.4. Participações - Modelagem](/Modelagem/2.4.ParticipacoesModelagem.md)
     - [2.5. Iniciativas Extras - Modelagem](/Modelagem/Extra/2.5.IniciativasExtras.md)
       - [Validação do Protótipo](/Modelagem/Extra/ValidacaoPrototipo.md)
