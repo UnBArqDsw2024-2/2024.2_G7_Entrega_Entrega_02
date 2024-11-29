@@ -25,4 +25,4 @@
       - Modelagem Ágil
         - [Backlog](/Modelagem/Extra/ModelagemAgil/Backlog.md)
         - [Priorização das Histórias de Usuário](/Modelagem/Extra/ModelagemAgil/Priorizacaous.md)
-
+      - [Especificação Suplementar](/Modelagem/Extra/especificacao-suplementar.md)
