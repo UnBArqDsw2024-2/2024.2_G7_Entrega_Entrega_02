@@ -32,7 +32,7 @@ O projeto **HungryHub** é um aplicativo de delivery que conecta usuários, rest
 
 Abaixo está o diagrama consolidado que representa os estados e transições do sistema para os três atores principais:
 
-![Diagrama de Estados](../../assets/Diagrama%20de%20Estados.jpg)
+![Diagrama de Estados](../../assets/Diagrama%20de%20Estados.png)
 
 ---
 
