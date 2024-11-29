@@ -217,7 +217,41 @@ Cada requisito foi associado a um ou mais casos de uso.
 | **Pós-condições**     | O status do pedido é atualizado para "Em entrega".                                           |
 | **Data da Criação**   | 28/11/2024                                                                                   |
 
-**Autor**: [Bruno Araújo](https://github.com/brunocva)
+### UCE09 - Navegar até o cliente
+
+| **Elemento**          | **Descrição**                                                                                  |
+| --------------------- | ---------------------------------------------------------------------------------------------- |
+| **Caso de Uso**       | UCE09 - Locomover até o cliente                                          |
+| **Descrição**         | O entregador vai até o endereço físico do cliente.         |
+| **Requisitos**        | R33                                                                                           |
+| **Atores**            | Entregador                                                                                    |
+| **Frequência de Uso** | Alta                                                                                          |
+| **Pré-condições**     | - O entregador deve estar logado no aplicativo. <br> - O entregador deve ter recebido o pedido<br> |
+| **Fluxo Principal**   | - O Entregador abre o aplicativo. <br> - Pelo recurso da gelocalização o entregador localiza o cliente.<br> - O entregador se locomove até o cliente .  |
+| **Fluxo Alternativo** | |
+| **Fluxo de Exceção**  | - O entregador enfrenta problemas com o acesso do aplicativo e não encontra o endereço do cliente  |
+| **Pós-condições**     | O entregador chega até o cliente para fazer a entrega do pedido       |
+| **Data da Criação**   | 28/11/2024                                                                                   |
+
+**Autor**: [Guilherme Silva Dutra](https://github.com/GuiDutra21)
+
+### UCE10 - Confirmar entrega do pedido
+
+| **Elemento**          | **Descrição**                                                                                  |
+| --------------------- | ---------------------------------------------------------------------------------------------- |
+| **Caso de Uso**       | UCE10 - Confirmar entrega do pedido                                         |
+| **Descrição**         | O entregador confirma a entrega do pedido         |
+| **Requisitos**        | pendente                                                                                           |
+| **Atores**            | Entregador                                                                                    |
+| **Frequência de Uso** | Alta                                                                                          |
+| **Pré-condições**     | - O entregador deve estar logado no aplicativo. <br> - O entregador deve ter recebido o pedido<br> - O entregador deve ter entregado o pedidio |
+| **Fluxo Principal**   | - O Entregador entrega o pedido. <br>  - O Entregador abre o aplicativo. <br> - O entregador confirma que entregou o pedido |
+| **Fluxo Alternativo** | |
+| **Fluxo de Exceção**  | - O entregador enfrenta problemas com o acesso do aplicativo e não copnsegue confirmar a entregado do pedido  |
+| **Pós-condições**     | O entregador confirmar a entrega do pedido e o Cliente recebe o seu pedido    |
+| **Data da Criação**   | 28/11/2024                                                                                   |
+
+**Autor**: [Guilherme Silva Dutra](https://github.com/GuiDutra21)
 
 ### UCE11 - Visualizar Histórico de Entregas
 
@@ -332,4 +366,4 @@ Cada requisito foi associado a um ou mais casos de uso.
 | 1.2    | 28/11/2024        | Adiciona especificações dos casos UCE01 ao UCE05 | [Guilherme Westphall](https://github.com/west7) |        [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)     |        29/11/2024          |
 | 1.3    | 28/11/2024        | Adiciona UCE15 na tabela 02 | [Bruno Araújo](https://github.com/brunocva) |     [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)        |          29/11/2024        |
 | 1.4    | 28/11/2024        | Adiciona introdução, metodologia, especificações dos casos UCE06 ao UCE10 | [Bruno Araújo](https://github.com/brunocva) | [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) | 29/11/2024  |         
-| 1.5    | 28/11/2024        | Adiciona especificações dos casos UCE11 ao UCE15 | [Wolfgang Friedrich](https://github.com/WolffStein) |    [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)     |      29/11/2024            |
+| 1.5    | 28/11/2024        | Adiciona especificações dos casos UCE11 ao UCE15 | [Wolfgang Friedrich](https://github.com/WolffStein) |    [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) e [Guilherme Silva Dutra](https://github.com/GuiDutra21)    |      29/11/2024            |

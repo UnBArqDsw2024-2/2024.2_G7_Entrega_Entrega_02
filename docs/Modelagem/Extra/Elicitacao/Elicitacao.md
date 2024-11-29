@@ -1,4 +1,4 @@
-# 2.5.2. Elicitação
+# Elicitação
 
 Para a segunda entrega, foi realizada uma nova etapa de elicitação de requisitos buscando levantar possíveis novas funcionalidades e necessidades para aplicativo HungryHub, com base na visão das diferentes partes interessadas. Outro objetivo foi permitir a priorização dos requisitos que foram levantados na Baseline anterior utilizando as técnicas de [Introspecção](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Introspeccao) e [Brainstorming](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Requisitos/Brainstorming) na primeira entrega do projeto.
 
