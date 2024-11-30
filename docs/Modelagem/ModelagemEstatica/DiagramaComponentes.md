@@ -6,7 +6,17 @@ Este documento apresenta o diagrama de componentes desenvolvido para a aplicaç�
 
 ## Metodologia
 
-A construção do diagrama de componentes seguiu uma abordagem baseada na identificação e representação visual de diferentes tipos de entidades que compõem a arquitetura front-end. Para garantir uma representação clara e consistente, foi estabelecida uma nomenclatura padronizada que categoriza as entidades em cinco tipos principais: Páginas, Componentes, Modais, Contextos e Dependências. Cada tipo de entidade possui características e representações visuais específicas, conforme detalhado na tabela de classificação abaixo.
+A construção do diagrama de componentes seguiu uma abordagem estratégica e fundamentada na análise do contexto das tecnologias envolvidas no projeto HungryHub. Considerando que a aplicação foi construída utilizando o framework React, optamos por mapear a arquitetura front-end por meio de um diagrama de componentes. Essa escolha se baseia na natureza modular e reutilizável do React, que facilita a composição de interfaces complexas por meio de pequenos blocos funcionais chamados componentes.
+
+### Objetivos
+
+O diagrama foi desenvolvido com o objetivo de proporcionar uma visão clara das interações entre as diversas partes da interface, desde a navegação principal até componentes reutilizáveis. Ao optar por essa abordagem, buscamos não apenas representar a arquitetura de maneira estruturada, mas também garantir que a equipe tenha um entendimento aprofundado da separação de responsabilidades, da reutilização de código e das dependências entre os diferentes elementos da interface.
+
+Adicionalmente, ao mapear a arquitetura dessa forma, conseguimos destacar potenciais áreas de refatoração, identificar dependências críticas e analisar o impacto de mudanças na aplicação, o que ajuda a garantir que o sistema permaneça escalável, de fácil manutenção e eficiente ao longo do desenvolvimento.
+
+### Abordagem
+
+Para garantir uma representação clara e coerente, adotamos uma nomenclatura padronizada, dividindo as entidades da arquitetura em cinco tipos principais: **Páginas**, **Componentes**, **Modais**, **Contextos** e **Dependências**. Cada categoria foi cuidadosamente escolhida com base nas melhores práticas do desenvolvimento em React, onde a modularização e a separação de preocupações são princípios chave. A representação visual de cada tipo de entidade segue padrões que ajudam a ilustrar suas funções e suas interações com outros elementos, o que facilita a compreensão das relações dinâmicas entre os diferentes componentes.
 
 | Tipo de Entidade | Descrição                                                                                                                                                        | Exemplo                                                |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
@@ -16,9 +26,11 @@ A construção do diagrama de componentes seguiu uma abordagem baseada na identi
 | **Contexto**     | Ferramenta para gerenciar estado global ou compartilhado entre vários componentes, permitindo comunicação eficiente sem passar props manualmente                 | ![exemplo-contexto](assets/exemplo-contexto.png)       |
 | **Dependência**  | Representa uma relação de dependência entre duas entidades indicada pela direção da seta, ou seja, uma entidade depende ou importa uma outra entidade            | ![exemplo-dependencia](assets/exemplo-dependencia.png) |
 
-Esta metodologia permite a visualização clara da estrutura da aplicação e facilita a identificação de potenciais problemas de arquitetura, oportunidades de reuso de componentes e pontos de melhoria no design da interface.
+### Rastreabilidade
 
-## Diagrama
+Além disso, este documento apresenta rastreabilidade com a [baseline](/Modelagem/Extra/Baseline) desenvolvida para o projeto, garantindo que as decisões de arquitetura estejam alinhadas com os requisitos e as metas estabelecidas no início do desenvolvimento. Também é importante destacar que o diagrama de componentes está integrado com o [protótipo desenvolvido](https://unbarqdsw2024-2.github.io/2024.2_G7_Entrega_Entrega_01/#/Base/DesignSprint/Prototipo), proporcionando uma correspondência direta entre a arquitetura proposta e a interface visual do sistema
+
+## Diagramas
 
 Para melhor visualização, o diagrama foi divido em seções que individualizam partes da interface que estão mais relacionadas ou próximas entre si. Cada uma dessas sessões e seus autores podem ser encontradas a seguir:
 
