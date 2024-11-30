@@ -16,7 +16,19 @@ Foi definida uma equipe de quatro integrantes para a confecção dos diagramas d
 | 202046229 | [Kallyne Macedo Passos](https://github.com/kalipassos)          |
 
 **Autores**: [Júlio Roberto da Silva Neto](https://github.com/JulioR2022), [Guilherme Westphall](https://github.com/west7)
- 
+
+A tabela abaixo apresenta os elementos de notação UML utilizados nos diagramas de atividade e suas respectivas descrições:
+
+| Símbolo                            | Nome                   | Descrição                                                                                                                                                                    |
+|------------------------------------|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Início](assets/nodo-inicio.png)  | Nodo Inicial           | Representa o ponto de início do fluxo de atividades. É simbolizado por um círculo preenchido em preto.                                                                       |
+| ![Fim](assets/nodo-fim.png)        | Nodo Final             | Indica o término do fluxo de atividades. É representado por um círculo preenchido em preto dentro de outro círculo.                                                          |
+| ![Atividade](assets/atividade.png) | Atividade              | Representa uma ação ou tarefa específica no fluxo. É simbolizada por um retângulo com bordas arredondadas contendo a descrição da ação.                                      |
+| ![Decisão](assets/decisao.png)     | Nodo de Decisão        | Indica um ponto de decisão no fluxo onde diferentes caminhos podem ser tomados. É representado por um losango.                                                               |
+| ![Barra](assets/join.png)          | Barra de Sincronização | Representa um ponto onde o fluxo pode se dividir em atividades paralelas (fork) ou se juntar novamente (join). É simbolizada por uma barra preta horizontal.                 |
+| ![Fluxo](assets/seta.png)          | Fluxo de Controle      | Indica a direção do fluxo entre as atividades. É representado por uma linha com uma seta na extremidade.                                                                     |
+| ![Condicao](assets/condicao.png)   | Texto de Condição      | Representa a regra ou condição que determina qual caminho o fluxo deve seguir quando encontra um ponto de decisão. É escrito ao lado da linha que sai do losango de decisão. |
+
 
 ## Diagramas produzidos
 
@@ -80,8 +92,8 @@ Os diagramas de atividades apresentados demonstram a complexidade e interativida
 
 ## Histórico de versões
 
-| Versão | Data da alteração | Comentário                                                 | Autor(es)                                                                                                     | Revisor(es)                                            | Data de revisão |
-|--------|-------------------|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|-----------------|
+| Versão | Data da alteração | Comentário                                                 | Autor(es)                                                                                                     | Revisor(es)                                                                                          | Data de revisão |
+|--------|-------------------|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-----------------|
 | 1.0    | 26/11/2024        | Criação do documento                                       | [Guilherme Westphall](https://github.com/west7), [Júlio Roberto da Silva Neto](https://github.com/JulioR2022) | [Kallyne Macedo Passos](https://github.com/kalipassos), [Kauan Eiras](https://github.com/kauaneiras) | 28/11/2024      |
 | 1.1    | 26/11/2024        | Adição dos diagramas 1, 3, 4, 5                            | [Guilherme Westphall](https:github.com/west7), [Júlio Roberto da Silva Neto](https://github.com/JulioR2022)   | [Kallyne Macedo Passos](https://github.com/kalipassos), [Kauan Eiras](https://github.com/kauaneiras) | 28/11/2024      |
 | 1.2    | 27/11/2024        | Adição do diagrama 6                                       | [Gabryel Nicolas Soares de Sousa](https://github.com/gabryelns)                                               | [Kallyne Macedo Passos](https://github.com/kalipassos), [Kauan Eiras](https://github.com/kauaneiras) | 28/11/2024      |
